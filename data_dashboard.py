@@ -38,7 +38,9 @@ pitching_yakker = pd.concat([pitching, scrimmage_hitting], axis=0).drop_duplicat
 ## Get blast data
 blast = pd.read_csv('data/blast/full_data.csv')
 blast = pd.merge(blast, pd.DataFrame(player), left_on='Player', right_on='blast_name', how='left')
-blast['Date'] = pd.to_datetime(blast['Date']).dt.date
+
+date_format = "%b %d, %Y %I:%M:%S %p"
+blast['Date'] = pd.to_datetime(blast['Date'], format=date_format).dt.date
 
 bases_dict = {"Single": 1, "Double": 2, "Triple": 3, "HomeRun": 4, "Out": 0}
 
