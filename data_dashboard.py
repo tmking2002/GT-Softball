@@ -101,7 +101,7 @@ def find_hitting_stats(player, hitting_yakker=hitting_yakker):
 
 def find_pitching_stats(player, pitching_yakker=pitching_yakker):
     
-    cur_yakkertech = pitching_yakker[(pitching_yakker['Pitcher'] == player) & (pitching_yakker['category'] == 'Scrimmage')]
+    cur_yakkertech = pitching_yakker[(pitching_yakker['Pitcher'] == player) & (pitching_yakker['category'] == 'Scrimmage')].dropna(subset=['PlayResult'])
     
     bip = cur_yakkertech[(~cur_yakkertech['ExitSpeed'].isna()) & (cur_yakkertech['Direction'] > -45) & (cur_yakkertech['Direction'] < 45)]
     
