@@ -5,6 +5,9 @@ import streamlit as st
 import pickle
 import numpy as np
 import matplotlib.pyplot as plt
+import matplotlib.dates as mdates
+from sklearn.neighbors import KNeighborsClassifier
+
 
 import collect_blast
 import collect_yakker
@@ -30,7 +33,7 @@ scrimmage_hitting['category'] = 'Scrimmage'
 hitting_yakker = pd.concat([hitting, pitching, scrimmage_hitting], axis=0).drop_duplicates()
 hitting_yakker = pd.merge(hitting_yakker, pd.DataFrame(player), left_on='Batter', right_on='yakker_name', how='left')
 
-pitching_yakker = pd.concat([pitching, scrimmage_hitting], axis=0)
+pitching_yakker = pd.concat([pitching, scrimmage_hitting], axis=0).drop_duplicates()
 
 ## Get blast data
 blast = pd.read_csv('data/blast/full_data.csv')
@@ -95,8 +98,51 @@ def find_hitting_stats(player, hitting_yakker=hitting_yakker):
         
     return expected_stats, bip
 
+def find_pitching_stats(player, pitching_yakker=pitching_yakker):
+    
+    cur_yakkertech = pitching_yakker[(pitching_yakker['Pitcher'] == player) & (pitching_yakker['category'] == 'Scrimmage')]
+    
+    bip = cur_yakkertech[(~cur_yakkertech['ExitSpeed'].isna()) & (cur_yakkertech['Direction'] > -45) & (cur_yakkertech['Direction'] < 45)]
+    
+    if(bip.shape[0] == 0):
+        return
+    
+    bip["ExitSpeed"] = bip["ExitSpeed"].astype(float)
+    bip["Angle"] = bip["Angle"].astype(float)
+    bip["Direction"] = bip["Direction"].astype(float)
+    bip["Distance"] = bip["Distance"].astype(float)
+    
+    bip = bip[['ExitSpeed', 'Angle', 'Direction', 'Distance', 'PlateLocSide', 'PlateLocHeight']]
+    
+    bip = bip.dropna()
+    
+    bip = bip.reset_index(drop=True)
+    
+    y_pred = rf.predict(bip[['ExitSpeed', 'Angle', 'Direction', 'Distance']])
+    bip['Bases'] = y_pred
+    
+    k = cur_yakkertech[(cur_yakkertech['KorBB'] == 'Strikeout')].shape[0]
+    bb = cur_yakkertech[(cur_yakkertech['KorBB'] == 'Walk')].shape[0] + cur_yakkertech[(cur_yakkertech['PitchCall'] == 'HitByPitch')].shape[0]
+    
+    expected_stats = pd.DataFrame({'BF': y_pred.shape[0] + k + bb, 'H': y_pred[y_pred != 0].shape[0], 'K': k, 'BB': bb, '2B': [np.count_nonzero(y_pred == 2)],
+                                    '3B': [np.count_nonzero(y_pred == 3)], 'HR': [np.count_nonzero(y_pred == 4)]})
+        
+    expected_stats['OPP AVG'] = expected_stats['H'] / expected_stats['BF']
+    expected_stats['OBP'] = (expected_stats['H'] + expected_stats['BB']) / (expected_stats['BF'] + expected_stats['BB'])
+    expected_stats['SLG'] = (expected_stats['H'] + 2 * expected_stats['2B'] + 3 * expected_stats['3B'] + 4 * expected_stats['HR']) / expected_stats['BF']
+    expected_stats['OPP OPS'] = expected_stats['OBP'] + expected_stats['SLG']
+    expected_stats['OPP wOBA'] = (0.69 * expected_stats['BB'] + 0.88 * (expected_stats['H'] - expected_stats['2B'] - expected_stats['3B'] - expected_stats['HR']) + 1.27 * expected_stats['2B'] + 1.62 * expected_stats['3B'] + 2.1 * expected_stats['HR']) / (expected_stats['BF'] + expected_stats['BB'] + expected_stats['K'])
 
-stats_df = pd.DataFrame(columns=['player', 'AB', 'H', 'K', 'BB', '2B', 'HR', 'AVG', 'SLG', 'OPS', 'wOBA'])
+    expected_stats = expected_stats[['BF', 'H', 'K', 'BB', 'HR', 'OPP AVG', 'OPP OPS', 'OPP wOBA']]
+    
+    expected_stats = expected_stats.round(3)
+    expected_stats[['OPP AVG', 'OPP OPS', 'OPP wOBA']] = expected_stats[['OPP AVG', 'OPP OPS', 'OPP wOBA']].applymap(lambda x: f'{x:.3f}')
+    
+    return expected_stats
+
+
+hitting_stats_df = pd.DataFrame(columns=['player', 'AB', 'H', 'K', 'BB', '2B', 'HR', 'AVG', 'SLG', 'OPS', 'wOBA'])
+pitching_stats_df = pd.DataFrame(columns=['player', 'BF', 'H', 'K', 'BB', 'HR', 'OPP AVG', 'OPP OPS', 'OPP wOBA'])
 bip = pd.DataFrame()
 
 unique_hitters = hitting_yakker['Batter'].unique()
@@ -104,12 +150,14 @@ unique_hitters = unique_hitters[~pd.isna(unique_hitters)]
 unique_hitters = unique_hitters[unique_hitters != 'Sara beth Allen']
 unique_hitters = sorted(unique_hitters)
 
-pitching_tab, hitting_tab = st.tabs(["Pitching", "Hitting"])
+unique_pitchers = pitching_yakker['Pitcher'].unique()
+unique_pitchers = unique_pitchers[~pd.isna(unique_pitchers)]
+unique_pitchers = sorted(unique_pitchers)
+
+hitting_tab, pitching_tab = st.tabs(['Hitting', 'Pitching'])
 
 pitching_tab.title("2024-25 Georgia Tech Data Dashboard")
 hitting_tab.title("2024-25 Georgia Tech Data Dashboard")
-
-hitting_tab.subheader("Preseason Stats")
 
 categories = hitting_tab.multiselect(
     'Select a category:',
@@ -131,19 +179,44 @@ for i in range(len(unique_hitters)):
     player_name = unique_hitters[i]
     cur_stats['player'] = player_name
 
-    stats_df = pd.concat([stats_df, pd.DataFrame(cur_stats)], axis=0)
+    hitting_stats_df = pd.concat([hitting_stats_df, pd.DataFrame(cur_stats)], axis=0)
     bip = pd.concat([bip, cur_bip], axis=0)
 
-stats_df = stats_df.reset_index(drop=True).sort_values(by='wOBA', ascending=False)
+for i in range(len(unique_pitchers)):
+        
+    output = find_pitching_stats(unique_pitchers[i], pitching_yakker=pitching_yakker)
+    
+    if output is None:
+        continue
+    
+    cur_stats = output
+    
+    player_name = unique_pitchers[i]
+    cur_stats['player'] = player_name
+    
+    pitching_stats_df = pd.concat([pitching_stats_df, pd.DataFrame(cur_stats)], axis=0)
+
+
+hitting_stats_df = hitting_stats_df.reset_index(drop=True).sort_values(by='wOBA', ascending=False)
+pitching_stats_df = pitching_stats_df.reset_index(drop=True).sort_values(by='OPP wOBA', ascending=True)
 
 hitting_tab.markdown(f"<h3 style='text-align: center;'>Preseason Hitting Stats</h3>", unsafe_allow_html=True)
 
-hitting_tab.dataframe(stats_df, use_container_width=True)
+hitting_tab.dataframe(hitting_stats_df, use_container_width=True)
 hitting_tab.write('')
 hitting_tab.write('')
 hitting_tab.write('')
 
+pitching_tab.markdown(f"<h3 style='text-align: center;'>Preseason Pitching Stats</h3>", unsafe_allow_html=True)
+
+pitching_tab.dataframe(pitching_stats_df, use_container_width=True)
+pitching_tab.write('')
+pitching_tab.write('')
+pitching_tab.write('')
+
 selected_hitter = hitting_tab.selectbox('Select a player:', [""] + list(unique_hitters), index=0)
+
+selected_pitcher = pitching_tab.selectbox('Select a player:', [""] + list(unique_pitchers), index=0)
 
 hitting_tab.markdown(f"<h3 style='text-align: center;'>{selected_hitter} Batted Ball Data</h3>", unsafe_allow_html=True)
 
@@ -158,15 +231,21 @@ hitting_tab.write('')
 
 hitting_tab.markdown(f"<h3 style='text-align: center;'>{selected_hitter} Blast Data</h3>", unsafe_allow_html=True)
 
+pitching_tab.markdown(f"<h3 style='text-align: center;'>{selected_pitcher} Pitch Profiles</h3>", unsafe_allow_html=True)
+
 blast_player = blast[blast['yakker_name'] == selected_hitter]
-blast_player_agg = blast_player.groupby('Date').agg({'Bat Speed (mph)': 'mean', 'Attack Angle (deg)': 'mean'}).reset_index()
+blast_player['week'] = pd.to_datetime(blast_player['Date']).dt.to_period('W').dt.to_timestamp()
+blast_player_agg = blast_player.groupby('week').agg({'Bat Speed (mph)': 'mean', 'Attack Angle (deg)': 'mean'}).reset_index()
 blast_player_agg['Swings'] = blast_player.groupby('Date').size().reset_index(name='Count')['Count']
+
+date_format = mdates.DateFormatter('%b %d, %Y')
+blast_player_agg['week'] = blast_player_agg['week'].dt.strftime('%b %d, %Y')
 
 blast_player_agg[['Bat Speed (mph)', 'Attack Angle (deg)']] = blast_player_agg[['Bat Speed (mph)', 'Attack Angle (deg)']].round(1)
 
 hitting_tab.dataframe(blast_player_agg, use_container_width=True)
 hitting_tab.download_button(
-    label="Download Blast Data",
+    label="Download Full Blast Data",
     data=blast_player.to_csv(index=False),
     file_name=f"{selected_hitter.lower().strip()} blast data.csv",
     mime="text/csv"
@@ -174,10 +253,96 @@ hitting_tab.download_button(
 
 # make a small line graph of bat speed over time
 fig, ax = plt.subplots()
-ax.plot(blast_player_agg['Date'], blast_player_agg['Bat Speed (mph)'], marker='o')
+ax.plot(blast_player_agg['week'], blast_player_agg['Bat Speed (mph)'], marker='o')
 ax.set_xlabel('Date')
 ax.set_ylabel('Bat Speed (mph)')
 ax.set_title(f'{selected_hitter} Bat Speed Over Time')
 plt.xticks(rotation=45)
+plt.tight_layout()
 
-hitting_tab.pyplot(fig)
+hitting_tab.pyplot(fig) 
+
+if selected_pitcher != "":
+
+    selected_pitching_data = pitching_yakker[pitching_yakker['Pitcher'] == selected_pitcher].dropna(subset=['HorzBreak', 'InducedVertBreak', 'SpinAxis'])
+
+    if len(selected_pitching_data[selected_pitching_data['TaggedPitchType'].notna()]) == 0:
+        pitching_tab.write(f"Not enough data")
+    else:
+
+        for pitch in selected_pitching_data['TaggedPitchType'].unique():
+            pitches = selected_pitching_data[selected_pitching_data['TaggedPitchType'] == pitch]
+
+            avg_horz = pitches['HorzBreak'].mean()
+            avg_vert = pitches['InducedVertBreak'].mean()
+
+            # if horz is more than 3 std away from the mean, remove it
+            pitches = pitches[(pitches['HorzBreak'] - avg_horz).abs() < 2 * pitches['HorzBreak'].std()]
+            pitches = pitches[(pitches['InducedVertBreak'] - avg_vert).abs() < 2 * pitches['InducedVertBreak'].std()]
+
+            selected_pitching_data = pd.concat([selected_pitching_data[selected_pitching_data['TaggedPitchType'] != pitch], pitches], axis=0)
+
+        radians = np.deg2rad(selected_pitching_data['SpinAxis'])
+
+        # Transform using sine and cosine
+        selected_pitching_data['sin_axis'] = np.sin(radians)
+        selected_pitching_data['cos_axis'] = np.cos(radians)
+
+        if len(selected_pitching_data[selected_pitching_data['TaggedPitchType'].isna()]) != 0:
+
+            train = selected_pitching_data[~selected_pitching_data['TaggedPitchType'].isna()]
+            train['predicted'] = False
+
+            # create a knn model to predict pitch type
+            knn = KNeighborsClassifier(n_neighbors=len(train['TaggedPitchType'].unique()))
+            knn.fit(train[['RelSpeed', 'HorzBreak', 'InducedVertBreak', 'sin_axis', 'cos_axis']], train['TaggedPitchType'])
+
+            test = selected_pitching_data[selected_pitching_data['TaggedPitchType'].isna()]
+            test['TaggedPitchType'] = knn.predict(test[['RelSpeed', 'HorzBreak', 'InducedVertBreak', 'sin_axis', 'cos_axis']])
+            test['predicted'] = True
+
+            selected_pitching_data = pd.concat([train, test], axis=0)
+
+        # plot horzbreak vs induced vert break
+        fig, ax = plt.subplots()
+        for pitch in selected_pitching_data['TaggedPitchType'].unique():
+            data = selected_pitching_data[selected_pitching_data['TaggedPitchType'] == pitch]
+            ax.scatter(data['HorzBreak'], data['InducedVertBreak'], label=pitch, alpha=0.8)
+        ax.set_xlabel('Horizontal Break (In.)')
+        ax.set_ylabel('Induced Vertical Break (In.)')
+        ax.legend()
+        ax.set_xlim(-15, 15)
+        ax.set_ylim(-15, 15)
+        ax.axvline(0, color='black', linestyle='--', alpha=0.2)
+        ax.axhline(0, color='black', linestyle='--', alpha=0.2)
+        plt.tight_layout()
+        pitching_tab.pyplot(fig)
+
+
+        pitch_count = selected_pitching_data.groupby('TaggedPitchType').size().reset_index(name='count')
+
+        pitch_data = selected_pitching_data.groupby('TaggedPitchType').agg({
+            'RelSpeed': 'mean',
+            'HorzBreak': 'mean',
+            'InducedVertBreak': 'mean',
+            'cos_axis': 'mean',
+            'sin_axis': 'mean'
+        }).reset_index()
+
+        pitch_data = pitch_data.merge(pitch_count, on='TaggedPitchType')
+
+        pitch_data = pitch_data.sort_values(by='count', ascending=False).reset_index(drop=True)
+
+        pitch_data['SpinAxis'] = (np.rad2deg(np.arctan2(pitch_data['sin_axis'], pitch_data['cos_axis']))) % 360
+
+        pitch_data['Tilt'] = pitch_data['SpinAxis'].apply(lambda x: x / 30 % 12)
+
+        pitch_data['Tilt'] = pitch_data['Tilt'].apply(lambda x: f'{(int(x) + 6) % 12}:{int(x % 1 * 60):02d}')
+
+        pitch_data['Tilt'] = pitch_data['Tilt'].replace(0, 12)
+
+        pitch_data = pitch_data.round(1)
+        pitch_data = pitch_data[['TaggedPitchType', 'count', 'RelSpeed', 'HorzBreak', 'InducedVertBreak', 'Tilt']]
+        pitch_data.columns = ['Pitch Type', 'Count', 'Avg Speed (mph)', 'Avg Horz Break (in)', 'Avg Vert Break (in)', 'Spin Tilt']
+
+        pitching_tab.dataframe(pitch_data, use_container_width=True)

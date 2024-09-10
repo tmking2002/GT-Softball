@@ -3,10 +3,33 @@
 Email:,kayanbooker@gmail.com
 Academy:,"Georgia Tech Softball"
 Sport:,Softball
-"Report Date:","Sep 06, 2024 03:00:32 pm"
-"Date Range:","Aug 23, 2024 - Sep 06, 2024"
+"Report Date:","Sep 08, 2024 11:01:55 am"
+"Date Range:","Aug 25, 2024 - Sep 08, 2024"
 
 Date,Equipment,Handedness,"Swing Details","Plane Score","Connection Score","Rotation Score","Bat Speed (mph)","Rotational Acceleration (g)","On Plane Efficiency (%)","Attack Angle (deg)","Early Connection (deg)","Connection at Impact (deg)","Vertical Bat Angle (deg)","Power (kW)","Time to Contact (sec)","Peak Hand Speed (mph)","Exit Velocity (mph)","Launch Angle (deg)","Estimated Distance (feet)"
+"Sep 06, 2024 01:11:48 pm",CRBN1,Left,"Live Pitch",66,39,43,62.4,6.8,81,6,67,73,-31,2.42,0.16,17.7,,,
+"Sep 06, 2024 01:11:44 pm",CRBN1,Left,"Live Pitch",66,38,39,59.4,5.5,80,2,66,73,-38,2.17,0.17,17.4,,,
+"Sep 06, 2024 01:11:40 pm",CRBN1,Left,"Live Pitch",65,47,48,58.3,8.5,79,6,72,83,-40,2.2,0.16,17.7,,,
+"Sep 06, 2024 01:11:35 pm",CRBN1,Left,"Live Pitch",63,43,52,57.1,9.8,77,6,67,81,-37,2.05,0.16,17.8,,,
+"Sep 06, 2024 01:08:48 pm",CRBN1,Left,"Live Pitch",74,39,39,64.4,5.6,88,-12,68,74,-31,2.78,0.15,16.8,,,
+"Sep 06, 2024 01:08:42 pm",CRBN1,Left,"Live Pitch",68,47,52,60.8,9.8,82,-4,76,78,-29,2.55,0.15,16.6,,,
+"Sep 06, 2024 01:08:36 pm",CRBN1,Left,"Live Pitch",65,48,43,62.5,7,79,1,74,81,-32,2.49,0.16,17.5,,,
+"Sep 06, 2024 01:08:30 pm",CRBN1,Left,"Live Pitch",67,56,51,59.6,9.6,82,-1,81,83,-31,2.41,0.15,16.5,,,
+"Sep 06, 2024 01:08:25 pm",CRBN1,Left,"Live Pitch",74,43,44,60.2,7.4,88,-10,74,75,-25,2.57,0.14,17.2,,,
+"Sep 06, 2024 01:07:24 pm",CRBN1,Left,"Live Pitch",67,36,38,58.1,5.3,81,5,64,73,-34,2,0.17,16.6,,,
+"Sep 06, 2024 01:07:16 pm",CRBN1,Left,"Live Pitch",63,40,57,59.1,11.5,78,7,68,76,-34,2.17,0.16,17.5,,,
+"Sep 06, 2024 01:07:13 pm",CRBN1,Left,"Live Pitch",67,40,55,61.1,10.8,82,8,68,75,-32,2.35,0.16,18.3,,,
+"Sep 06, 2024 01:04:28 pm",CRBN1,Left,"Live Pitch",66,38,44,60.7,7.1,81,2,64,74,-33,2.41,0.16,17.1,,,
+"Sep 06, 2024 01:04:21 pm",CRBN1,Left,"Live Pitch",70,37,44,60.3,7.2,84,-8,65,73,-26,2.5,0.15,17.3,,,
+"Sep 06, 2024 01:04:14 pm",CRBN1,Left,"Live Pitch",59,35,60,61.2,12.4,74,4,64,69,-24,2.51,0.15,16.1,,,
+"Sep 06, 2024 01:04:09 pm",CRBN1,Left,"Live Pitch",71,33,51,61.3,9.6,85,-7,61,67,-24,2.7,0.14,17.1,,,
+"Sep 06, 2024 01:04:03 pm",CRBN1,Left,"Live Pitch",70,33,44,62.7,7.1,84,-9,59,70,-28,2.75,0.15,17.1,,,
+"Sep 06, 2024 01:02:55 pm",CRBN1,Left,"Live Pitch",67,41,43,59.7,6.9,81,1,68,78,-39,2.27,0.16,17.9,,,
+"Sep 06, 2024 01:02:49 pm",CRBN1,Left,"Live Pitch",55,46,48,58.7,8.5,69,15,74,78,-32,2.07,0.17,17.7,,,
+"Sep 06, 2024 01:02:40 pm",CRBN1,Left,"Live Pitch",60,52,57,60.1,11.5,75,8,76,84,-36,2.39,0.15,17.4,,,
+"Sep 06, 2024 01:02:29 pm",CRBN1,Left,"Live Pitch",45,32,51,57.7,9.6,60,25,63,63,-18,1.88,0.18,15.4,,,
+"Sep 06, 2024 12:55:14 pm",CRBN1,Left,"Live Pitch",43,34,39,59.3,5.4,58,19,69,62,-15,2.04,0.18,16,,,
+"Sep 06, 2024 12:51:05 pm",CRBN1,Left,"Live Pitch",57,38,41,60.7,6.4,71,14,69,70,-27,2.35,0.16,18.5,,,
 "Sep 04, 2024 03:26:42 pm",CRBN1,Left,"Pitching Machine",54,34,42,66.2,6.5,69,9,63,68,-23,2.63,0.17,17.1,,,
 "Sep 04, 2024 03:26:36 pm",CRBN1,Left,"Pitching Machine",72,33,42,60.5,6.7,86,-13,63,67,-23,2.39,0.16,16.6,,,
 "Sep 04, 2024 03:26:31 pm",CRBN1,Left,"Pitching Machine",67,31,44,64.9,7.2,82,-3,58,66,-27,2.76,0.16,18.3,,,
