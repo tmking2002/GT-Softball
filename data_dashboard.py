@@ -19,7 +19,6 @@ player = {
     "yakker_name": ['Addison Leschber', 'Alyssa Willer', 'Brionna Condon', 'Camden Anders', 'Caroline Patterson', 'Eliana Gottlieb', 'Ella Edgmon', 'Emma Minghini', 'Emma Simon', 'Grace Connelly', 'Gracyn Tucker', 'Jayden Gailey', 'Kaya Booker', 'Lillian Martineau', 'Maddie Furniss', 'Makayla Coffield', 'Paige Vukadinovich', 'Reese Hunter']
 }
 
-
 ## Get yakker data
 hitting = pd.read_csv('data/hitting_yakker/hitting_yakker.csv')
 hitting['category'] = 'BP'

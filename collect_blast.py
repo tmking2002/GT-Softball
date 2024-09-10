@@ -5,7 +5,7 @@ files = os.listdir('data/blast')
 data = pd.DataFrame()
 
 for file in files:
-    if (file.endswith('.csv')) and (file != 'full_data.csv'):
+    if (file.endswith('.csv')) and (file != 'full_data.csv') and (file != 'Team Report.csv'):
         cur_data = pd.read_csv('data/blast/' + file, skiprows=8)
         player = file.removesuffix('.csv')
 
