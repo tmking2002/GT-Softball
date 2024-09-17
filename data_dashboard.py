@@ -47,6 +47,7 @@ def find_hitting_stats(player, hitting_yakker=hitting_yakker):
 
     cur_yakkertech = hitting_yakker[(hitting_yakker['Batter'] == player)]
 
+    cur_yakkertech['PlayResult'] = cur_yakkertech['PlayResult'].replace('Error', 'Out')
     bip = cur_yakkertech[(~cur_yakkertech['ExitSpeed'].isna()) & (cur_yakkertech['Direction'] > -45) & (cur_yakkertech['Direction'] < 45) & (cur_yakkertech['PlayResult'] != 'Sacrifice')]
 
     if(bip.shape[0] == 0):
