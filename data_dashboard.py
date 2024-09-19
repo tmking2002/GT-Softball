@@ -268,6 +268,11 @@ if selected_pitcher != "":
 
     selected_pitching_data = pitching_yakker[pitching_yakker['Pitcher'] == selected_pitcher].dropna(subset=['HorzBreak', 'InducedVertBreak', 'SpinAxis'])
 
+    dates = selected_pitching_data['Date'].unique()
+    dates = sorted(dates)
+
+    selected_dates = pitching_tab.multiselect('Select dates:', dates, default=dates)
+
     if len(selected_pitching_data[selected_pitching_data['TaggedPitchType'].notna()]) == 0:
         pitching_tab.write(f"Not enough data")
     else:
@@ -305,10 +310,12 @@ if selected_pitcher != "":
 
             selected_pitching_data = pd.concat([train, test], axis=0)
 
+        selected_pitching_data = selected_pitching_data[selected_pitching_data['Date'].isin(selected_dates)]
+
         # plot horzbreak vs induced vert break
         fig, ax = plt.subplots()
         for pitch in selected_pitching_data['TaggedPitchType'].unique():
-            data = selected_pitching_data[selected_pitching_data['TaggedPitchType'] == pitch]
+            data = selected_pitching_data[(selected_pitching_data['TaggedPitchType'] == pitch)]
             ax.scatter(data['HorzBreak'], data['InducedVertBreak'], label=pitch, alpha=0.8)
         ax.set_xlabel('Horizontal Break (In.)')
         ax.set_ylabel('Induced Vertical Break (In.)')
