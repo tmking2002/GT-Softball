@@ -128,23 +128,30 @@ def find_pitching_stats(player, pitching_yakker=pitching_yakker):
     
     expected_stats = pd.DataFrame({'BF': y_pred.shape[0] + k + bb, 'H': y_pred[y_pred != 0].shape[0], 'K': k, 'BB': bb, '2B': [np.count_nonzero(y_pred == 2)],
                                     '3B': [np.count_nonzero(y_pred == 3)], 'HR': [np.count_nonzero(y_pred == 4)]})
-        
+
+    
+    expected_stats['outs'] = expected_stats['BF'] - expected_stats['H'] - expected_stats['BB']
+    expected_stats['IP'] = expected_stats['outs'] / 3
+    expected_stats['K/7'] = expected_stats['K'] / expected_stats['IP'] * 7
+    expected_stats['BB/7'] = expected_stats['BB'] / expected_stats['IP'] * 7
     expected_stats['OPP AVG'] = expected_stats['H'] / expected_stats['BF']
     expected_stats['OBP'] = (expected_stats['H'] + expected_stats['BB']) / (expected_stats['BF'] + expected_stats['BB'])
     expected_stats['SLG'] = (expected_stats['H'] + 2 * expected_stats['2B'] + 3 * expected_stats['3B'] + 4 * expected_stats['HR']) / expected_stats['BF']
     expected_stats['OPP OPS'] = expected_stats['OBP'] + expected_stats['SLG']
     expected_stats['OPP wOBA'] = (0.69 * expected_stats['BB'] + 0.88 * (expected_stats['H'] - expected_stats['2B'] - expected_stats['3B'] - expected_stats['HR']) + 1.27 * expected_stats['2B'] + 1.62 * expected_stats['3B'] + 2.1 * expected_stats['HR']) / (expected_stats['BF'] + expected_stats['BB'] + expected_stats['K'])
 
-    expected_stats = expected_stats[['BF', 'H', 'K', 'BB', 'HR', 'OPP AVG', 'OPP OPS', 'OPP wOBA']]
+    expected_stats = expected_stats[['BF', 'H', 'K', 'BB', 'HR', 'K/7', 'BB/7', 'OPP wOBA']]
     
     expected_stats = expected_stats.round(3)
-    expected_stats[['OPP AVG', 'OPP OPS', 'OPP wOBA']] = expected_stats[['OPP AVG', 'OPP OPS', 'OPP wOBA']].applymap(lambda x: f'{x:.3f}')
+    expected_stats[['OPP wOBA']] = expected_stats[['OPP wOBA']].applymap(lambda x: f'{x:.3f}')
+    expected_stats[['K/7', 'BB/7']] = expected_stats[['K/7', 'BB/7']].applymap(lambda x: f'{round(x,1)}')
+
     
     return expected_stats
 
 
 hitting_stats_df = pd.DataFrame(columns=['player', 'AB', 'H', 'K', 'BB', '2B', 'HR', 'AVG', 'SLG', 'OPS', 'wOBA'])
-pitching_stats_df = pd.DataFrame(columns=['player', 'BF', 'H', 'K', 'BB', 'HR', 'OPP AVG', 'OPP OPS', 'OPP wOBA'])
+pitching_stats_df = pd.DataFrame(columns=['player', 'BF', 'H', 'K', 'BB', 'HR', 'K/7', 'BB/7', 'OPP wOBA'])
 bip = pd.DataFrame()
 
 unique_hitters = hitting_yakker['Batter'].unique()
