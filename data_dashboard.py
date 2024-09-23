@@ -48,7 +48,7 @@ def find_hitting_stats(player, hitting_yakker=hitting_yakker):
     cur_yakkertech = hitting_yakker[(hitting_yakker['Batter'] == player)]
 
     cur_yakkertech['PlayResult'] = cur_yakkertech['PlayResult'].replace('Error', 'Out')
-    bip = cur_yakkertech[(~cur_yakkertech['ExitSpeed'].isna()) & (cur_yakkertech['Direction'] > -45) & (cur_yakkertech['Direction'] < 45) & (cur_yakkertech['PlayResult'] != 'Sacrifice')]
+    bip = cur_yakkertech[(cur_yakkertech['PlayResult'] != 'Sacrifice') & (cur_yakkertech['PitchCall'] != 'Foul')]
 
     if(bip.shape[0] == 0):
         return
@@ -103,8 +103,9 @@ def find_hitting_stats(player, hitting_yakker=hitting_yakker):
 def find_pitching_stats(player, pitching_yakker=pitching_yakker):
     
     cur_yakkertech = pitching_yakker[(pitching_yakker['Pitcher'] == player) & (pitching_yakker['category'] == 'Scrimmage')].dropna(subset=['PlayResult'])
+    cur_yakkertech['PlayResult'] = cur_yakkertech['PlayResult'].replace('Error', 'Out')
     
-    bip = cur_yakkertech[(~cur_yakkertech['ExitSpeed'].isna()) & (cur_yakkertech['Direction'] > -45) & (cur_yakkertech['Direction'] < 45)]
+    bip = cur_yakkertech[(cur_yakkertech['PlayResult'] != 'Sacrifice') & (cur_yakkertech['PitchCall'] != 'Foul')]
     
     if(bip.shape[0] == 0):
         return
@@ -114,14 +115,19 @@ def find_pitching_stats(player, pitching_yakker=pitching_yakker):
     bip["Direction"] = bip["Direction"].astype(float)
     bip["Distance"] = bip["Distance"].astype(float)
     
-    bip = bip[['ExitSpeed', 'Angle', 'Direction', 'Distance', 'PlateLocSide', 'PlateLocHeight']]
+    bip = bip[['ExitSpeed', 'Angle', 'Direction', 'Distance', 'PlateLocSide', 'PlateLocHeight', 'PlayResult']]
     
     bip = bip.dropna()
     
     bip = bip.reset_index(drop=True)
     
     y_pred = rf.predict(bip[['ExitSpeed', 'Angle', 'Direction', 'Distance']])
-    bip['Bases'] = y_pred
+    
+    for i in range(bip.shape[0]):
+        if pd.isna(bip.loc[i, 'PlayResult']):
+            bip.loc[i, 'Bases'] = y_pred[i]
+        else:
+            bip.loc[i, 'Bases'] = bases_dict[bip.loc[i, 'PlayResult']]
     
     k = cur_yakkertech[(cur_yakkertech['KorBB'] == 'Strikeout')].shape[0]
     bb = cur_yakkertech[(cur_yakkertech['KorBB'] == 'Walk')].shape[0] + cur_yakkertech[(cur_yakkertech['PitchCall'] == 'HitByPitch')].shape[0]
