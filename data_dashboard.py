@@ -48,7 +48,8 @@ bases_dict = {"Single": 1, "Double": 2, "Triple": 3, "HomeRun": 4, "Out": 0}
 def find_hitting_stats(player, hitting_yakker=hitting_yakker):
 
     cur_yakkertech = hitting_yakker[(hitting_yakker['Batter'] == player)]
-    cur_yakkertech['Date'] = pd.to_datetime(cur_yakkertech['Date']).dt.strftime('%m/%d/%Y')
+    cur_yakkertech['Date'] = pd.to_datetime(cur_yakkertech['Date'], errors='coerce')
+    cur_yakkertech['Date'] = cur_yakkertech['Date'].dt.strftime('%m/%d/%Y') 
 
     cur_yakkertech['PlayResult'] = cur_yakkertech['PlayResult'].replace('Error', 'Out')
     cur_yakkertech.drop_duplicates(subset=['Date', 'PitchNo', 'ExitSpeed', 'Angle', 'Direction', 'Distance'], keep='first', inplace=True)
@@ -108,7 +109,9 @@ def find_hitting_stats(player, hitting_yakker=hitting_yakker):
 def find_pitching_stats(player, pitching_yakker=pitching_yakker):
     
     cur_yakkertech = pitching_yakker[(pitching_yakker['Pitcher'] == player) & (pitching_yakker['category'] == 'Scrimmage')].dropna(subset=['PlayResult'])
-    cur_yakkertech['Date'] = pd.to_datetime(cur_yakkertech['Date']).dt.strftime('%m/%d/%Y')
+    cur_yakkertech['Date'] = pd.to_datetime(cur_yakkertech['Date'], errors='coerce')
+    cur_yakkertech['Date'] = cur_yakkertech['Date'].dt.strftime('%m/%d/%Y')
+
     cur_yakkertech['PlayResult'] = cur_yakkertech['PlayResult'].replace('Error', 'Out')
 
     cur_yakkertech.drop_duplicates(subset=['Date', 'ExitSpeed', 'Angle', 'Direction', 'Distance'], keep='first', inplace=True)
