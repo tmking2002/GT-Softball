@@ -30,7 +30,9 @@ scrimmage_hitting = pd.read_csv('data/scrimmage_yakker/scrimmage_yakker.csv')
 scrimmage_hitting['category'] = 'Scrimmage'
 
 hitting_yakker = pd.concat([hitting, pitching, scrimmage_hitting], axis=0).drop_duplicates()
-hitting_yakker = pd.merge(hitting_yakker, pd.DataFrame(player), left_on='Batter', right_on='yakker_name', how='left')
+hitting_yakker = pd.merge(hitting_yakker, pd.DataFrame(player), left_on='Batter', right_on='yakker_name', how='left').drop_duplicates(subset=['Time', 'Batter', 'Pitcher'])
+
+hitting_yakker.to_csv('test.csv')
 
 pitching_yakker = pd.concat([pitching, scrimmage_hitting], axis=0).drop_duplicates()
 
@@ -46,8 +48,11 @@ bases_dict = {"Single": 1, "Double": 2, "Triple": 3, "HomeRun": 4, "Out": 0}
 def find_hitting_stats(player, hitting_yakker=hitting_yakker):
 
     cur_yakkertech = hitting_yakker[(hitting_yakker['Batter'] == player)]
+    cur_yakkertech['Date'] = pd.to_datetime(cur_yakkertech['Date']).dt.strftime('%m/%d/%Y')
 
     cur_yakkertech['PlayResult'] = cur_yakkertech['PlayResult'].replace('Error', 'Out')
+    cur_yakkertech.drop_duplicates(subset=['Date', 'PitchNo', 'ExitSpeed', 'Angle', 'Direction', 'Distance'], keep='first', inplace=True)
+
     bip = cur_yakkertech[(cur_yakkertech['PlayResult'] != 'Sacrifice') & (cur_yakkertech['PitchCall'] != 'Foul')]
 
     if(bip.shape[0] == 0):
@@ -103,7 +108,10 @@ def find_hitting_stats(player, hitting_yakker=hitting_yakker):
 def find_pitching_stats(player, pitching_yakker=pitching_yakker):
     
     cur_yakkertech = pitching_yakker[(pitching_yakker['Pitcher'] == player) & (pitching_yakker['category'] == 'Scrimmage')].dropna(subset=['PlayResult'])
+    cur_yakkertech['Date'] = pd.to_datetime(cur_yakkertech['Date']).dt.strftime('%m/%d/%Y')
     cur_yakkertech['PlayResult'] = cur_yakkertech['PlayResult'].replace('Error', 'Out')
+
+    cur_yakkertech.drop_duplicates(subset=['Date', 'ExitSpeed', 'Angle', 'Direction', 'Distance'], keep='first', inplace=True)
     
     bip = cur_yakkertech[(cur_yakkertech['PlayResult'] != 'Sacrifice') & (cur_yakkertech['PitchCall'] != 'Foul')]
     
