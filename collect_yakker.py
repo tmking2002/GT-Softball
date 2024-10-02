@@ -42,3 +42,17 @@ for file in files:
         data = pd.concat([data, cur_data])
 
 data.to_csv('data/scrimmage_yakker/scrimmage_yakker.csv', index=False)
+
+# get game data
+
+files = os.listdir('data/game_yakker')
+
+data = pd.DataFrame()
+
+for file in files:
+    if (file.endswith('.csv')) and (file != 'game_yakker.csv'):
+        cur_data = pd.read_csv('data/game_yakker/' + file)
+
+        data = pd.concat([data, cur_data])
+
+data.to_csv('data/game_yakker/game_yakker.csv', index=False)

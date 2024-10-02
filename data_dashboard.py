@@ -7,10 +7,14 @@ import numpy as np
 import matplotlib.pyplot as plt
 import matplotlib.dates as mdates
 from sklearn.neighbors import KNeighborsClassifier
+import shutup
+import seaborn as sns
 
 
 import collect_blast
 import collect_yakker
+
+shutup.please()
 
 rf = pickle.load(open("xBases_model.pkl", "rb"))
 
@@ -26,15 +30,19 @@ hitting['category'] = 'BP'
 pitching = pd.read_csv('data/pitching_yakker/pitching_yakker.csv')
 pitching['category'] = 'BP'
 
-scrimmage_hitting = pd.read_csv('data/scrimmage_yakker/scrimmage_yakker.csv')
-scrimmage_hitting['category'] = 'Scrimmage'
+scrimmage = pd.read_csv('data/scrimmage_yakker/scrimmage_yakker.csv')
+scrimmage['category'] = 'Scrimmage'
 
-hitting_yakker = pd.concat([hitting, pitching, scrimmage_hitting], axis=0).drop_duplicates()
+game = pd.read_csv('data/game_yakker/game_yakker.csv')
+game['category'] = 'Game'
+
+hitting_yakker = pd.concat([hitting, pitching, scrimmage, game], axis=0).drop_duplicates()
 hitting_yakker = pd.merge(hitting_yakker, pd.DataFrame(player), left_on='Batter', right_on='yakker_name', how='left').drop_duplicates(subset=['Time', 'Batter', 'Pitcher'])
 
 hitting_yakker.to_csv('test.csv')
 
-pitching_yakker = pd.concat([pitching, scrimmage_hitting], axis=0).drop_duplicates()
+pitching_yakker = pd.concat([pitching, scrimmage, game], axis=0).drop_duplicates()
+pitching_yakker = pitching_yakker[pitching_yakker['PitcherTeam'] == 'Georgia tech']
 
 ## Get blast data
 blast = pd.read_csv('data/blast/full_data.csv')
@@ -108,13 +116,13 @@ def find_hitting_stats(player, hitting_yakker=hitting_yakker):
 
 def find_pitching_stats(player, pitching_yakker=pitching_yakker):
     
-    cur_yakkertech = pitching_yakker[(pitching_yakker['Pitcher'] == player) & (pitching_yakker['category'] == 'Scrimmage')].dropna(subset=['PlayResult'])
+    cur_yakkertech = pitching_yakker[(pitching_yakker['Pitcher'] == player) & (pitching_yakker['category'] == 'Scrimmage')]
     cur_yakkertech['Date'] = pd.to_datetime(cur_yakkertech['Date'], errors='coerce')
     cur_yakkertech['Date'] = cur_yakkertech['Date'].dt.strftime('%m/%d/%Y')
 
     cur_yakkertech['PlayResult'] = cur_yakkertech['PlayResult'].replace('Error', 'Out')
 
-    cur_yakkertech.drop_duplicates(subset=['Date', 'ExitSpeed', 'Angle', 'Direction', 'Distance'], keep='first', inplace=True)
+    cur_yakkertech.drop_duplicates(subset=['Date', 'Time', 'ExitSpeed', 'Angle', 'Direction', 'Distance'], keep='first', inplace=True)
     
     bip = cur_yakkertech[(cur_yakkertech['PlayResult'] != 'Sacrifice') & (cur_yakkertech['PitchCall'] != 'Foul')]
     
@@ -126,16 +134,17 @@ def find_pitching_stats(player, pitching_yakker=pitching_yakker):
     bip["Direction"] = bip["Direction"].astype(float)
     bip["Distance"] = bip["Distance"].astype(float)
     
-    bip = bip[['ExitSpeed', 'Angle', 'Direction', 'Distance', 'PlateLocSide', 'PlateLocHeight', 'PlayResult']]
+    bip = bip[['Date', 'ExitSpeed', 'Angle', 'Direction', 'Distance', 'PlateLocSide', 'PlateLocHeight', 'PlayResult']]
     
     bip = bip.dropna()
     
     bip = bip.reset_index(drop=True)
     
     y_pred = rf.predict(bip[['ExitSpeed', 'Angle', 'Direction', 'Distance']])
-    
+
     for i in range(bip.shape[0]):
         if pd.isna(bip.loc[i, 'PlayResult']):
+            st.write(bip.loc[i])
             bip.loc[i, 'Bases'] = y_pred[i]
         else:
             bip.loc[i, 'Bases'] = bases_dict[bip.loc[i, 'PlayResult']]
@@ -292,10 +301,17 @@ if selected_pitcher != "":
 
     selected_pitching_data = pitching_yakker[pitching_yakker['Pitcher'] == selected_pitcher].dropna(subset=['HorzBreak', 'InducedVertBreak', 'SpinAxis'])
 
-    dates = selected_pitching_data['Date'].unique()
+    selected_pitching_data['date_display'] = selected_pitching_data.apply(
+        lambda row: f"{row['Date'] if pd.notnull(row['Date']) and isinstance(row['Date'], str) else 'Unknown Date'} - {row['category']}",
+        axis=1
+    )
+
+    dates = selected_pitching_data['date_display'].unique()
     dates = sorted(dates)
 
     selected_dates = pitching_tab.multiselect('Select dates:', dates, default=dates)
+
+    dates_fmt = [date.split(' - ')[0] for date in selected_dates]
 
     if len(selected_pitching_data[selected_pitching_data['TaggedPitchType'].notna()]) == 0:
         pitching_tab.write(f"Not enough data")
@@ -334,7 +350,9 @@ if selected_pitcher != "":
 
             selected_pitching_data = pd.concat([train, test], axis=0)
 
-        selected_pitching_data = selected_pitching_data[selected_pitching_data['Date'].isin(selected_dates)]
+        selected_pitching_data.to_csv(f'{selected_pitcher}_pitching_data.csv', index=False)
+
+        selected_pitching_data = selected_pitching_data[selected_pitching_data['Date'].isin(dates_fmt)]
 
         # plot horzbreak vs induced vert break
         fig, ax = plt.subplots()
@@ -379,3 +397,24 @@ if selected_pitcher != "":
         pitch_data.columns = ['Pitch Type', 'Count', 'Avg Speed (mph)', 'Avg Horz Break (in)', 'Avg Vert Break (in)', 'Spin Tilt']
 
         pitching_tab.dataframe(pitch_data, use_container_width=True)
+
+        fig, ax = plt.subplots()
+        for pitch_type in selected_pitching_data['TaggedPitchType'].unique():
+            pitch_data = selected_pitching_data[selected_pitching_data['TaggedPitchType'] == pitch_type]
+            ax.scatter(pitch_data['PlateLocSide'], pitch_data['PlateLocHeight'], s=50, alpha=0.5, label=pitch_type)
+        sns.kdeplot(data=pitch_data, x='PlateLocSide', y='PlateLocHeight', levels=4, cmap='coolwarm', fill=True, alpha=0.3, linewidths=0, ax=ax)
+        ax.set_xlim(-2, 2)
+        ax.set_ylim(0, 5)
+        ax.set_xticks([])
+        ax.set_yticks([])
+        ax.set_xlabel('')
+        ax.set_ylabel('')
+        ax.plot([-17/24, 17/24], [1.5, 1.5], color='black')  # Bottom of strike zone
+        ax.plot([-17/24, 17/24], [3.5, 3.5], color='black')  # Top of strike zone
+        ax.plot([-17/24, -17/24], [1.5, 3.5], color='black')  # Left of strike zone
+        ax.plot([17/24, 17/24], [1.5, 3.5], color='black')  # Right of strike zone
+        ax.set_title(f'{selected_pitcher} - All Pitches', fontsize=10)
+        ax.legend(title='Pitch Type', bbox_to_anchor=(1.05, 1), loc='upper left')
+        plt.tight_layout()
+
+        pitching_tab.pyplot(fig)
