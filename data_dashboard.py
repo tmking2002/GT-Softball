@@ -39,8 +39,6 @@ game['category'] = 'Game'
 hitting_yakker = pd.concat([hitting, pitching, scrimmage, game], axis=0).drop_duplicates()
 hitting_yakker = pd.merge(hitting_yakker, pd.DataFrame(player), left_on='Batter', right_on='yakker_name', how='left').drop_duplicates(subset=['Time', 'Batter', 'Pitcher'])
 
-hitting_yakker.to_csv('test.csv')
-
 pitching_yakker = pd.concat([pitching, scrimmage, game], axis=0).drop_duplicates()
 pitching_yakker = pitching_yakker[pitching_yakker['PitcherTeam'] == 'Georgia tech']
 
@@ -349,8 +347,6 @@ if selected_pitcher != "":
             test['predicted'] = True
 
             selected_pitching_data = pd.concat([train, test], axis=0)
-
-        selected_pitching_data.to_csv(f'{selected_pitcher}_pitching_data.csv', index=False)
 
         selected_pitching_data = selected_pitching_data[selected_pitching_data['Date'].isin(dates_fmt)]
 
