@@ -313,108 +313,108 @@ if selected_pitcher != "":
         selected_dates = [date.split(' - ')[0] for date in selected_dates]
         selected_dates = pd.to_datetime(selected_dates, format='%m/%d').strftime('%m/%d/2024')
 
-    dates_fmt = [date.split(' - ')[0] for date in selected_dates]
+        dates_fmt = [date.split(' - ')[0] for date in selected_dates]
 
-    if len(selected_pitching_data[selected_pitching_data['TaggedPitchType'].notna()]) == 0:
-        pitching_tab.write(f"Not enough data")
-    else:
+        if len(selected_pitching_data[selected_pitching_data['TaggedPitchType'].notna()]) == 0:
+            pitching_tab.write(f"Not enough data")
+        else:
 
-        for pitch in selected_pitching_data['TaggedPitchType'].unique():
-            pitches = selected_pitching_data[selected_pitching_data['TaggedPitchType'] == pitch]
+            for pitch in selected_pitching_data['TaggedPitchType'].unique():
+                pitches = selected_pitching_data[selected_pitching_data['TaggedPitchType'] == pitch]
 
-            avg_horz = pitches['HorzBreak'].mean()
-            avg_vert = pitches['InducedVertBreak'].mean()
+                avg_horz = pitches['HorzBreak'].mean()
+                avg_vert = pitches['InducedVertBreak'].mean()
 
-            # if horz is more than 3 std away from the mean, remove it
-            pitches = pitches[(pitches['HorzBreak'] - avg_horz).abs() < 2 * pitches['HorzBreak'].std()]
-            pitches = pitches[(pitches['InducedVertBreak'] - avg_vert).abs() < 2 * pitches['InducedVertBreak'].std()]
+                # if horz is more than 3 std away from the mean, remove it
+                pitches = pitches[(pitches['HorzBreak'] - avg_horz).abs() < 2 * pitches['HorzBreak'].std()]
+                pitches = pitches[(pitches['InducedVertBreak'] - avg_vert).abs() < 2 * pitches['InducedVertBreak'].std()]
 
-            selected_pitching_data = pd.concat([selected_pitching_data[selected_pitching_data['TaggedPitchType'] != pitch], pitches], axis=0)
+                selected_pitching_data = pd.concat([selected_pitching_data[selected_pitching_data['TaggedPitchType'] != pitch], pitches], axis=0)
 
-        radians = np.deg2rad(selected_pitching_data['SpinAxis'])
+            radians = np.deg2rad(selected_pitching_data['SpinAxis'])
 
-        # Transform using sine and cosine
-        selected_pitching_data['sin_axis'] = np.sin(radians)
-        selected_pitching_data['cos_axis'] = np.cos(radians)
+            # Transform using sine and cosine
+            selected_pitching_data['sin_axis'] = np.sin(radians)
+            selected_pitching_data['cos_axis'] = np.cos(radians)
 
-        if len(selected_pitching_data[selected_pitching_data['TaggedPitchType'].isna()]) != 0:
+            if len(selected_pitching_data[selected_pitching_data['TaggedPitchType'].isna()]) != 0:
 
-            train = selected_pitching_data[~selected_pitching_data['TaggedPitchType'].isna()]
-            train['predicted'] = False
+                train = selected_pitching_data[~selected_pitching_data['TaggedPitchType'].isna()]
+                train['predicted'] = False
 
-            # create a knn model to predict pitch type
-            knn = KNeighborsClassifier(n_neighbors=len(train['TaggedPitchType'].unique()))
-            knn.fit(train[['RelSpeed', 'HorzBreak', 'InducedVertBreak', 'sin_axis', 'cos_axis']], train['TaggedPitchType'])
+                # create a knn model to predict pitch type
+                knn = KNeighborsClassifier(n_neighbors=len(train['TaggedPitchType'].unique()))
+                knn.fit(train[['RelSpeed', 'HorzBreak', 'InducedVertBreak', 'sin_axis', 'cos_axis']], train['TaggedPitchType'])
 
-            test = selected_pitching_data[selected_pitching_data['TaggedPitchType'].isna()]
-            test['TaggedPitchType'] = knn.predict(test[['RelSpeed', 'HorzBreak', 'InducedVertBreak', 'sin_axis', 'cos_axis']])
-            test['predicted'] = True
+                test = selected_pitching_data[selected_pitching_data['TaggedPitchType'].isna()]
+                test['TaggedPitchType'] = knn.predict(test[['RelSpeed', 'HorzBreak', 'InducedVertBreak', 'sin_axis', 'cos_axis']])
+                test['predicted'] = True
 
-            selected_pitching_data = pd.concat([train, test], axis=0)
+                selected_pitching_data = pd.concat([train, test], axis=0)
 
-        selected_pitching_data = selected_pitching_data[selected_pitching_data['Date'].isin(dates_fmt)]
+            selected_pitching_data = selected_pitching_data[selected_pitching_data['Date'].isin(dates_fmt)]
 
-        # plot horzbreak vs induced vert break
-        fig, ax = plt.subplots()
-        for pitch in selected_pitching_data['TaggedPitchType'].unique():
-            data = selected_pitching_data[(selected_pitching_data['TaggedPitchType'] == pitch)]
-            ax.scatter(data['HorzBreak'], data['InducedVertBreak'], label=pitch, alpha=0.8)
-        ax.set_xlabel('Horizontal Break (In.)')
-        ax.set_ylabel('Induced Vertical Break (In.)')
-        ax.legend()
-        ax.set_xlim(-15, 15)
-        ax.set_ylim(-15, 15)
-        ax.axvline(0, color='black', linestyle='--', alpha=0.2)
-        ax.axhline(0, color='black', linestyle='--', alpha=0.2)
-        plt.tight_layout()
-        pitching_tab.pyplot(fig)
+            # plot horzbreak vs induced vert break
+            fig, ax = plt.subplots()
+            for pitch in selected_pitching_data['TaggedPitchType'].unique():
+                data = selected_pitching_data[(selected_pitching_data['TaggedPitchType'] == pitch)]
+                ax.scatter(data['HorzBreak'], data['InducedVertBreak'], label=pitch, alpha=0.8)
+            ax.set_xlabel('Horizontal Break (In.)')
+            ax.set_ylabel('Induced Vertical Break (In.)')
+            ax.legend()
+            ax.set_xlim(-15, 15)
+            ax.set_ylim(-15, 15)
+            ax.axvline(0, color='black', linestyle='--', alpha=0.2)
+            ax.axhline(0, color='black', linestyle='--', alpha=0.2)
+            plt.tight_layout()
+            pitching_tab.pyplot(fig)
 
 
-        pitch_count = selected_pitching_data.groupby('TaggedPitchType').size().reset_index(name='count')
+            pitch_count = selected_pitching_data.groupby('TaggedPitchType').size().reset_index(name='count')
 
-        pitch_data = selected_pitching_data.groupby('TaggedPitchType').agg({
-            'RelSpeed': 'mean',
-            'HorzBreak': 'mean',
-            'InducedVertBreak': 'mean',
-            'cos_axis': 'mean',
-            'sin_axis': 'mean'
-        }).reset_index()
+            pitch_data = selected_pitching_data.groupby('TaggedPitchType').agg({
+                'RelSpeed': 'mean',
+                'HorzBreak': 'mean',
+                'InducedVertBreak': 'mean',
+                'cos_axis': 'mean',
+                'sin_axis': 'mean'
+            }).reset_index()
 
-        pitch_data = pitch_data.merge(pitch_count, on='TaggedPitchType')
+            pitch_data = pitch_data.merge(pitch_count, on='TaggedPitchType')
 
-        pitch_data = pitch_data.sort_values(by='count', ascending=False).reset_index(drop=True)
+            pitch_data = pitch_data.sort_values(by='count', ascending=False).reset_index(drop=True)
 
-        pitch_data['SpinAxis'] = (np.rad2deg(np.arctan2(pitch_data['sin_axis'], pitch_data['cos_axis']))) % 360
+            pitch_data['SpinAxis'] = (np.rad2deg(np.arctan2(pitch_data['sin_axis'], pitch_data['cos_axis']))) % 360
 
-        pitch_data['Tilt'] = pitch_data['SpinAxis'].apply(lambda x: x / 30 % 12)
+            pitch_data['Tilt'] = pitch_data['SpinAxis'].apply(lambda x: x / 30 % 12)
 
-        pitch_data['Tilt'] = pitch_data['Tilt'].apply(lambda x: f'{(int(x) + 6) % 12}:{int(x % 1 * 60):02d}')
+            pitch_data['Tilt'] = pitch_data['Tilt'].apply(lambda x: f'{(int(x) + 6) % 12}:{int(x % 1 * 60):02d}')
 
-        pitch_data['Tilt'] = pitch_data['Tilt'].replace(0, 12)
+            pitch_data['Tilt'] = pitch_data['Tilt'].replace(0, 12)
 
-        pitch_data = pitch_data.round(1)
-        pitch_data = pitch_data[['TaggedPitchType', 'count', 'RelSpeed', 'HorzBreak', 'InducedVertBreak', 'Tilt']]
-        pitch_data.columns = ['Pitch Type', 'Count', 'Avg Speed (mph)', 'Avg Horz Break (in)', 'Avg Vert Break (in)', 'Spin Tilt']
+            pitch_data = pitch_data.round(1)
+            pitch_data = pitch_data[['TaggedPitchType', 'count', 'RelSpeed', 'HorzBreak', 'InducedVertBreak', 'Tilt']]
+            pitch_data.columns = ['Pitch Type', 'Count', 'Avg Speed (mph)', 'Avg Horz Break (in)', 'Avg Vert Break (in)', 'Spin Tilt']
 
-        pitching_tab.dataframe(pitch_data, use_container_width=True)
+            pitching_tab.dataframe(pitch_data, use_container_width=True)
 
-        fig, ax = plt.subplots()
-        for pitch_type in selected_pitching_data['TaggedPitchType'].unique():
-            pitch_data = selected_pitching_data[selected_pitching_data['TaggedPitchType'] == pitch_type]
-            ax.scatter(pitch_data['PlateLocSide'], pitch_data['PlateLocHeight'], s=50, alpha=0.5, label=pitch_type)
-        sns.kdeplot(data=pitch_data, x='PlateLocSide', y='PlateLocHeight', levels=4, cmap='coolwarm', fill=True, alpha=0.3, linewidths=0, ax=ax)
-        ax.set_xlim(-2, 2)
-        ax.set_ylim(0, 5)
-        ax.set_xticks([])
-        ax.set_yticks([])
-        ax.set_xlabel('')
-        ax.set_ylabel('')
-        ax.plot([-17/24, 17/24], [1.5, 1.5], color='black')  # Bottom of strike zone
-        ax.plot([-17/24, 17/24], [3.5, 3.5], color='black')  # Top of strike zone
-        ax.plot([-17/24, -17/24], [1.5, 3.5], color='black')  # Left of strike zone
-        ax.plot([17/24, 17/24], [1.5, 3.5], color='black')  # Right of strike zone
-        ax.set_title(f'{selected_pitcher} - All Pitches', fontsize=10)
-        ax.legend(title='Pitch Type', bbox_to_anchor=(1.05, 1), loc='upper left')
-        plt.tight_layout()
+            fig, ax = plt.subplots()
+            for pitch_type in selected_pitching_data['TaggedPitchType'].unique():
+                pitch_data = selected_pitching_data[selected_pitching_data['TaggedPitchType'] == pitch_type]
+                ax.scatter(pitch_data['PlateLocSide'], pitch_data['PlateLocHeight'], s=50, alpha=0.5, label=pitch_type)
+            sns.kdeplot(data=pitch_data, x='PlateLocSide', y='PlateLocHeight', levels=4, cmap='coolwarm', fill=True, alpha=0.3, linewidths=0, ax=ax)
+            ax.set_xlim(-2, 2)
+            ax.set_ylim(0, 5)
+            ax.set_xticks([])
+            ax.set_yticks([])
+            ax.set_xlabel('')
+            ax.set_ylabel('')
+            ax.plot([-17/24, 17/24], [1.5, 1.5], color='black')  # Bottom of strike zone
+            ax.plot([-17/24, 17/24], [3.5, 3.5], color='black')  # Top of strike zone
+            ax.plot([-17/24, -17/24], [1.5, 3.5], color='black')  # Left of strike zone
+            ax.plot([17/24, 17/24], [1.5, 3.5], color='black')  # Right of strike zone
+            ax.set_title(f'{selected_pitcher} - All Pitches', fontsize=10)
+            ax.legend(title='Pitch Type', bbox_to_anchor=(1.05, 1), loc='upper left')
+            plt.tight_layout()
 
-        pitching_tab.pyplot(fig)
+            pitching_tab.pyplot(fig)
