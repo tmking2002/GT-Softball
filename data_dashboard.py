@@ -296,15 +296,22 @@ if selected_pitcher != "":
 
     selected_pitching_data = pitching_yakker[pitching_yakker['Pitcher'] == selected_pitcher].dropna(subset=['HorzBreak', 'InducedVertBreak', 'SpinAxis'])
 
+    selected_pitching_data['Date'] = pd.to_datetime(selected_pitching_data['Date'], format='mixed', dayfirst=False)
+
     selected_pitching_data['date_display'] = selected_pitching_data.apply(
-        lambda row: f"{row['Date'] if pd.notnull(row['Date']) and isinstance(row['Date'], str) else 'Unknown Date'} - {row['category']}",
+        lambda row: f"{row['Date'].strftime('%m/%d')}{' - ' + row['BatterTeam'] if row['category'] == 'Game' and pd.notnull(row['BatterTeam']) else ''}",
         axis=1
     )
 
     dates = selected_pitching_data['date_display'].unique()
     dates = sorted(dates)
 
-    selected_dates = pitching_tab.multiselect('Select dates:', dates, default=dates)
+    selected_dates = pitching_tab.multiselect('Select dates:', dates)
+
+    # Convert selected_dates back to regular format
+    if selected_dates:
+        selected_dates = [date.split(' - ')[0] for date in selected_dates]
+        selected_dates = pd.to_datetime(selected_dates, format='%m/%d').strftime('%m/%d/2024')
 
     dates_fmt = [date.split(' - ')[0] for date in selected_dates]
 
