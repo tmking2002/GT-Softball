@@ -10,7 +10,6 @@ from sklearn.neighbors import KNeighborsClassifier
 import shutup
 import seaborn as sns
 
-
 import collect_blast
 import collect_yakker
 
@@ -178,9 +177,7 @@ hitting_stats_df = pd.DataFrame(columns=['player', 'AB', 'H', 'K', 'BB', '2B', '
 pitching_stats_df = pd.DataFrame(columns=['player', 'BF', 'H', 'K', 'BB', 'HR', 'K/7', 'BB/7', 'OPP wOBA'])
 bip = pd.DataFrame()
 
-unique_hitters = hitting_yakker['Batter'].unique()
-unique_hitters = unique_hitters[~pd.isna(unique_hitters)]
-unique_hitters = unique_hitters[unique_hitters != 'Sara beth Allen']
+unique_hitters = player['blast_name']
 unique_hitters = sorted(unique_hitters)
 
 unique_pitchers = pitching_yakker['Pitcher'].unique()
@@ -194,8 +191,8 @@ hitting_tab.title("2024-25 Georgia Tech Data Dashboard")
 
 categories = hitting_tab.multiselect(
     'Select a category:',
-    ['BP', 'Scrimmage'], 
-    default=['BP', 'Scrimmage']
+    ['BP', 'Scrimmage', 'Game'], 
+    default=['BP', 'Scrimmage', 'Game']
 )
 
 hitting_yakker = hitting_yakker[hitting_yakker['category'].isin(categories)]
