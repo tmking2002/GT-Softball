@@ -402,7 +402,7 @@ if selected_pitcher != "":
             for pitch_type in selected_pitching_data['TaggedPitchType'].unique():
                 pitch_data = selected_pitching_data[selected_pitching_data['TaggedPitchType'] == pitch_type]
                 ax.scatter(pitch_data['PlateLocSide'], pitch_data['PlateLocHeight'], s=50, alpha=0.5, label=pitch_type)
-            sns.kdeplot(data=pitch_data, x='PlateLocSide', y='PlateLocHeight', levels=4, cmap='coolwarm', fill=True, alpha=0.3, linewidths=0, ax=ax)
+            sns.kdeplot(data=pitch_data, x='PlateLocSide', y='PlateLocHeight', levels=4, cmap='coolwarm', fill=True, alpha=0.1, linewidths=0, ax=ax)
             ax.set_xlim(-2, 2)
             ax.set_ylim(0, 5)
             ax.set_xticks([])
