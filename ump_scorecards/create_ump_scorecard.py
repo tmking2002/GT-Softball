@@ -28,6 +28,8 @@ yakker = yakker[(yakker['PitchCall'].isin(['BallCalled', 'StrikeCalled']))].rese
 yakker['actual_strike'] = (yakker['PlateLocSide'] - 1/6 < 17/24) & (yakker['PlateLocSide'] + 1/6 > -17/24) & (yakker['PlateLocHeight'] - 1/6 < 3) & (yakker['PlateLocHeight'] + 1/6 > 5/4)
 yakker['called_strike'] = yakker['PitchCall'] == 'StrikeCalled'
 
+yakker = yakker[yakker['Inning'] >= 5]
+
 yakker.to_csv('ump_scorecards/yakker.csv')
 
 workbook = openpyxl.Workbook()
