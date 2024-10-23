@@ -318,6 +318,9 @@ if selected_pitcher != "":
     dates = sorted(dates)
 
     selected_dates = pitching_tab.multiselect('Select dates:', dates)
+    select_all_dates_button = pitching_tab.checkbox("Select All")
+    if select_all_dates_button:
+        selected_dates = dates
 
     # Convert selected_dates back to regular format
     if selected_dates:
