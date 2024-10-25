@@ -1,4 +1,45 @@
 Date,Equipment,Handedness,Swing Details,Plane Score,Connection Score,Rotation Score,Bat Speed (mph),Rotational Acceleration (g),On Plane Efficiency (%),Attack Angle (deg),Early Connection (deg),Connection at Impact (deg),Vertical Bat Angle (deg),Power (kW),Time to Contact (sec),Peak Hand Speed (mph),Exit Velocity (mph),Launch Angle (deg),Estimated Distance (feet),Player
+"Oct 20, 2024 04:45:05 pm",CRBN1,Left,Live Pitch,76,54,42,60.9,6.7,90,3,98,80,-20,2.36,0.16,17.9,,,,Eliana Gottlieb
+"Oct 20, 2024 03:50:15 pm",CRBN1,Left,Live Pitch,70,80,43,65.8,7.0,84,8,91,89,-36,2.76,0.16,18.8,,,,Eliana Gottlieb
+"Oct 18, 2024 06:39:01 pm",CRBN1,Left,Live Pitch,62,60,40,55.2,5.7,77,3,89,80,-31,1.87,0.17,16.0,,,,Eliana Gottlieb
+"Oct 18, 2024 06:06:36 pm",CRBN1,Left,Live Pitch,73,70,47,66.4,8.2,87,11,95,88,-34,2.84,0.16,19.0,,,,Eliana Gottlieb
+"Oct 18, 2024 06:06:03 pm",CRBN1,Left,Live Pitch,75,61,43,58.7,6.7,89,10,91,80,-27,2.09,0.17,17.3,,,,Eliana Gottlieb
+"Oct 16, 2024 12:10:57 pm",CRBN1,Left,Live Pitch,66,48,54,63.8,10.7,81,13,103,78,-23,2.66,0.16,18.7,,,,Eliana Gottlieb
+"Oct 16, 2024 12:10:49 pm",CRBN1,Left,Live Pitch,59,41,52,68.3,10.0,74,17,117,82,-19,3.3,0.14,19.4,,,,Eliana Gottlieb
+"Oct 16, 2024 12:10:35 pm",CRBN1,Left,Live Pitch,54,53,47,63.6,8.1,69,27,99,80,-33,2.26,0.18,19.5,,,,Eliana Gottlieb
+"Oct 16, 2024 12:10:28 pm",CRBN1,Left,Live Pitch,68,63,54,62.4,10.5,82,16,91,81,-27,2.23,0.18,18.8,,,,Eliana Gottlieb
+"Oct 16, 2024 12:10:12 pm",CRBN1,Left,Live Pitch,60,60,54,66.3,10.4,75,21,100,87,-29,2.8,0.16,18.5,,,,Eliana Gottlieb
+"Oct 16, 2024 12:07:47 pm",CRBN1,Left,Live Pitch,63,63,64,67.1,13.8,78,20,96,85,-27,2.83,0.16,20.2,,,,Eliana Gottlieb
+"Oct 16, 2024 12:07:39 pm",CRBN1,Left,Live Pitch,62,65,57,67.8,11.7,77,17,97,88,-35,3.01,0.16,20.3,,,,Eliana Gottlieb
+"Oct 16, 2024 12:07:25 pm",CRBN1,Left,Live Pitch,58,57,67,68.7,14.8,73,19,103,91,-32,3.01,0.16,20.8,,,,Eliana Gottlieb
+"Oct 16, 2024 12:07:17 pm",CRBN1,Left,Live Pitch,61,55,62,65.7,13.3,76,15,104,94,-35,2.65,0.17,20.3,,,,Eliana Gottlieb
+"Oct 16, 2024 12:07:08 pm",CRBN1,Left,Live Pitch,57,62,58,66.6,11.8,71,11,99,92,-37,2.98,0.15,19.9,,,,Eliana Gottlieb
+"Oct 16, 2024 12:05:32 pm",CRBN1,Left,Live Pitch,51,51,53,66.3,10.2,66,23,108,87,-27,2.67,0.17,18.5,,,,Eliana Gottlieb
+"Oct 16, 2024 12:05:25 pm",CRBN1,Left,Live Pitch,53,55,53,66.2,10.1,68,18,104,87,-26,2.76,0.16,18.9,,,,Eliana Gottlieb
+"Oct 16, 2024 12:05:17 pm",CRBN1,Left,Live Pitch,57,55,56,65.9,11.1,72,19,105,89,-29,2.67,0.17,19.4,,,,Eliana Gottlieb
+"Oct 16, 2024 12:05:10 pm",CRBN1,Left,Live Pitch,56,51,57,66.4,11.5,71,19,108,93,-28,2.85,0.16,19.2,,,,Eliana Gottlieb
+"Oct 16, 2024 12:05:01 pm",CRBN1,Left,Live Pitch,49,46,55,67.1,11.0,64,13,111,97,-31,2.91,0.16,18.4,,,,Eliana Gottlieb
+"Oct 16, 2024 12:01:50 pm",CRBN1,Left,Live Pitch,49,46,49,65.5,8.9,64,24,115,92,-23,2.55,0.17,18.9,,,,Eliana Gottlieb
+"Oct 16, 2024 12:01:41 pm",CRBN1,Left,Live Pitch,59,54,59,65.6,12.3,73,17,106,90,-24,2.65,0.17,18.5,,,,Eliana Gottlieb
+"Oct 16, 2024 12:01:31 pm",CRBN1,Left,Live Pitch,66,59,62,66.9,13.3,80,13,101,93,-36,2.89,0.16,20.1,,,,Eliana Gottlieb
+"Oct 16, 2024 12:01:14 pm",CRBN1,Left,Live Pitch,59,64,67,66.8,14.8,73,15,98,90,-33,2.88,0.16,20.1,,,,Eliana Gottlieb
+"Oct 16, 2024 12:01:05 pm",CRBN1,Left,Live Pitch,59,61,60,66.1,12.7,73,19,100,91,-36,2.85,0.16,19.6,,,,Eliana Gottlieb
+"Oct 16, 2024 11:57:39 am",CRBN1,Left,Live Pitch,59,57,54,66.3,10.6,74,13,103,89,-36,2.8,0.16,20.0,,,,Eliana Gottlieb
+"Oct 16, 2024 11:57:31 am",CRBN1,Left,Live Pitch,47,49,51,66.0,9.6,62,20,111,91,-25,2.71,0.16,18.4,,,,Eliana Gottlieb
+"Oct 16, 2024 11:57:21 am",CRBN1,Left,Live Pitch,49,49,59,66.2,12.2,64,15,110,94,-36,2.87,0.16,19.1,,,,Eliana Gottlieb
+"Oct 16, 2024 11:57:12 am",CRBN1,Left,Live Pitch,63,59,59,65.6,12.3,77,8,101,89,-32,2.93,0.15,19.7,,,,Eliana Gottlieb
+"Oct 16, 2024 11:57:07 am",CRBN1,Left,Live Pitch,52,49,49,66.1,8.9,67,26,108,85,-23,2.59,0.17,19.6,,,,Eliana Gottlieb
+"Oct 16, 2024 11:53:39 am",CRBN1,Left,Live Pitch,46,47,41,67.5,6.1,61,25,110,84,-18,2.64,0.18,18.2,,,,Eliana Gottlieb
+"Oct 16, 2024 11:53:27 am",CRBN1,Left,Live Pitch,63,52,51,67.4,9.5,78,22,104,84,-23,2.7,0.17,19.4,,,,Eliana Gottlieb
+"Oct 16, 2024 11:53:19 am",CRBN1,Left,Live Pitch,69,65,51,63.7,9.4,83,11,93,83,-29,2.56,0.16,18.3,,,,Eliana Gottlieb
+"Oct 16, 2024 11:53:07 am",CRBN1,Left,Live Pitch,66,60,56,66.6,11.1,80,11,100,90,-35,2.9,0.16,19.6,,,,Eliana Gottlieb
+"Oct 16, 2024 11:52:51 am",CRBN1,Left,Live Pitch,62,61,54,66.4,10.5,76,17,100,88,-33,2.78,0.16,19.0,,,,Eliana Gottlieb
+"Oct 15, 2024 02:54:01 pm",CRBN1,Left,Live Pitch,78,49,48,62.3,8.4,92,-14,81,75,-33,2.75,0.14,19.0,,,,Eliana Gottlieb
+"Oct 15, 2024 02:43:16 pm",CRBN1,Left,Live Pitch,69,59,45,60.0,7.4,84,15,99,85,-22,1.94,0.19,18.6,,,,Eliana Gottlieb
+"Oct 15, 2024 02:41:55 pm",CRBN1,Left,Live Pitch,40,66,55,60.5,10.8,55,20,92,83,-32,2.15,0.17,18.6,,,,Eliana Gottlieb
+"Oct 15, 2024 01:41:25 pm",CRBN1,Left,Live Pitch,78,80,41,63.5,6.2,92,-2,89,91,-41,2.64,0.16,20.2,,,,Eliana Gottlieb
+"Oct 15, 2024 12:29:45 pm",CRBN1,Left,Live Pitch,68,73,51,67.0,9.5,82,10,95,92,-34,2.86,0.16,19.9,,,,Eliana Gottlieb
+"Oct 15, 2024 12:28:55 pm",CRBN1,Left,Live Pitch,74,60,46,60.6,8.0,88,14,89,79,-26,2.1,0.18,19.0,,,,Eliana Gottlieb
 "Oct 11, 2024 03:07:19 pm",CRBN1,Left,Live Pitch,76,73,51,64.3,9.6,89,3,92,85,-33,2.63,0.16,19.8,,,,Eliana Gottlieb
 "Oct 11, 2024 02:37:57 pm",CRBN1,Left,Live Pitch,77,56,52,61.4,9.8,91,14,92,76,-20,2.18,0.18,18.0,,,,Eliana Gottlieb
 "Oct 11, 2024 02:03:24 pm",CRBN1,Left,Live Pitch,62,63,45,64.2,7.7,77,18,90,81,-35,2.44,0.17,19.7,,,,Eliana Gottlieb
@@ -410,6 +451,41 @@ Date,Equipment,Handedness,Swing Details,Plane Score,Connection Score,Rotation Sc
 "Aug 26, 2024 04:00:51 pm",CRBN1,Left,Front Toss Underhand,41,40,51,63.9,9.5,56,18,119,99,-26,2.32,0.18,18.2,,,,Eliana Gottlieb
 "Aug 26, 2024 04:00:46 pm",CRBN1,Left,Front Toss Underhand,44,42,58,65.3,12.0,59,18,116,96,-28,2.56,0.17,18.7,,,,Eliana Gottlieb
 "Aug 26, 2024 04:00:41 pm",CRBN1,Left,Front Toss Underhand,47,46,47,62.4,8.1,62,18,113,94,-26,2.16,0.18,16.8,,,,Eliana Gottlieb
+"Oct 20, 2024 03:25:02 pm",CRBN1,Left,Live Pitch,63,62,44,63.1,7.4,77,6,97,85,-38,2.6,0.16,18.2,,,,Ella Edgmon
+"Oct 20, 2024 02:48:44 pm",CRBN1,Left,Live Pitch,61,58,46,63.8,7.9,75,7,102,91,-41,2.73,0.15,20.2,,,,Ella Edgmon
+"Oct 20, 2024 02:07:40 pm",CRBN1,Left,Live Pitch,69,56,57,65.2,11.5,84,3,103,93,-43,2.85,0.15,20.5,,,,Ella Edgmon
+"Oct 20, 2024 02:06:15 pm",CRBN1,Left,Live Pitch,55,61,44,64.4,7.4,70,11,100,87,-35,2.46,0.17,17.9,,,,Ella Edgmon
+"Oct 18, 2024 07:24:17 pm",CRBN1,Left,Live Pitch,56,51,42,67.8,6.6,71,11,107,95,-35,2.86,0.16,19.2,,,,Ella Edgmon
+"Oct 18, 2024 06:56:45 pm",CRBN1,Left,Live Pitch,63,60,44,65.3,7.3,77,7,101,91,-35,2.75,0.16,19.8,,,,Ella Edgmon
+"Oct 18, 2024 05:38:09 pm",CRBN1,Left,Live Pitch,68,46,57,61.4,11.4,82,0,111,97,-39,2.56,0.15,19.7,,,,Ella Edgmon
+"Oct 18, 2024 05:09:07 pm",CRBN1,Left,Live Pitch,67,53,40,62.1,5.7,81,6,106,91,-29,2.4,0.16,18.8,,,,Ella Edgmon
+"Oct 16, 2024 04:21:24 pm",CRBN1,Left,Live Pitch,68,63,51,62.2,9.6,82,9,99,89,-23,2.56,0.15,18.0,,,,Ella Edgmon
+"Oct 16, 2024 04:21:08 pm",CRBN1,Left,Live Pitch,64,56,46,64.9,7.8,78,12,104,91,-26,2.72,0.16,19.2,,,,Ella Edgmon
+"Oct 16, 2024 04:20:59 pm",CRBN1,Left,Live Pitch,67,56,51,64.7,9.6,81,13,96,80,-19,2.67,0.16,18.5,,,,Ella Edgmon
+"Oct 16, 2024 04:20:48 pm",CRBN1,Left,Live Pitch,69,53,47,59.7,8.3,84,12,94,75,-13,2.22,0.16,16.5,,,,Ella Edgmon
+"Oct 16, 2024 04:20:12 pm",CRBN1,Left,Live Pitch,61,55,54,68.7,10.5,76,11,104,87,-27,3.13,0.15,19.2,,,,Ella Edgmon
+"Oct 16, 2024 04:16:34 pm",CRBN1,Left,Live Pitch,69,57,49,63.4,8.8,84,14,96,81,-21,2.53,0.16,16.9,,,,Ella Edgmon
+"Oct 16, 2024 04:16:25 pm",CRBN1,Left,Live Pitch,78,56,45,57.2,7.7,91,9,91,76,-22,2.17,0.15,16.1,,,,Ella Edgmon
+"Oct 16, 2024 04:16:10 pm",CRBN1,Left,Live Pitch,60,64,47,65.9,8.1,75,11,98,89,-31,2.88,0.15,18.8,,,,Ella Edgmon
+"Oct 16, 2024 04:15:53 pm",CRBN1,Left,Live Pitch,59,67,44,63.5,7.3,74,12,97,89,-28,2.57,0.16,19.2,,,,Ella Edgmon
+"Oct 16, 2024 04:15:47 pm",CRBN1,Left,Live Pitch,48,62,50,61.7,9.3,63,13,99,89,-31,2.39,0.16,18.7,,,,Ella Edgmon
+"Oct 16, 2024 04:12:17 pm",CRBN1,Left,Live Pitch,66,80,47,56.8,8.3,81,8,89,88,-29,2.06,0.16,17.2,,,,Ella Edgmon
+"Oct 16, 2024 04:12:11 pm",CRBN1,Left,Live Pitch,66,75,49,60.5,8.9,81,8,92,86,-34,2.27,0.16,18.7,,,,Ella Edgmon
+"Oct 16, 2024 04:12:01 pm",CRBN1,Left,Live Pitch,65,54,48,65.5,8.6,79,15,104,86,-31,2.7,0.16,18.6,,,,Ella Edgmon
+"Oct 16, 2024 04:11:36 pm",CRBN1,Left,Live Pitch,68,58,44,62.9,7.1,82,7,92,78,-30,2.62,0.15,17.8,,,,Ella Edgmon
+"Oct 15, 2024 02:58:13 pm",CRBN1,Left,Live Pitch,64,65,42,63.8,6.4,79,3,96,85,-38,2.56,0.16,19.3,,,,Ella Edgmon
+"Oct 15, 2024 01:42:41 pm",CRBN1,Left,Live Pitch,72,56,44,60.5,7.4,86,5,94,78,-27,2.43,0.15,17.8,,,,Ella Edgmon
+"Oct 15, 2024 12:59:15 pm",CRBN1,Left,Live Pitch,70,62,39,60.4,5.7,84,-3,95,83,-27,2.33,0.16,16.9,,,,Ella Edgmon
+"Oct 15, 2024 12:40:13 pm",CRBN1,Left,Live Pitch,73,52,38,61.2,5.1,87,2,106,94,-28,2.33,0.16,17.6,,,,Ella Edgmon
+"Oct 15, 2024 12:39:50 pm",CRBN1,Left,Live Pitch,74,57,44,57.4,7.3,88,-18,99,84,-27,2.51,0.13,19.2,,,,Ella Edgmon
+"Oct 15, 2024 12:39:25 pm",CRBN1,Left,Live Pitch,73,58,42,55.2,6.5,87,0,93,79,-18,1.85,0.17,17.3,,,,Ella Edgmon
+"Oct 15, 2024 12:39:01 pm",CRBN1,Left,Live Pitch,79,50,43,53.7,7.0,93,-15,87,71,-15,2.26,0.13,18.3,,,,Ella Edgmon
+"Oct 15, 2024 12:37:04 pm",CRBN1,Left,Live Pitch,69,50,43,59.3,6.8,84,-7,110,92,-25,2.46,0.15,18.2,,,,Ella Edgmon
+"Oct 11, 2024 03:05:45 pm",CRBN1,Left,Live Pitch,71,57,38,59.1,5.2,85,0,88,77,-28,2.22,0.16,17.0,,,,Ella Edgmon
+"Oct 11, 2024 02:48:55 pm",CRBN1,Left,Live Pitch,76,71,33,59.4,3.6,90,-7,94,87,-34,2.19,0.16,17.6,,,,Ella Edgmon
+"Oct 11, 2024 02:19:24 pm",CRBN1,Left,Live Pitch,65,70,42,62.7,6.5,80,-2,94,94,-48,2.51,0.16,18.4,,,,Ella Edgmon
+"Oct 11, 2024 01:54:06 pm",CRBN1,Left,Live Pitch,56,62,45,67.1,7.6,70,13,94,83,-30,2.73,0.17,19.6,,,,Ella Edgmon
+"Oct 11, 2024 01:45:25 pm",CRBN1,Left,Live Pitch,79,49,40,57.4,5.9,93,0,86,71,-23,2.19,0.15,18.3,,,,Ella Edgmon
 "Oct 09, 2024 03:54:49 pm",CRBN1,Left,General Practice,60,62,48,61.2,8.7,75,11,99,87,-30,2.22,0.17,17.9,,,,Ella Edgmon
 "Oct 09, 2024 03:54:28 pm",CRBN1,Left,General Practice,63,80,37,61.3,5.0,77,6,91,92,-38,2.28,0.17,17.6,,,,Ella Edgmon
 "Oct 09, 2024 03:54:07 pm",CRBN1,Left,General Practice,55,67,41,65.6,6.1,70,8,96,94,-43,2.74,0.16,18.8,,,,Ella Edgmon
@@ -444,6 +520,36 @@ Date,Equipment,Handedness,Swing Details,Plane Score,Connection Score,Rotation Sc
 "Oct 09, 2024 03:42:58 pm",CRBN1,Left,General Practice,68,63,41,56.8,6.2,82,0,90,82,-22,2.03,0.16,16.7,,,,Ella Edgmon
 "Oct 09, 2024 03:42:26 pm",CRBN1,Left,General Practice,70,67,43,56.1,6.7,84,3,97,89,-28,1.98,0.16,17.4,,,,Ella Edgmon
 "Oct 09, 2024 03:42:09 pm",CRBN1,Left,General Practice,65,51,43,54.5,6.8,79,6,80,78,-27,1.78,0.17,16.3,,,,Ella Edgmon
+"Oct 07, 2024 04:54:12 pm",CRBN1,Left,Pitching Machine,76,59,38,58.0,5.3,90,1,87,79,-29,2.09,0.16,16.9,,,,Ella Edgmon
+"Oct 07, 2024 04:54:06 pm",CRBN1,Left,Pitching Machine,77,59,42,62.2,6.4,91,-5,87,79,-34,2.66,0.15,18.4,,,,Ella Edgmon
+"Oct 07, 2024 04:53:59 pm",CRBN1,Left,Pitching Machine,75,62,39,56.6,5.5,89,-3,98,87,-25,2.09,0.16,17.1,,,,Ella Edgmon
+"Oct 07, 2024 04:53:53 pm",CRBN1,Left,Pitching Machine,73,60,44,57.5,7.3,87,-5,96,83,-26,2.25,0.15,17.9,,,,Ella Edgmon
+"Oct 07, 2024 04:53:48 pm",CRBN1,Left,Pitching Machine,78,57,38,57.3,5.3,92,-15,95,80,-27,2.32,0.14,17.7,,,,Ella Edgmon
+"Oct 07, 2024 04:49:57 pm",CRBN1,Left,Pitching Machine,78,51,43,58.2,6.8,92,-12,83,75,-28,2.47,0.14,17.7,,,,Ella Edgmon
+"Oct 07, 2024 04:49:49 pm",CRBN1,Left,Pitching Machine,66,59,42,56.8,6.6,80,1,101,90,-28,1.98,0.17,17.1,,,,Ella Edgmon
+"Oct 07, 2024 04:49:43 pm",CRBN1,Left,Pitching Machine,71,61,46,60.1,7.8,86,1,100,91,-29,2.33,0.16,17.3,,,,Ella Edgmon
+"Oct 07, 2024 04:49:37 pm",CRBN1,Left,Pitching Machine,80,51,46,53.2,7.8,95,-10,86,73,-23,2.07,0.14,17.4,,,,Ella Edgmon
+"Oct 07, 2024 04:49:31 pm",CRBN1,Left,Pitching Machine,72,76,42,57.8,6.6,86,-6,93,87,-34,2.22,0.15,17.2,,,,Ella Edgmon
+"Oct 07, 2024 04:45:50 pm",CRBN1,Left,Pitching Machine,77,48,41,58.4,6.1,91,-10,78,77,-34,2.35,0.15,16.8,,,,Ella Edgmon
+"Oct 07, 2024 04:45:44 pm",CRBN1,Left,Pitching Machine,68,73,46,60.2,8.0,82,2,90,94,-38,2.37,0.16,17.7,,,,Ella Edgmon
+"Oct 07, 2024 04:45:37 pm",CRBN1,Left,Pitching Machine,71,80,45,58.0,7.4,85,4,88,90,-34,2.17,0.16,17.9,,,,Ella Edgmon
+"Oct 07, 2024 04:45:31 pm",CRBN1,Left,Pitching Machine,77,75,42,55.8,6.4,90,-11,87,87,-35,2.2,0.14,17.9,,,,Ella Edgmon
+"Oct 07, 2024 04:45:25 pm",CRBN1,Left,Pitching Machine,80,80,49,55.2,9.0,94,-8,90,88,-34,2.13,0.15,18.3,,,,Ella Edgmon
+"Oct 07, 2024 04:40:10 pm",CRBN1,Left,Pitching Machine,79,51,36,54.7,4.5,93,-8,85,74,-26,1.98,0.15,16.2,,,,Ella Edgmon
+"Oct 07, 2024 04:40:04 pm",CRBN1,Left,Pitching Machine,72,70,43,58.3,7.0,87,-1,95,88,-28,2.14,0.16,16.8,,,,Ella Edgmon
+"Oct 07, 2024 04:39:56 pm",CRBN1,Left,Pitching Machine,80,49,41,54.4,6.3,97,-13,84,73,-24,2.16,0.14,17.5,,,,Ella Edgmon
+"Oct 07, 2024 04:39:50 pm",CRBN1,Left,Pitching Machine,67,79,38,59.6,5.3,82,-2,92,87,-31,2.45,0.15,17.8,,,,Ella Edgmon
+"Oct 07, 2024 04:39:45 pm",CRBN1,Left,Pitching Machine,77,52,41,56.7,6.2,91,-15,86,75,-28,2.34,0.14,17.7,,,,Ella Edgmon
+"Oct 07, 2024 04:36:28 pm",CRBN1,Left,Pitching Machine,72,64,37,58.2,4.9,86,-6,85,84,-34,2.19,0.16,17.2,,,,Ella Edgmon
+"Oct 07, 2024 04:36:21 pm",CRBN1,Left,Pitching Machine,70,77,43,56.6,6.9,85,-5,91,86,-34,2.12,0.15,17.9,,,,Ella Edgmon
+"Oct 07, 2024 04:36:13 pm",CRBN1,Left,Pitching Machine,59,73,38,56.1,5.2,73,6,94,88,-27,1.89,0.17,16.4,,,,Ella Edgmon
+"Oct 07, 2024 04:36:07 pm",CRBN1,Left,Pitching Machine,68,61,40,59.6,5.9,82,-5,100,90,-27,2.44,0.15,18.0,,,,Ella Edgmon
+"Oct 07, 2024 04:36:01 pm",CRBN1,Left,Pitching Machine,71,63,37,58.9,4.8,85,-7,95,84,-28,2.39,0.15,17.3,,,,Ella Edgmon
+"Oct 07, 2024 04:29:30 pm",CRBN1,Left,Pitching Machine,74,67,39,62.6,5.6,88,0,90,83,-30,2.53,0.16,16.7,,,,Ella Edgmon
+"Oct 07, 2024 04:29:23 pm",CRBN1,Left,Pitching Machine,76,72,41,59.3,6.3,90,-2,89,85,-29,2.33,0.15,17.4,,,,Ella Edgmon
+"Oct 07, 2024 04:29:18 pm",CRBN1,Left,Pitching Machine,69,80,42,59.2,6.7,83,0,92,87,-31,2.18,0.16,17.5,,,,Ella Edgmon
+"Oct 07, 2024 04:29:08 pm",CRBN1,Left,Pitching Machine,78,55,47,61.7,8.1,92,-3,85,78,-28,2.66,0.15,17.8,,,,Ella Edgmon
+"Oct 07, 2024 04:29:02 pm",CRBN1,Left,Pitching Machine,78,52,39,59.1,5.6,92,-10,86,73,-27,2.51,0.14,17.7,,,,Ella Edgmon
 "Oct 07, 2024 04:23:56 pm",CRBN1,Left,Pitching Machine,70,61,40,56.6,5.9,85,1,100,92,-30,2.02,0.16,18.1,,,,Ella Edgmon
 "Oct 07, 2024 04:23:48 pm",CRBN1,Left,Pitching Machine,74,80,46,61.0,8.0,88,-2,92,89,-34,2.44,0.16,17.8,,,,Ella Edgmon
 "Oct 07, 2024 04:23:41 pm",CRBN1,Left,Pitching Machine,73,56,43,60.0,6.9,87,4,102,94,-30,2.24,0.16,17.4,,,,Ella Edgmon
@@ -471,8 +577,28 @@ Date,Equipment,Handedness,Swing Details,Plane Score,Connection Score,Rotation Sc
 "Oct 07, 2024 04:14:32 pm",CRBN1,Left,Pitching Machine,67,65,45,62.3,7.7,81,11,88,83,-29,2.25,0.18,18.5,,,,Ella Edgmon
 "Oct 07, 2024 04:14:25 pm",CRBN1,Left,Pitching Machine,73,69,48,58.8,8.6,87,5,90,84,-29,2.17,0.16,18.3,,,,Ella Edgmon
 "Oct 07, 2024 04:14:17 pm",CRBN1,Left,Pitching Machine,56,56,41,54.1,6.1,71,17,94,77,-20,1.43,0.21,16.4,,,,Ella Edgmon
+"Oct 07, 2024 04:10:37 pm",CRBN1,Left,Pitching Machine,80,55,48,52.8,8.5,94,-11,90,76,-26,1.97,0.14,16.4,,,,Ella Edgmon
+"Oct 07, 2024 04:10:29 pm",CRBN1,Left,Pitching Machine,73,79,43,59.5,6.9,88,-5,88,87,-34,2.38,0.15,17.4,,,,Ella Edgmon
+"Oct 07, 2024 04:10:22 pm",CRBN1,Left,Pitching Machine,77,56,49,51.9,8.9,91,-13,88,76,-28,1.83,0.15,15.9,,,,Ella Edgmon
+"Oct 07, 2024 04:10:15 pm",CRBN1,Left,Pitching Machine,77,73,42,57.2,6.7,91,-15,89,85,-34,2.25,0.15,17.6,,,,Ella Edgmon
+"Oct 07, 2024 04:08:37 pm",CRBN1,Left,Pitching Machine,76,61,43,55.4,6.9,90,-12,97,85,-25,2.17,0.14,16.1,,,,Ella Edgmon
+"Oct 07, 2024 04:08:31 pm",CRBN1,Left,Pitching Machine,68,78,47,59.2,8.2,82,1,91,87,-30,2.23,0.16,16.7,,,,Ella Edgmon
+"Oct 07, 2024 04:08:24 pm",CRBN1,Left,Pitching Machine,74,71,44,58.2,7.2,88,-9,88,85,-32,2.3,0.15,16.3,,,,Ella Edgmon
+"Oct 07, 2024 04:08:18 pm",CRBN1,Left,Pitching Machine,77,76,43,57.8,6.8,91,-10,89,86,-33,2.33,0.15,17.5,,,,Ella Edgmon
+"Oct 07, 2024 04:08:11 pm",CRBN1,Left,Pitching Machine,78,60,41,53.6,6.2,92,-19,94,81,-27,2.01,0.15,15.7,,,,Ella Edgmon
+"Oct 07, 2024 04:08:01 pm",CRBN1,Left,Pitching Machine,78,56,39,57.9,5.7,92,-12,89,77,-29,2.31,0.15,17.3,,,,Ella Edgmon
+"Oct 07, 2024 04:07:03 pm",CRBN1,Left,Pitching Machine,78,52,40,57.6,6.0,92,-6,85,75,-30,2.22,0.15,16.7,,,,Ella Edgmon
+"Oct 07, 2024 04:06:55 pm",CRBN1,Left,Pitching Machine,75,62,44,53.7,7.3,89,-15,90,81,-31,2.07,0.14,17.4,,,,Ella Edgmon
+"Oct 07, 2024 04:06:48 pm",CRBN1,Left,Pitching Machine,58,65,36,54.9,4.7,73,12,91,82,-25,1.58,0.19,15.0,,,,Ella Edgmon
+"Oct 07, 2024 04:06:42 pm",CRBN1,Left,Pitching Machine,73,77,44,60.3,7.3,87,2,91,86,-30,2.35,0.16,17.5,,,,Ella Edgmon
+"Oct 07, 2024 04:06:35 pm",CRBN1,Left,Pitching Machine,66,59,39,56.3,5.5,80,-2,100,87,-22,2.02,0.16,16.1,,,,Ella Edgmon
+"Oct 07, 2024 04:04:44 pm",CRBN1,Left,Pitching Machine,73,66,46,59.1,7.7,87,-1,87,83,-29,2.32,0.15,17.6,,,,Ella Edgmon
+"Oct 07, 2024 04:04:38 pm",CRBN1,Left,Pitching Machine,75,77,47,59.1,8.4,89,-7,91,86,-32,2.41,0.15,18.3,,,,Ella Edgmon
+"Oct 07, 2024 04:04:32 pm",CRBN1,Left,Pitching Machine,67,64,42,56.1,6.7,82,-5,98,90,-25,2.06,0.16,16.7,,,,Ella Edgmon
+"Oct 07, 2024 04:04:26 pm",CRBN1,Left,Pitching Machine,68,80,42,61.2,6.5,82,1,90,87,-30,2.36,0.16,18.0,,,,Ella Edgmon
 "Oct 07, 2024 04:04:19 pm",CRBN1,Left,Pitching Machine,80,55,44,55.5,7.1,95,-5,87,76,-26,2.07,0.15,16.8,,,,Ella Edgmon
 "Oct 07, 2024 04:04:14 pm",CRBN1,Left,Pitching Machine,78,61,50,60.9,9.1,92,-1,88,80,-30,2.46,0.15,17.9,,,,Ella Edgmon
+"Oct 07, 2024 04:03:14 pm",CRBN1,Left,Pitching Machine,79,50,48,56.9,8.4,93,-3,83,75,-26,2.12,0.16,16.4,,,,Ella Edgmon
 "Oct 07, 2024 04:03:08 pm",CRBN1,Left,Pitching Machine,68,62,43,62.2,6.9,82,3,85,83,-31,2.4,0.16,17.3,,,,Ella Edgmon
 "Oct 07, 2024 04:03:02 pm",CRBN1,Left,Pitching Machine,80,41,45,54.7,7.4,97,-14,77,68,-26,2.18,0.14,16.6,,,,Ella Edgmon
 "Oct 07, 2024 04:02:56 pm",CRBN1,Left,Pitching Machine,57,78,45,62.4,7.5,72,10,91,87,-29,2.36,0.17,17.6,,,,Ella Edgmon
@@ -790,6 +916,43 @@ Date,Equipment,Handedness,Swing Details,Plane Score,Connection Score,Rotation Sc
 "Aug 26, 2024 04:01:40 pm",CRBN1,Left,Front Toss Underhand,60,73,37,55.5,5.0,74,-7,90,85,-32,2.22,0.14,17.6,,,,Ella Edgmon
 "Aug 26, 2024 03:59:36 pm",CRBN1,Left,Front Toss Underhand,80,45,35,32.0,4.2,96,-12,81,71,-26,0.63,0.17,14.9,,,,Ella Edgmon
 "Aug 26, 2024 03:59:30 pm",CRBN1,Left,Front Toss Underhand,76,53,43,52.6,6.8,90,-14,87,75,-24,2.02,0.14,16.8,,,,Ella Edgmon
+"Oct 20, 2024 03:26:26 pm",CRBN1,Right,Live Pitch,66,50,45,60.7,7.4,80,5,81,77,-37,2.19,0.17,16.9,,,,Gracyn  Tucker
+"Oct 20, 2024 02:50:14 pm",CRBN1,Right,Live Pitch,61,57,43,61.8,7.0,75,8,98,83,-35,2.37,0.16,17.0,,,,Gracyn  Tucker
+"Oct 20, 2024 02:49:53 pm",CRBN1,Right,Live Pitch,59,57,41,61.7,6.1,73,6,85,79,-42,2.34,0.17,16.4,,,,Gracyn  Tucker
+"Oct 20, 2024 02:08:14 pm",CRBN1,Right,Live Pitch,67,71,45,61.9,7.7,81,2,87,86,-39,2.41,0.16,17.3,,,,Gracyn  Tucker
+"Oct 18, 2024 06:58:53 pm",CRBN1,Right,Live Pitch,62,65,34,61.2,3.8,76,-1,83,87,-45,2.36,0.16,16.8,,,,Gracyn  Tucker
+"Oct 18, 2024 06:24:38 pm",CRBN1,Right,Live Pitch,66,75,42,63.7,6.7,80,5,90,86,-42,2.47,0.17,18.7,,,,Gracyn  Tucker
+"Oct 18, 2024 05:49:57 pm",CRBN1,Right,Live Pitch,62,54,40,63.3,5.8,77,7,85,78,-38,2.43,0.17,17.3,,,,Gracyn  Tucker
+"Oct 18, 2024 05:49:38 pm",CRBN1,Right,Live Pitch,68,54,44,62.5,7.1,83,4,83,79,-34,2.37,0.17,17.6,,,,Gracyn  Tucker
+"Oct 18, 2024 05:49:17 pm",CRBN1,Right,Live Pitch,58,57,43,62.1,6.9,73,18,97,82,-28,2.24,0.18,17.0,,,,Gracyn  Tucker
+"Oct 18, 2024 05:48:24 pm",CRBN1,Right,Live Pitch,48,40,25,48.6,0.9,63,22,89,55,0,0.93,0.26,15.9,,,,Gracyn  Tucker
+"Oct 18, 2024 05:11:29 pm",CRBN1,Right,Live Pitch,64,61,45,62.3,7.6,78,3,87,80,-32,2.48,0.16,17.2,,,,Gracyn  Tucker
+"Oct 16, 2024 03:08:59 pm",CRBN1,Right,Live Pitch,69,54,48,62.3,8.7,83,13,83,80,-34,2.36,0.17,18.1,,,,Gracyn  Tucker
+"Oct 16, 2024 03:08:37 pm",CRBN1,Right,Live Pitch,64,58,51,66.4,9.4,79,15,86,80,-36,2.74,0.16,18.6,,,,Gracyn  Tucker
+"Oct 16, 2024 03:08:27 pm",CRBN1,Right,Live Pitch,63,62,51,64.5,9.6,77,17,87,81,-35,2.56,0.17,18.7,,,,Gracyn  Tucker
+"Oct 16, 2024 03:08:17 pm",CRBN1,Right,Live Pitch,64,53,51,69.5,9.5,79,19,83,78,-33,2.9,0.17,18.6,,,,Gracyn  Tucker
+"Oct 16, 2024 03:08:05 pm",CRBN1,Right,Live Pitch,59,62,50,65.1,9.2,74,15,87,81,-27,2.67,0.16,18.3,,,,Gracyn  Tucker
+"Oct 16, 2024 02:59:18 pm",CRBN1,Right,Live Pitch,69,56,47,62.7,8.3,83,15,83,81,-29,2.38,0.17,17.4,,,,Gracyn  Tucker
+"Oct 16, 2024 02:59:06 pm",CRBN1,Right,Live Pitch,68,48,56,61.8,11.2,82,16,79,76,-24,2.35,0.17,17.2,,,,Gracyn  Tucker
+"Oct 16, 2024 02:58:40 pm",CRBN1,Right,Live Pitch,71,47,54,60.4,10.4,85,12,79,75,-23,2.3,0.16,16.4,,,,Gracyn  Tucker
+"Oct 16, 2024 02:58:21 pm",CRBN1,Right,Live Pitch,62,55,44,64.1,7.1,77,21,86,77,-25,2.43,0.17,17.5,,,,Gracyn  Tucker
+"Oct 16, 2024 02:58:09 pm",CRBN1,Right,Live Pitch,74,48,49,63.3,8.8,88,12,78,78,-32,2.49,0.16,18.0,,,,Gracyn  Tucker
+"Oct 16, 2024 02:57:55 pm",CRBN1,Right,Live Pitch,72,52,60,62.7,12.4,86,12,81,80,-33,2.47,0.16,18.5,,,,Gracyn  Tucker
+"Oct 16, 2024 02:53:27 pm",CRBN1,Right,Live Pitch,72,53,55,63.4,10.7,86,15,82,80,-30,2.47,0.17,17.9,,,,Gracyn  Tucker
+"Oct 16, 2024 02:53:17 pm",CRBN1,Right,Live Pitch,53,53,35,60.5,4.1,68,22,88,74,-26,1.94,0.19,17.4,,,,Gracyn  Tucker
+"Oct 16, 2024 02:53:03 pm",CRBN1,Right,Live Pitch,69,48,55,62.9,11.0,83,15,81,74,-26,2.38,0.17,17.0,,,,Gracyn  Tucker
+"Oct 16, 2024 02:52:44 pm",CRBN1,Right,Live Pitch,53,61,30,62.6,2.5,68,18,93,81,-30,2.17,0.18,16.5,,,,Gracyn  Tucker
+"Oct 16, 2024 02:52:30 pm",CRBN1,Right,Live Pitch,67,53,53,61.2,10.2,82,11,82,79,-33,2.3,0.17,17.1,,,,Gracyn  Tucker
+"Oct 16, 2024 02:48:46 pm",CRBN1,Right,Live Pitch,55,67,40,64.2,5.9,69,17,91,83,-31,2.42,0.17,18.0,,,,Gracyn  Tucker
+"Oct 16, 2024 02:48:38 pm",CRBN1,Right,Live Pitch,70,48,45,61.7,7.6,84,12,79,77,-35,2.26,0.17,18.4,,,,Gracyn  Tucker
+"Oct 16, 2024 02:48:31 pm",CRBN1,Right,Live Pitch,60,64,39,63.8,5.6,75,17,92,82,-28,2.36,0.18,18.0,,,,Gracyn  Tucker
+"Oct 16, 2024 02:48:22 pm",CRBN1,Right,Live Pitch,61,59,41,62.4,6.1,76,15,88,79,-28,2.28,0.17,17.3,,,,Gracyn  Tucker
+"Oct 16, 2024 02:48:11 pm",CRBN1,Right,Live Pitch,70,50,54,63.1,10.4,84,7,80,78,-32,2.57,0.16,17.4,,,,Gracyn  Tucker
+"Oct 15, 2024 02:47:56 pm",CRBN1,Right,Live Pitch,61,62,39,61.9,5.6,76,-2,95,83,-38,2.54,0.15,17.0,,,,Gracyn  Tucker
+"Oct 15, 2024 01:34:51 pm",CRBN1,Right,Live Pitch,69,44,45,61.3,7.4,84,12,78,72,-29,2.31,0.17,16.8,,,,Gracyn  Tucker
+"Oct 15, 2024 01:03:23 pm",CRBN1,Right,Live Pitch,66,53,38,59.5,5.1,80,14,89,73,-18,1.96,0.18,15.8,,,,Gracyn  Tucker
+"Oct 15, 2024 12:32:00 pm",CRBN1,Right,Live Pitch,60,66,46,62.2,8.0,74,15,89,83,-33,2.24,0.18,17.6,,,,Gracyn  Tucker
+"Oct 15, 2024 12:31:19 pm",CRBN1,Right,Live Pitch,20,32,39,52.0,5.4,35,27,88,38,7,1.33,0.21,17.1,,,,Gracyn  Tucker
 "Oct 11, 2024 03:18:36 pm",CRBN1,Right,Live Pitch,49,68,37,61.2,4.9,64,4,91,84,-44,2.33,0.16,17.3,,,,Gracyn  Tucker
 "Oct 11, 2024 03:00:40 pm",CRBN1,Right,Live Pitch,58,67,35,61.4,4.4,72,7,97,90,-43,2.18,0.18,18.4,,,,Gracyn  Tucker
 "Oct 11, 2024 02:52:17 pm",CRBN1,Right,Live Pitch,57,60,39,62.6,5.6,72,2,97,84,-35,2.47,0.16,16.7,,,,Gracyn  Tucker
@@ -1651,6 +1814,38 @@ Date,Equipment,Handedness,Swing Details,Plane Score,Connection Score,Rotation Sc
 "Aug 26, 2024 03:05:48 pm",CRBN1,Left,Front Toss Underhand,59,48,52,60.9,9.8,74,13,107,98,-30,2.1,0.18,18.9,,,,Jayden Gailey
 "Aug 26, 2024 03:05:42 pm",CRBN1,Left,Front Toss Underhand,68,78,56,60.5,11.2,83,13,93,92,-31,2.1,0.18,18.6,,,,Jayden Gailey
 "Aug 26, 2024 03:05:29 pm",CRBN1,Left,Front Toss Underhand,69,56,57,62.4,11.5,84,13,99,82,-20,2.21,0.18,18.0,,,,Jayden Gailey
+"Oct 20, 2024 04:45:55 pm",CRBN1,Right,Live Pitch,22,36,52,59.0,9.9,38,14,125,99,-30,1.99,0.18,16.9,,,,Bri Condon
+"Oct 20, 2024 04:45:35 pm",CRBN1,Right,Live Pitch,33,40,51,64.3,9.5,49,10,121,97,-36,2.51,0.17,18.5,,,,Bri Condon
+"Oct 20, 2024 03:49:45 pm",CRBN1,Right,Live Pitch,39,45,55,60.4,11.0,55,12,116,91,-32,2.33,0.16,18.1,,,,Bri Condon
+"Oct 18, 2024 06:10:40 pm",CRBN1,Right,Live Pitch,42,51,53,60.0,10.2,57,12,107,86,-30,1.93,0.19,18.3,,,,Bri Condon
+"Oct 18, 2024 05:37:27 pm",CRBN1,Right,Live Pitch,20,41,42,62.4,6.5,36,15,123,91,-23,2.14,0.19,17.6,,,,Bri Condon
+"Oct 18, 2024 05:36:41 pm",CRBN1,Right,Live Pitch,25,40,58,62.5,11.9,41,16,125,93,-25,2.21,0.18,17.2,,,,Bri Condon
+"Oct 18, 2024 05:36:20 pm",CRBN1,Right,Live Pitch,23,45,54,61.0,10.6,39,12,116,93,-38,2.08,0.18,19.7,,,,Bri Condon
+"Oct 16, 2024 11:59:42 am",CRBN1,Right,Live Pitch,20,39,39,60.0,5.4,31,16,125,93,-28,1.86,0.2,17.9,,,,Bri Condon
+"Oct 16, 2024 11:59:35 am",CRBN1,Right,Live Pitch,37,46,51,56.5,9.5,53,13,114,94,-33,1.81,0.18,17.5,,,,Bri Condon
+"Oct 16, 2024 11:59:22 am",CRBN1,Right,Live Pitch,20,42,52,58.7,10.0,32,21,120,91,-30,1.79,0.2,18.2,,,,Bri Condon
+"Oct 16, 2024 11:59:14 am",CRBN1,Right,Live Pitch,20,45,47,58.4,8.2,33,20,117,87,-31,1.72,0.2,19.5,,,,Bri Condon
+"Oct 16, 2024 11:59:04 am",CRBN1,Right,Live Pitch,25,46,53,58.9,10.2,41,23,112,85,-22,1.84,0.19,16.6,,,,Bri Condon
+"Oct 16, 2024 11:56:04 am",CRBN1,Right,Live Pitch,20,41,37,62.0,4.8,32,25,120,84,-22,2.0,0.2,17.6,,,,Bri Condon
+"Oct 16, 2024 11:55:55 am",CRBN1,Right,Live Pitch,22,41,45,56.8,7.5,38,22,117,82,-21,1.54,0.21,17.6,,,,Bri Condon
+"Oct 16, 2024 11:55:40 am",CRBN1,Right,Live Pitch,20,42,43,61.2,6.8,31,20,121,88,-30,1.97,0.19,18.4,,,,Bri Condon
+"Oct 16, 2024 11:55:32 am",CRBN1,Right,Live Pitch,20,39,49,59.3,9.0,36,25,120,80,-13,1.83,0.2,16.1,,,,Bri Condon
+"Oct 16, 2024 11:55:23 am",CRBN1,Right,Live Pitch,20,41,48,59.0,8.7,34,21,121,86,-21,1.76,0.2,17.2,,,,Bri Condon
+"Oct 16, 2024 11:51:35 am",CRBN1,Right,Live Pitch,20,46,40,60.9,5.9,31,22,115,89,-33,1.99,0.19,16.6,,,,Bri Condon
+"Oct 16, 2024 11:51:25 am",CRBN1,Right,Live Pitch,20,44,45,58.3,7.6,31,20,116,86,-20,1.79,0.19,16.9,,,,Bri Condon
+"Oct 16, 2024 11:51:16 am",CRBN1,Right,Live Pitch,25,48,48,56.8,8.7,41,17,113,91,-29,1.63,0.2,17.3,,,,Bri Condon
+"Oct 16, 2024 11:51:02 am",CRBN1,Right,Live Pitch,23,43,36,62.4,4.5,39,17,120,89,-29,2.07,0.19,18.0,,,,Bri Condon
+"Oct 16, 2024 11:50:54 am",CRBN1,Right,Live Pitch,29,39,38,56.9,5.3,45,22,124,84,-26,1.59,0.21,18.3,,,,Bri Condon
+"Oct 16, 2024 11:50:26 am",CRBN1,Right,Live Pitch,26,47,44,50.1,7.1,42,19,113,88,-25,1.28,0.2,14.9,,,,Bri Condon
+"Oct 15, 2024 02:13:39 pm",CRBN1,Right,Live Pitch,42,41,44,62.4,7.1,57,9,121,94,-36,2.26,0.18,18.9,,,,Bri Condon
+"Oct 15, 2024 02:13:16 pm",CRBN1,Right,Live Pitch,20,37,33,57.2,3.4,34,12,128,95,-24,1.67,0.2,16.8,,,,Bri Condon
+"Oct 15, 2024 02:12:54 pm",CRBN1,Right,Live Pitch,39,39,56,58.3,11.1,55,28,111,73,-16,1.59,0.22,19.5,,,,Bri Condon
+"Oct 15, 2024 02:12:04 pm",CRBN1,Right,Live Pitch,21,39,53,60.7,10.2,38,12,125,91,-24,2.06,0.18,17.8,,,,Bri Condon
+"Oct 15, 2024 02:11:35 pm",CRBN1,Right,Live Pitch,29,47,49,53.6,8.8,44,12,111,85,-29,1.54,0.19,14.1,,,,Bri Condon
+"Oct 15, 2024 02:11:14 pm",CRBN1,Right,Live Pitch,53,53,51,58.2,9.4,68,2,107,92,-38,1.92,0.18,17.7,,,,Bri Condon
+"Oct 15, 2024 01:49:05 pm",CRBN1,Right,Live Pitch,20,46,48,54.4,8.5,36,11,115,90,-33,1.48,0.2,17.4,,,,Bri Condon
+"Oct 11, 2024 02:10:14 pm",CRBN1,Right,Live Pitch,32,40,53,60.4,10.1,48,6,120,98,-35,2.04,0.18,18.8,,,,Bri Condon
+"Oct 11, 2024 01:30:37 pm",CRBN1,Right,Live Pitch,29,41,45,63.8,7.5,45,19,116,80,-24,2.14,0.19,17.5,,,,Bri Condon
 "Oct 09, 2024 11:35:20 am",CRBN1,Right,Pitching Machine,55,43,50,52.5,9.2,70,15,119,89,-27,1.65,0.17,16.2,,,,Bri Condon
 "Oct 09, 2024 11:34:33 am",CRBN1,Right,Pitching Machine,71,50,44,56.1,7.3,85,5,110,88,-36,1.91,0.17,16.4,,,,Bri Condon
 "Oct 09, 2024 11:34:01 am",CRBN1,Right,Pitching Machine,28,43,45,56.6,7.4,44,13,119,89,-27,1.6,0.2,16.3,,,,Bri Condon
@@ -1667,6 +1862,8 @@ Date,Equipment,Handedness,Swing Details,Plane Score,Connection Score,Rotation Sc
 "Oct 09, 2024 11:28:24 am",CRBN1,Right,Pitching Machine,44,44,46,53.1,8.0,59,17,117,89,-27,1.64,0.18,17.5,,,,Bri Condon
 "Oct 09, 2024 11:28:00 am",CRBN1,Right,Pitching Machine,34,50,42,54.3,6.4,50,22,93,71,-27,1.43,0.21,15.0,,,,Bri Condon
 "Oct 09, 2024 11:27:39 am",CRBN1,Right,Pitching Machine,27,41,36,59.3,4.7,43,20,114,78,-22,1.77,0.2,16.0,,,,Bri Condon
+"Oct 09, 2024 11:23:42 am",CRBN1,Right,Live Pitch,30,48,40,57.2,5.8,46,18,111,87,-27,1.59,0.21,15.2,,,,Bri Condon
+"Oct 09, 2024 11:02:08 am",CRBN1,Right,Live Pitch,64,51,40,57.8,5.9,78,12,109,88,-32,1.94,0.18,16.9,,,,Bri Condon
 "Oct 07, 2024 12:10:50 pm",CRBN1,Right,Pitching Machine,65,51,38,54.0,5.3,79,-8,108,91,-44,1.79,0.17,16.0,,,,Bri Condon
 "Oct 07, 2024 12:10:44 pm",CRBN1,Right,Pitching Machine,21,38,41,59.4,6.1,37,13,125,97,-42,2.02,0.18,16.5,,,,Bri Condon
 "Oct 07, 2024 12:10:38 pm",CRBN1,Right,Pitching Machine,32,41,39,56.9,5.6,48,10,119,96,-45,1.84,0.18,16.4,,,,Bri Condon
@@ -2085,6 +2282,63 @@ Date,Equipment,Handedness,Swing Details,Plane Score,Connection Score,Rotation Sc
 "Aug 26, 2024 04:00:26 pm",CRBN1,Right,Front Toss Underhand,48,49,38,54.1,5.3,63,14,106,83,-29,1.57,0.19,14.8,,,,Bri Condon
 "Aug 26, 2024 04:00:22 pm",CRBN1,Right,Front Toss Underhand,32,44,42,59.0,6.6,48,16,115,84,-26,1.93,0.18,15.1,,,,Bri Condon
 "Aug 26, 2024 04:00:16 pm",CRBN1,Right,Front Toss Underhand,23,43,34,60.6,4.0,39,10,117,94,-40,2.15,0.17,16.2,,,,Bri Condon
+"Oct 20, 2024 04:13:02 pm",CRBN1,Right,Live Pitch,61,52,60,66.1,11.4,74,17,91,73,-16,2.75,0.16,18.6,,,,Grace Connelley
+"Oct 20, 2024 04:12:13 pm",CRBN1,Right,Live Pitch,71,54,57,64.6,10.4,84,1,83,79,-30,2.91,0.15,18.1,,,,Grace Connelley
+"Oct 20, 2024 04:11:48 pm",CRBN1,Right,Live Pitch,36,44,35,63.7,2.8,49,31,105,75,-24,2.01,0.21,16.4,,,,Grace Connelley
+"Oct 20, 2024 03:50:07 pm",CRBN1,Right,Live Pitch,28,37,33,56.9,2.2,40,33,107,65,-7,1.48,0.22,14.4,,,,Grace Connelley
+"Oct 20, 2024 03:31:11 pm",CRBN1,Right,Live Pitch,71,50,69,67.3,14.2,85,11,82,76,-24,2.96,0.16,19.4,,,,Grace Connelley
+"Oct 20, 2024 02:55:45 pm",CRBN1,Right,Live Pitch,69,80,67,66.1,13.7,82,8,90,88,-25,2.9,0.15,19.6,,,,Grace Connelley
+"Oct 20, 2024 02:54:05 pm",CRBN1,Right,Live Pitch,72,49,71,61.2,15.0,86,10,78,78,-30,2.54,0.15,18.8,,,,Grace Connelley
+"Oct 20, 2024 02:19:37 pm",CRBN1,Right,Live Pitch,76,58,80,68.8,21.2,89,1,86,79,-33,3.22,0.15,18.9,,,,Grace Connelley
+"Oct 20, 2024 02:19:02 pm",CRBN1,Right,Live Pitch,40,42,33,60.5,2.3,52,39,93,59,-17,1.66,0.22,15.0,,,,Grace Connelley
+"Oct 20, 2024 02:18:51 pm",CRBN1,Right,Live Pitch,29,41,32,57.0,2.0,41,41,96,61,-21,1.52,0.22,14.8,,,,Grace Connelley
+"Oct 20, 2024 02:10:03 pm",CRBN1,Right,Live Pitch,31,41,28,43.0,0.7,43,38,94,59,-9,0.61,0.31,12.9,,,,Grace Connelley
+"Oct 20, 2024 02:08:39 pm",CRBN1,Right,Live Pitch,26,47,31,51.6,1.4,38,33,97,72,-28,1.11,0.25,13.9,,,,Grace Connelley
+"Oct 18, 2024 06:10:03 pm",CRBN1,Right,Live Pitch,77,38,64,62.7,12.5,91,13,70,70,-16,2.44,0.16,18.6,,,,Grace Connelley
+"Oct 18, 2024 06:08:45 pm",CRBN1,Right,Live Pitch,66,57,47,68.7,6.9,79,13,93,77,-20,2.87,0.17,17.9,,,,Grace Connelley
+"Oct 18, 2024 05:35:33 pm",CRBN1,Right,Live Pitch,75,53,76,61.3,16.5,88,3,83,79,-30,2.59,0.15,19.2,,,,Grace Connelley
+"Oct 18, 2024 05:34:34 pm",CRBN1,Right,Live Pitch,32,37,37,57.6,3.7,45,36,101,58,-7,1.68,0.2,15.7,,,,Grace Connelley
+"Oct 18, 2024 05:34:26 pm",CRBN1,Right,Live Pitch,21,35,36,58.4,3.4,33,39,103,56,-4,1.55,0.22,15.3,,,,Grace Connelley
+"Oct 18, 2024 05:21:53 pm",CRBN1,Right,Live Pitch,43,41,38,58.3,4.1,56,33,90,58,-8,1.55,0.22,15.3,,,,Grace Connelley
+"Oct 18, 2024 05:21:44 pm",CRBN1,Right,Live Pitch,20,41,41,50.9,5.1,30,26,101,65,-4,1.2,0.22,14.9,,,,Grace Connelley
+"Oct 16, 2024 03:07:46 pm",CRBN1,Right,Live Pitch,76,49,74,67.0,16.1,90,12,79,77,-24,3.05,0.15,19.3,,,,Grace Connelley
+"Oct 16, 2024 03:07:29 pm",CRBN1,Right,Live Pitch,73,51,72,68.2,15.3,87,15,80,79,-20,3.08,0.15,19.7,,,,Grace Connelley
+"Oct 16, 2024 03:07:18 pm",CRBN1,Right,Live Pitch,71,49,76,68.7,16.7,85,14,81,75,-27,3.25,0.15,19.1,,,,Grace Connelley
+"Oct 16, 2024 03:07:09 pm",CRBN1,Right,Live Pitch,70,44,78,69.3,17.5,84,18,79,71,-20,3.31,0.15,18.9,,,,Grace Connelley
+"Oct 16, 2024 03:06:57 pm",CRBN1,Right,Live Pitch,68,51,80,69.0,18.8,81,17,84,75,-21,3.19,0.15,19.3,,,,Grace Connelley
+"Oct 16, 2024 03:05:25 pm",CRBN1,Right,Live Pitch,67,58,73,66.6,15.6,80,18,88,78,-11,2.79,0.16,19.0,,,,Grace Connelley
+"Oct 16, 2024 03:05:14 pm",CRBN1,Right,Live Pitch,73,47,76,65.8,16.7,87,15,79,75,-22,2.94,0.15,18.7,,,,Grace Connelley
+"Oct 16, 2024 03:04:54 pm",CRBN1,Right,Live Pitch,70,58,80,68.5,18.0,84,17,86,79,-17,3.03,0.16,19.5,,,,Grace Connelley
+"Oct 16, 2024 03:04:39 pm",CRBN1,Right,Live Pitch,70,50,74,68.8,16.1,84,15,81,77,-28,3.17,0.15,19.8,,,,Grace Connelley
+"Oct 16, 2024 03:04:28 pm",CRBN1,Right,Live Pitch,66,58,80,69.3,20.8,79,16,87,79,-21,3.31,0.15,19.6,,,,Grace Connelley
+"Oct 16, 2024 03:02:47 pm",CRBN1,Right,Live Pitch,66,51,79,70.6,17.8,79,19,86,73,-20,3.21,0.16,19.3,,,,Grace Connelley
+"Oct 16, 2024 03:02:35 pm",CRBN1,Right,Live Pitch,70,52,68,68.1,14.1,83,17,83,78,-27,2.88,0.16,19.4,,,,Grace Connelley
+"Oct 16, 2024 03:02:23 pm",CRBN1,Right,Live Pitch,70,55,80,67.8,18.2,83,16,83,80,-23,3.04,0.15,19.3,,,,Grace Connelley
+"Oct 16, 2024 03:02:10 pm",CRBN1,Right,Live Pitch,58,49,74,69.2,15.9,72,22,84,73,-26,3.05,0.16,19.2,,,,Grace Connelley
+"Oct 16, 2024 03:01:57 pm",CRBN1,Right,Live Pitch,73,46,70,69.8,14.8,87,17,81,72,-19,3.11,0.16,19.4,,,,Grace Connelley
+"Oct 16, 2024 02:56:28 pm",CRBN1,Right,Live Pitch,67,41,70,68.1,14.5,81,20,77,67,-12,2.92,0.16,19.0,,,,Grace Connelley
+"Oct 16, 2024 02:56:15 pm",CRBN1,Right,Live Pitch,60,51,76,68.4,16.7,74,23,87,72,-15,2.91,0.16,19.0,,,,Grace Connelley
+"Oct 16, 2024 02:56:02 pm",CRBN1,Right,Live Pitch,77,49,67,66.0,13.8,91,12,80,76,-17,2.85,0.16,18.4,,,,Grace Connelley
+"Oct 16, 2024 02:55:51 pm",CRBN1,Right,Live Pitch,70,51,80,66.8,20.3,83,17,83,76,-20,2.95,0.15,19.0,,,,Grace Connelley
+"Oct 16, 2024 02:55:38 pm",CRBN1,Right,Live Pitch,77,46,70,68.5,14.6,91,12,78,74,-27,3.1,0.15,19.3,,,,Grace Connelley
+"Oct 16, 2024 02:51:02 pm",CRBN1,Right,Live Pitch,68,57,72,69.1,15.1,81,18,86,79,-27,3.04,0.16,19.9,,,,Grace Connelley
+"Oct 16, 2024 02:50:50 pm",CRBN1,Right,Live Pitch,69,50,64,68.2,12.8,83,12,79,79,-37,3.04,0.16,20.2,,,,Grace Connelley
+"Oct 16, 2024 02:50:32 pm",CRBN1,Right,Live Pitch,65,49,65,70.2,12.8,79,17,83,73,-24,2.99,0.17,19.7,,,,Grace Connelley
+"Oct 16, 2024 02:50:20 pm",CRBN1,Right,Live Pitch,64,58,76,67.4,16.5,77,16,86,79,-28,2.82,0.16,20.1,,,,Grace Connelley
+"Oct 16, 2024 02:50:11 pm",CRBN1,Right,Live Pitch,57,52,76,65.9,16.7,70,19,85,75,-15,2.55,0.17,20.1,,,,Grace Connelley
+"Oct 16, 2024 02:46:33 pm",CRBN1,Right,Live Pitch,69,52,73,66.8,15.5,82,13,82,78,-26,2.74,0.17,20.3,,,,Grace Connelley
+"Oct 16, 2024 02:46:14 pm",CRBN1,Right,Live Pitch,70,47,69,69.4,14.4,84,15,80,74,-20,3.11,0.16,19.3,,,,Grace Connelley
+"Oct 16, 2024 02:46:05 pm",CRBN1,Right,Live Pitch,59,54,65,66.1,13.1,73,15,87,76,-22,2.62,0.17,18.9,,,,Grace Connelley
+"Oct 16, 2024 02:45:52 pm",CRBN1,Right,Live Pitch,71,50,74,69.6,16.1,85,20,84,73,-18,3.09,0.16,19.4,,,,Grace Connelley
+"Oct 16, 2024 02:45:39 pm",CRBN1,Right,Live Pitch,76,50,76,65.4,16.6,90,12,80,79,-21,2.95,0.15,19.0,,,,Grace Connelley
+"Oct 15, 2024 02:59:30 pm",CRBN1,Right,Live Pitch,74,49,55,61.8,9.5,88,13,84,72,-17,2.35,0.17,17.6,,,,Grace Connelley
+"Oct 15, 2024 02:29:32 pm",CRBN1,Right,Live Pitch,74,66,73,66.4,15.6,88,7,86,85,-36,2.78,0.16,19.3,,,,Grace Connelley
+"Oct 15, 2024 01:56:49 pm",CRBN1,Right,Live Pitch,68,71,53,67.5,9.0,81,6,86,86,-37,2.94,0.16,18.7,,,,Grace Connelley
+"Oct 15, 2024 01:09:32 pm",CRBN1,Right,Live Pitch,78,46,74,64.7,16.1,92,6,78,75,-29,2.74,0.16,18.6,,,,Grace Connelley
+"Oct 15, 2024 12:44:01 pm",CRBN1,Right,Live Pitch,70,46,65,63.0,13.1,83,18,80,73,-29,2.22,0.18,18.4,,,,Grace Connelley
+"Oct 11, 2024 03:03:18 pm",CRBN1,Right,Live Pitch,70,72,67,65.5,13.6,84,1,86,86,-38,2.84,0.15,19.6,,,,Grace Connelley
+"Oct 11, 2024 02:34:15 pm",CRBN1,Right,Live Pitch,65,66,63,62.7,12.3,79,11,88,83,-29,2.6,0.15,18.8,,,,Grace Connelley
+"Oct 11, 2024 01:59:36 pm",CRBN1,Right,Live Pitch,80,48,72,62.0,15.5,95,-7,81,74,-30,2.72,0.14,18.1,,,,Grace Connelley
 "Oct 11, 2024 01:59:36 pm",CRBN1,Right,Live Pitch,80,48,72,62.0,15.5,95,-7,81,74,-30,2.72,0.14,18.1,,,,Grace Connelley
 "Oct 09, 2024 02:14:24 pm",CRBN1,Right,General Practice,64,74,67,62.7,13.8,78,10,94,92,-31,2.6,0.15,18.2,,,,Grace Connelley
 "Oct 09, 2024 02:14:07 pm",CRBN1,Right,General Practice,55,42,76,60.4,16.7,68,20,82,64,-14,2.19,0.17,17.7,,,,Grace Connelley
@@ -2518,6 +2772,64 @@ Date,Equipment,Handedness,Swing Details,Plane Score,Connection Score,Rotation Sc
 "Aug 26, 2024 03:04:18 pm",Ghost,Right,Front Toss Underhand,76,55,72,52.1,15.3,90,-9,99,82,-19,1.95,0.14,18.1,,,,Grace Connelley
 "Aug 26, 2024 03:04:11 pm",Ghost,Right,Front Toss Underhand,72,77,71,53.7,15.1,86,-3,94,89,-31,1.91,0.15,17.6,,,,Grace Connelley
 "Aug 26, 2024 03:04:05 pm",Ghost,Right,Front Toss Underhand,69,60,68,55.5,13.8,83,-6,89,79,-24,2.09,0.14,16.8,,,,Grace Connelley
+"Oct 20, 2024 04:35:00 pm",CRBN1,Left,Live Pitch,57,60,59,64.5,10.9,70,11,95,82,-32,2.56,0.17,17.4,,,,Addison Leschber
+"Oct 20, 2024 04:34:40 pm",CRBN1,Left,Live Pitch,60,58,61,62.6,11.6,73,8,101,87,-30,2.44,0.16,17.3,,,,Addison Leschber
+"Oct 20, 2024 03:48:59 pm",CRBN1,Left,Live Pitch,60,53,44,64.7,6.0,74,9,106,93,-31,2.45,0.17,17.6,,,,Addison Leschber
+"Oct 18, 2024 07:14:13 pm",CRBN1,Left,Live Pitch,46,43,49,60.0,7.6,58,5,115,97,-35,2.09,0.18,15.4,,,,Addison Leschber
+"Oct 18, 2024 06:25:26 pm",CRBN1,Left,Live Pitch,48,51,46,60.8,6.7,61,18,108,90,-24,2.07,0.18,17.3,,,,Addison Leschber
+"Oct 18, 2024 05:51:40 pm",CRBN1,Left,Live Pitch,66,61,48,60.8,7.2,80,7,95,83,-23,2.24,0.17,16.2,,,,Addison Leschber
+"Oct 18, 2024 05:51:18 pm",CRBN1,Left,Live Pitch,55,57,53,63.2,9.0,68,14,97,82,-25,2.4,0.17,17.1,,,,Addison Leschber
+"Oct 18, 2024 05:50:31 pm",CRBN1,Left,Live Pitch,67,57,55,61.4,9.6,81,9,99,83,-32,2.31,0.17,16.6,,,,Addison Leschber
+"Oct 18, 2024 05:19:17 pm",CRBN1,Left,Live Pitch,62,74,51,62.9,8.4,75,1,88,86,-43,2.4,0.17,18.2,,,,Addison Leschber
+"Oct 18, 2024 05:18:56 pm",CRBN1,Left,Live Pitch,71,58,58,59.4,10.7,84,4,101,87,-31,2.25,0.16,16.4,,,,Addison Leschber
+"Oct 18, 2024 05:18:17 pm",CRBN1,Left,Live Pitch,54,53,53,62.8,8.9,67,9,107,92,-37,2.26,0.18,17.5,,,,Addison Leschber
+"Oct 16, 2024 03:16:14 pm",CRBN1,Left,Live Pitch,44,44,51,65.0,8.2,56,24,117,87,-26,2.42,0.18,17.3,,,,Addison Leschber
+"Oct 16, 2024 03:15:55 pm",CRBN1,Left,Live Pitch,45,47,52,63.2,8.6,58,18,113,89,-29,2.26,0.18,16.0,,,,Addison Leschber
+"Oct 16, 2024 03:15:55 pm",CRBN1,Left,Live Pitch,45,47,52,63.2,8.6,58,18,113,89,-29,2.26,0.18,16.0,,,,Addison Leschber
+"Oct 16, 2024 03:15:48 pm",CRBN1,Left,Live Pitch,55,53,56,64.0,9.8,68,12,106,91,-34,2.46,0.17,17.0,,,,Addison Leschber
+"Oct 16, 2024 03:15:41 pm",CRBN1,Left,Live Pitch,54,57,58,62.6,10.7,67,14,100,84,-28,2.38,0.17,16.7,,,,Addison Leschber
+"Oct 16, 2024 03:15:34 pm",CRBN1,Left,Live Pitch,43,46,53,64.2,8.9,56,16,115,91,-26,2.39,0.18,16.3,,,,Addison Leschber
+"Oct 16, 2024 03:14:07 pm",CRBN1,Left,Live Pitch,38,43,47,61.2,7.0,50,19,119,93,-25,2.08,0.18,15.5,,,,Addison Leschber
+"Oct 16, 2024 03:13:59 pm",CRBN1,Left,Live Pitch,53,58,57,61.3,10.5,66,16,102,87,-30,2.11,0.18,16.6,,,,Addison Leschber
+"Oct 16, 2024 03:13:48 pm",CRBN1,Left,Live Pitch,44,46,54,62.1,9.4,56,17,115,90,-26,2.21,0.18,16.2,,,,Addison Leschber
+"Oct 16, 2024 03:13:41 pm",CRBN1,Left,Live Pitch,46,48,51,61.8,8.3,58,18,112,89,-26,2.19,0.18,15.9,,,,Addison Leschber
+"Oct 16, 2024 03:13:34 pm",CRBN1,Left,Live Pitch,47,47,52,63.2,8.8,60,12,111,95,-33,2.4,0.17,16.8,,,,Addison Leschber
+"Oct 16, 2024 03:12:37 pm",CRBN1,Left,Live Pitch,49,51,49,64.4,7.5,62,20,109,88,-31,2.35,0.18,17.3,,,,Addison Leschber
+"Oct 16, 2024 03:12:26 pm",CRBN1,Left,Live Pitch,55,52,55,62.5,9.6,67,9,107,91,-36,2.32,0.17,16.5,,,,Addison Leschber
+"Oct 16, 2024 03:12:18 pm",CRBN1,Left,Live Pitch,39,43,52,61.7,8.7,51,21,120,90,-23,2.18,0.18,15.7,,,,Addison Leschber
+"Oct 16, 2024 03:12:12 pm",CRBN1,Left,Live Pitch,48,50,50,64.0,8.0,61,19,109,87,-31,2.3,0.18,16.9,,,,Addison Leschber
+"Oct 16, 2024 03:06:29 pm",CRBN1,Right,Live Pitch,66,61,48,62.7,7.2,80,17,87,80,-34,2.39,0.17,17.6,,,,Addison Leschber
+"Oct 16, 2024 03:06:18 pm",CRBN1,Right,Live Pitch,63,53,52,63.5,8.6,77,19,86,76,-21,2.45,0.17,17.0,,,,Addison Leschber
+"Oct 16, 2024 03:06:10 pm",CRBN1,Right,Live Pitch,69,52,52,64.0,8.7,82,16,82,78,-33,2.52,0.17,17.8,,,,Addison Leschber
+"Oct 16, 2024 03:05:55 pm",CRBN1,Right,Live Pitch,70,62,62,62.2,11.9,84,11,85,83,-32,2.35,0.17,17.6,,,,Addison Leschber
+"Oct 16, 2024 03:05:37 pm",CRBN1,Right,Live Pitch,69,59,56,63.8,9.9,83,15,85,81,-28,2.53,0.16,18.0,,,,Addison Leschber
+"Oct 16, 2024 03:03:41 pm",CRBN1,Right,Live Pitch,65,58,53,63.2,8.8,78,15,86,80,-29,2.49,0.16,17.2,,,,Addison Leschber
+"Oct 16, 2024 03:03:32 pm",CRBN1,Right,Live Pitch,66,61,56,63.3,9.8,79,14,87,81,-29,2.46,0.17,17.5,,,,Addison Leschber
+"Oct 16, 2024 03:03:19 pm",CRBN1,Right,Live Pitch,68,52,52,62.4,8.7,82,14,83,77,-24,2.39,0.17,16.9,,,,Addison Leschber
+"Oct 16, 2024 03:03:13 pm",CRBN1,Right,Live Pitch,58,62,49,62.9,7.5,71,19,92,81,-26,2.22,0.18,17.5,,,,Addison Leschber
+"Oct 16, 2024 03:02:59 pm",CRBN1,Right,Live Pitch,67,59,55,62.1,9.7,80,14,86,80,-27,2.31,0.17,17.8,,,,Addison Leschber
+"Oct 16, 2024 03:01:06 pm",CRBN1,Left,Live Pitch,35,45,50,63.3,7.9,47,20,116,91,-23,2.2,0.19,15.3,,,,Addison Leschber
+"Oct 16, 2024 03:00:49 pm",CRBN1,Left,Live Pitch,24,41,47,62.0,7.1,36,23,123,91,-23,2.11,0.19,15.9,,,,Addison Leschber
+"Oct 16, 2024 03:00:29 pm",CRBN1,Left,Live Pitch,44,57,52,63.2,8.5,57,18,99,84,-33,2.34,0.17,17.2,,,,Addison Leschber
+"Oct 16, 2024 02:59:59 pm",CRBN1,Left,Live Pitch,43,52,51,62.5,8.4,56,19,105,85,-33,2.24,0.18,17.1,,,,Addison Leschber
+"Oct 16, 2024 02:59:44 pm",CRBN1,Left,Live Pitch,50,55,55,63.9,9.6,63,13,105,89,-29,2.42,0.17,16.6,,,,Addison Leschber
+"Oct 16, 2024 02:55:09 pm",CRBN1,Left,Live Pitch,37,45,46,62.4,6.5,49,22,116,90,-25,2.18,0.18,15.7,,,,Addison Leschber
+"Oct 16, 2024 02:54:50 pm",CRBN1,Left,Live Pitch,45,57,52,62.3,8.6,58,18,99,84,-29,2.3,0.17,17.0,,,,Addison Leschber
+"Oct 16, 2024 02:54:32 pm",CRBN1,Left,Live Pitch,32,46,49,63.5,7.7,44,22,114,90,-34,2.31,0.18,16.5,,,,Addison Leschber
+"Oct 16, 2024 02:54:02 pm",CRBN1,Left,Live Pitch,50,55,57,64.0,10.1,62,18,102,86,-37,2.35,0.18,17.1,,,,Addison Leschber
+"Oct 16, 2024 02:53:42 pm",CRBN1,Left,Live Pitch,44,52,55,63.1,9.5,57,16,107,91,-27,2.31,0.18,16.6,,,,Addison Leschber
+"Oct 16, 2024 02:49:51 pm",CRBN1,Left,Live Pitch,34,46,46,64.2,6.8,46,18,115,89,-31,2.33,0.18,17.1,,,,Addison Leschber
+"Oct 16, 2024 02:49:42 pm",CRBN1,Left,Live Pitch,32,48,55,63.6,9.6,44,22,109,84,-21,2.17,0.19,16.9,,,,Addison Leschber
+"Oct 16, 2024 02:49:26 pm",CRBN1,Left,Live Pitch,29,44,48,63.2,7.2,41,24,117,87,-18,2.19,0.19,16.5,,,,Addison Leschber
+"Oct 16, 2024 02:49:13 pm",CRBN1,Left,Live Pitch,29,46,45,61.6,6.4,41,20,112,84,-22,2.08,0.19,16.0,,,,Addison Leschber
+"Oct 16, 2024 02:49:05 pm",CRBN1,Left,Live Pitch,57,68,54,61.3,9.4,70,14,94,85,-30,2.25,0.17,16.1,,,,Addison Leschber
+"Oct 15, 2024 02:32:28 pm",CRBN1,Left,Live Pitch,68,54,51,20.0,8.3,81,-3,81,81,-40,0.19,0.21,13.3,,,,Addison Leschber
+"Oct 15, 2024 02:32:03 pm",CRBN1,Left,Live Pitch,69,64,55,58.5,9.7,82,2,96,85,-34,2.08,0.17,16.0,,,,Addison Leschber
+"Oct 15, 2024 02:31:42 pm",CRBN1,Left,Live Pitch,50,59,50,58.3,7.8,63,15,86,81,-29,1.84,0.19,16.3,,,,Addison Leschber
+"Oct 15, 2024 02:31:20 pm",CRBN1,Left,Live Pitch,74,52,59,55.8,11.1,88,4,99,79,-31,2.01,0.16,15.3,,,,Addison Leschber
+"Oct 15, 2024 01:44:07 pm",CRBN1,Left,Live Pitch,46,54,42,61.0,5.3,59,17,103,85,-30,2.08,0.18,16.5,,,,Addison Leschber
+"Oct 15, 2024 01:43:43 pm",CRBN1,Left,Live Pitch,59,61,57,61.6,10.3,72,10,95,83,-25,2.25,0.17,16.9,,,,Addison Leschber
+"Oct 15, 2024 12:32:41 pm",CRBN1,Left,Live Pitch,36,50,43,61.6,5.8,49,19,103,81,-30,2.04,0.19,15.7,,,,Addison Leschber
 "Oct 11, 2024 03:01:56 pm",CRBN1,Left,Live Pitch,50,50,55,64.1,9.5,63,12,109,93,-36,2.46,0.17,17.8,,,,Addison Leschber
 "Oct 11, 2024 02:38:39 pm",CRBN1,Left,Live Pitch,61,56,52,63.7,8.6,74,5,104,90,-35,2.49,0.17,17.2,,,,Addison Leschber
 "Oct 11, 2024 02:24:43 pm",CRBN1,Left,Live Pitch,54,52,48,60.4,7.4,67,16,107,87,-31,2.14,0.17,15.9,,,,Addison Leschber
@@ -2937,6 +3249,51 @@ Date,Equipment,Handedness,Swing Details,Plane Score,Connection Score,Rotation Sc
 "Aug 26, 2024 03:04:32 pm",Ghost,Left,Front Toss Underhand,53,41,48,59.2,7.3,66,13,117,98,-38,2.01,0.18,15.9,,,,Addison Leschber
 "Aug 26, 2024 03:04:23 pm",Ghost,Left,Front Toss Underhand,51,43,45,57.8,6.3,64,17,118,95,-37,1.83,0.19,14.6,,,,Addison Leschber
 "Aug 26, 2024 03:04:18 pm",Ghost,Left,Front Toss Underhand,45,42,46,62.0,6.5,58,12,115,99,-42,2.23,0.18,17.2,,,,Addison Leschber
+"Oct 20, 2024 04:19:36 pm",CRBN1,Right,Live Pitch,54,80,48,60.1,8.6,69,17,90,87,-22,2.25,0.16,18.2,,,,Reese Hunter
+"Oct 20, 2024 04:19:11 pm",CRBN1,Right,Live Pitch,58,74,46,58.3,7.8,72,16,94,92,-25,2.09,0.17,16.7,,,,Reese Hunter
+"Oct 20, 2024 03:37:51 pm",CRBN1,Right,Live Pitch,62,80,80,60.2,20.0,77,10,91,92,-34,2.46,0.15,18.9,,,,Reese Hunter
+"Oct 20, 2024 03:10:34 pm",CRBN1,Right,Live Pitch,64,74,63,62.9,13.6,78,8,92,94,-33,2.84,0.14,19.3,,,,Reese Hunter
+"Oct 20, 2024 03:09:43 pm",CRBN1,Right,Live Pitch,60,45,60,58.5,12.7,74,4,103,105,-31,2.33,0.15,18.1,,,,Reese Hunter
+"Oct 20, 2024 02:32:07 pm",CRBN1,Right,Live Pitch,56,54,50,58.8,9.3,70,10,96,101,-34,2.1,0.17,18.2,,,,Reese Hunter
+"Oct 20, 2024 02:31:45 pm",CRBN1,Right,Live Pitch,70,66,53,54.4,10.3,85,5,94,85,-28,2.09,0.14,16.5,,,,Reese Hunter
+"Oct 20, 2024 02:31:15 pm",CRBN1,Right,Live Pitch,62,50,64,61.3,14.1,77,-4,100,102,-38,2.86,0.13,19.5,,,,Reese Hunter
+"Oct 18, 2024 06:08:12 pm",CRBN1,Right,Live Pitch,63,69,66,63.3,14.6,78,4,85,93,-38,2.96,0.14,19.4,,,,Reese Hunter
+"Oct 18, 2024 05:22:23 pm",CRBN1,Right,Live Pitch,64,60,62,61.8,13.1,79,14,98,95,-34,2.5,0.16,17.4,,,,Reese Hunter
+"Oct 16, 2024 03:15:16 pm",CRBN1,Right,Live Pitch,62,61,62,59.5,13.1,77,17,84,97,-32,2.37,0.15,18.1,,,,Reese Hunter
+"Oct 16, 2024 03:15:08 pm",CRBN1,Right,Live Pitch,53,61,66,60.0,14.7,68,26,83,85,-17,2.33,0.16,18.1,,,,Reese Hunter
+"Oct 16, 2024 03:15:01 pm",CRBN1,Right,Live Pitch,57,68,76,62.8,18.0,72,22,96,91,-23,2.58,0.16,19.3,,,,Reese Hunter
+"Oct 16, 2024 03:14:32 pm",CRBN1,Right,Live Pitch,52,71,74,65.6,17.3,67,15,90,85,-26,3.01,0.15,18.5,,,,Reese Hunter
+"Oct 16, 2024 03:14:24 pm",CRBN1,Right,Live Pitch,46,59,80,65.3,20.9,61,24,94,80,-19,2.72,0.16,18.6,,,,Reese Hunter
+"Oct 16, 2024 03:14:19 pm",CRBN1,Right,Live Pitch,53,59,71,64.4,16.3,68,17,98,95,-29,2.71,0.16,18.7,,,,Reese Hunter
+"Oct 16, 2024 03:13:21 pm",CRBN1,Right,Live Pitch,64,77,71,61.0,16.3,78,15,86,89,-28,2.5,0.15,18.2,,,,Reese Hunter
+"Oct 16, 2024 03:13:14 pm",CRBN1,Right,Live Pitch,60,63,76,61.3,17.9,74,15,82,87,-32,2.55,0.15,19.0,,,,Reese Hunter
+"Oct 16, 2024 03:13:02 pm",CRBN1,Right,Live Pitch,64,77,80,62.4,19.8,79,18,94,91,-36,2.65,0.15,18.8,,,,Reese Hunter
+"Oct 16, 2024 03:12:55 pm",CRBN1,Right,Live Pitch,58,79,62,60.1,13.1,73,18,89,93,-21,2.27,0.16,18.0,,,,Reese Hunter
+"Oct 16, 2024 03:12:50 pm",CRBN1,Right,Live Pitch,58,68,79,64.0,19.1,73,24,95,87,-26,2.71,0.15,19.4,,,,Reese Hunter
+"Oct 16, 2024 03:11:50 pm",CRBN1,Right,Live Pitch,60,80,74,61.6,17.3,75,13,88,87,-26,2.58,0.15,18.2,,,,Reese Hunter
+"Oct 16, 2024 03:11:45 pm",CRBN1,Right,Live Pitch,58,70,60,58.4,12.5,73,12,94,94,-25,2.26,0.15,16.7,,,,Reese Hunter
+"Oct 16, 2024 03:11:39 pm",CRBN1,Right,Live Pitch,66,63,77,60.6,18.2,80,12,83,86,-33,2.6,0.14,18.5,,,,Reese Hunter
+"Oct 16, 2024 03:11:28 pm",CRBN1,Right,Live Pitch,55,63,65,61.4,14.1,70,27,86,83,-20,2.32,0.17,17.9,,,,Reese Hunter
+"Oct 16, 2024 02:57:35 pm",CRBN1,Right,Live Pitch,54,65,64,61.7,13.9,69,15,93,83,-20,2.66,0.15,17.6,,,,Reese Hunter
+"Oct 16, 2024 02:57:21 pm",CRBN1,Right,Live Pitch,52,51,60,68.7,12.6,67,21,105,84,-12,3.05,0.16,17.6,,,,Reese Hunter
+"Oct 16, 2024 02:57:07 pm",CRBN1,Right,Live Pitch,55,51,76,67.0,18.1,70,18,106,85,-20,3.01,0.15,18.7,,,,Reese Hunter
+"Oct 16, 2024 02:56:55 pm",CRBN1,Right,Live Pitch,54,68,59,63.6,12.1,69,10,89,84,-24,2.72,0.15,17.7,,,,Reese Hunter
+"Oct 16, 2024 02:56:49 pm",CRBN1,Right,Live Pitch,47,71,64,63.4,13.8,62,21,95,91,-22,2.5,0.16,19.1,,,,Reese Hunter
+"Oct 16, 2024 02:52:13 pm",CRBN1,Right,Live Pitch,61,80,60,62.0,12.5,76,11,88,90,-25,2.55,0.15,18.0,,,,Reese Hunter
+"Oct 16, 2024 02:52:03 pm",CRBN1,Right,Live Pitch,54,67,65,65.3,14.2,69,20,95,86,-21,2.75,0.16,18.4,,,,Reese Hunter
+"Oct 16, 2024 02:51:54 pm",CRBN1,Right,Live Pitch,39,52,55,64.7,11.1,55,22,108,90,-15,2.64,0.16,18.1,,,,Reese Hunter
+"Oct 16, 2024 02:51:36 pm",CRBN1,Right,Live Pitch,62,74,69,62.7,15.7,76,14,89,86,-24,2.71,0.15,18.1,,,,Reese Hunter
+"Oct 16, 2024 02:51:19 pm",CRBN1,Right,Live Pitch,49,60,58,65.0,11.8,65,18,100,91,-23,2.66,0.16,18.9,,,,Reese Hunter
+"Oct 16, 2024 02:47:59 pm",CRBN1,Right,Live Pitch,52,80,59,62.1,12.1,67,14,93,89,-24,2.56,0.15,18.3,,,,Reese Hunter
+"Oct 16, 2024 02:47:47 pm",CRBN1,Right,Live Pitch,53,60,66,67.2,14.6,68,20,100,89,-20,2.96,0.16,18.6,,,,Reese Hunter
+"Oct 16, 2024 02:47:30 pm",CRBN1,Right,Live Pitch,51,58,60,61.9,12.4,66,22,102,89,-17,2.3,0.17,18.5,,,,Reese Hunter
+"Oct 16, 2024 02:47:23 pm",CRBN1,Right,Live Pitch,58,55,60,61.5,12.6,72,17,80,84,-26,2.5,0.15,18.1,,,,Reese Hunter
+"Oct 16, 2024 02:46:58 pm",CRBN1,Right,Live Pitch,62,80,69,65.2,15.6,76,14,88,89,-32,2.89,0.15,19.2,,,,Reese Hunter
+"Oct 15, 2024 02:08:50 pm",CRBN1,Right,Live Pitch,61,74,58,63.5,12.0,76,15,87,87,-28,2.64,0.16,19.8,,,,Reese Hunter
+"Oct 15, 2024 02:08:02 pm",CRBN1,Right,Live Pitch,51,62,54,63.9,10.6,66,17,98,86,-23,2.61,0.16,17.3,,,,Reese Hunter
+"Oct 15, 2024 01:48:28 pm",CRBN1,Right,Live Pitch,64,57,64,61.0,13.9,78,6,95,100,-39,2.5,0.15,18.8,,,,Reese Hunter
+"Oct 15, 2024 12:47:01 pm",CRBN1,Right,Live Pitch,48,80,66,61.5,14.6,63,22,91,88,-23,2.38,0.16,18.8,,,,Reese Hunter
+"Oct 15, 2024 12:46:37 pm",CRBN1,Right,Live Pitch,65,61,80,58.0,20.8,79,21,90,80,-28,2.29,0.15,18.3,,,,Reese Hunter
 "Oct 11, 2024 03:24:40 pm",CRBN1,Right,Live Pitch,60,52,47,61.8,8.3,75,11,104,96,-27,2.53,0.15,17.1,,,,Reese Hunter
 "Oct 11, 2024 02:45:45 pm",CRBN1,Right,Live Pitch,58,48,76,63.1,17.8,72,12,107,97,-29,2.75,0.15,18.0,,,,Reese Hunter
 "Oct 11, 2024 02:08:24 pm",CRBN1,Right,Live Pitch,50,47,44,60.0,7.2,65,14,110,96,-17,2.14,0.17,16.8,,,,Reese Hunter
@@ -3398,6 +3755,36 @@ Date,Equipment,Handedness,Swing Details,Plane Score,Connection Score,Rotation Sc
 "Aug 27, 2024 12:12:42 pm",33 inch,Left,Front Toss Underhand,54,43,67,52.6,14.8,68,-3,109,103,-32,1.87,0.14,20.6,,,,Camden Anders
 "Aug 27, 2024 12:12:36 pm",33 inch,Left,Front Toss Underhand,60,51,66,45.4,14.6,74,-9,105,96,-25,1.44,0.13,18.3,,,,Camden Anders
 "Aug 27, 2024 12:12:16 pm",33 inch,Left,Front Toss Underhand,65,48,51,34.1,9.7,80,-30,105,80,-29,0.69,0.16,17.4,,,,Camden Anders
+"Oct 18, 2024 06:21:55 pm",CRBN1,Left,Live Pitch,74,45,68,58.5,14.1,87,3,114,94,-37,2.46,0.14,20.6,,,,Paige Vukadinovich
+"Oct 18, 2024 05:47:47 pm",CRBN1,Left,Live Pitch,60,40,56,62.8,10.1,73,10,117,101,-41,2.58,0.16,20.6,,,,Paige Vukadinovich
+"Oct 18, 2024 05:47:25 pm",CRBN1,Left,Live Pitch,76,51,76,62.1,16.5,90,8,108,92,-31,2.73,0.14,21.6,,,,Paige Vukadinovich
+"Oct 18, 2024 05:46:28 pm",CRBN1,Left,Live Pitch,66,40,54,59.4,9.2,80,3,118,99,-29,2.19,0.16,20.1,,,,Paige Vukadinovich
+"Oct 18, 2024 05:46:08 pm",CRBN1,Left,Live Pitch,72,44,50,63.1,7.9,85,8,112,98,-37,2.51,0.16,20.6,,,,Paige Vukadinovich
+"Oct 18, 2024 05:09:58 pm",CRBN1,Left,Live Pitch,76,37,52,60.0,8.7,89,-12,124,99,-35,2.74,0.13,20.9,,,,Paige Vukadinovich
+"Oct 18, 2024 05:09:08 pm",CRBN1,Left,Live Pitch,52,54,42,56.5,5.4,65,31,93,75,-34,1.73,0.19,17.8,,,,Paige Vukadinovich
+"Oct 16, 2024 12:03:06 pm",CRBN1,Left,Live Pitch,68,45,57,66.7,10.1,81,23,117,91,-31,2.95,0.15,21.8,,,,Paige Vukadinovich
+"Oct 16, 2024 12:02:54 pm",CRBN1,Left,Live Pitch,60,37,80,66.0,18.6,73,17,123,99,-30,2.96,0.15,23.3,,,,Paige Vukadinovich
+"Oct 16, 2024 12:02:32 pm",CRBN1,Left,Live Pitch,49,44,66,67.6,13.2,62,22,117,93,-31,2.95,0.16,23.1,,,,Paige Vukadinovich
+"Oct 16, 2024 12:02:17 pm",CRBN1,Left,Live Pitch,60,40,67,67.4,13.6,73,20,121,96,-29,3.09,0.15,21.3,,,,Paige Vukadinovich
+"Oct 16, 2024 11:58:42 am",CRBN1,Left,Live Pitch,54,45,64,70.7,12.8,67,19,116,91,-28,3.35,0.15,22.0,,,,Paige Vukadinovich
+"Oct 16, 2024 11:58:34 am",CRBN1,Left,Live Pitch,57,43,70,67.6,14.5,70,20,119,93,-28,3.03,0.15,22.3,,,,Paige Vukadinovich
+"Oct 16, 2024 11:58:25 am",CRBN1,Left,Live Pitch,57,38,68,67.4,14.1,70,20,123,98,-34,3.05,0.15,22.8,,,,Paige Vukadinovich
+"Oct 16, 2024 11:58:08 am",CRBN1,Left,Live Pitch,64,40,70,66.5,14.6,77,22,124,92,-21,2.89,0.16,21.5,,,,Paige Vukadinovich
+"Oct 16, 2024 11:58:03 am",CRBN1,Left,Live Pitch,51,43,63,65.8,12.1,64,25,120,90,-23,2.62,0.17,21.6,,,,Paige Vukadinovich
+"Oct 16, 2024 11:54:59 am",CRBN1,Left,Live Pitch,62,40,67,68.5,13.7,75,19,121,96,-32,3.19,0.15,22.9,,,,Paige Vukadinovich
+"Oct 16, 2024 11:54:48 am",CRBN1,Left,Live Pitch,56,42,69,66.0,14.5,69,17,116,97,-30,2.85,0.16,22.1,,,,Paige Vukadinovich
+"Oct 16, 2024 11:54:40 am",CRBN1,Left,Live Pitch,63,46,64,63.2,12.5,76,15,112,95,-33,2.52,0.16,22.0,,,,Paige Vukadinovich
+"Oct 16, 2024 11:54:13 am",CRBN1,Left,Live Pitch,59,41,55,65.7,9.8,72,24,122,93,-25,2.75,0.16,20.5,,,,Paige Vukadinovich
+"Oct 16, 2024 11:53:58 am",CRBN1,Left,Live Pitch,55,48,57,61.9,10.4,68,20,113,91,-25,2.3,0.17,20.9,,,,Paige Vukadinovich
+"Oct 15, 2024 02:15:52 pm",CRBN1,Left,Live Pitch,58,41,49,51.6,7.7,71,-1,111,104,-44,1.74,0.16,17.4,,,,Paige Vukadinovich
+"Oct 15, 2024 01:52:20 pm",CRBN1,Left,Live Pitch,68,46,60,63.3,11.3,81,6,108,99,-44,2.69,0.15,21.1,,,,Paige Vukadinovich
+"Oct 15, 2024 01:51:57 pm",CRBN1,Left,Live Pitch,74,54,66,58.8,13.3,88,2,103,95,-41,2.52,0.14,20.3,,,,Paige Vukadinovich
+"Oct 15, 2024 12:52:17 pm",CRBN1,Left,Live Pitch,72,57,63,59.7,12.2,86,18,98,83,-30,2.27,0.16,18.9,,,,Paige Vukadinovich
+"Oct 15, 2024 12:26:58 pm",CRBN1,Left,Live Pitch,71,46,49,60.4,7.7,85,4,110,97,-33,2.21,0.17,19.6,,,,Paige Vukadinovich
+"Oct 11, 2024 03:06:14 pm",CRBN1,Left,Live Pitch,73,56,49,62.1,7.6,86,5,101,95,-34,2.62,0.15,19.8,,,,Paige Vukadinovich
+"Oct 11, 2024 02:32:14 pm",CRBN1,Left,Live Pitch,74,76,51,61.3,8.2,87,8,86,89,-39,2.43,0.16,20.0,,,,Paige Vukadinovich
+"Oct 11, 2024 01:39:05 pm",CRBN1,Left,Live Pitch,76,44,42,58.4,5.4,89,8,112,98,-27,2.12,0.16,18.4,,,,Paige Vukadinovich
+"Oct 11, 2024 01:38:38 pm",CRBN1,Left,Live Pitch,70,45,46,60.0,6.5,84,-1,110,99,-36,2.38,0.15,19.4,,,,Paige Vukadinovich
 "Oct 09, 2024 11:22:23 am",CRBN1,Left,Pitching Machine,75,66,53,55.9,8.9,89,10,97,93,-34,2.02,0.16,18.6,,,,Paige Vukadinovich
 "Oct 09, 2024 11:22:00 am",CRBN1,Left,Pitching Machine,74,45,62,60.3,11.9,88,3,109,99,-39,2.57,0.14,20.1,,,,Paige Vukadinovich
 "Oct 09, 2024 11:21:34 am",CRBN1,Left,Pitching Machine,73,47,49,59.3,7.7,86,7,112,93,-33,2.22,0.16,18.4,,,,Paige Vukadinovich
@@ -3422,6 +3809,7 @@ Date,Equipment,Handedness,Swing Details,Plane Score,Connection Score,Rotation Sc
 "Oct 09, 2024 11:13:40 am",CRBN1,Left,Pitching Machine,66,48,56,64.0,10.0,79,12,112,91,-29,2.64,0.16,19.3,,,,Paige Vukadinovich
 "Oct 09, 2024 11:13:11 am",CRBN1,Left,Pitching Machine,68,45,62,60.9,11.9,81,4,112,97,-33,2.52,0.15,19.3,,,,Paige Vukadinovich
 "Oct 09, 2024 11:12:47 am",CRBN1,Left,Pitching Machine,71,52,59,61.0,10.8,84,6,104,96,-36,2.6,0.15,19.1,,,,Paige Vukadinovich
+"Oct 09, 2024 11:10:59 am",CRBN1,Left,Live Pitch,68,43,49,59.7,7.5,82,5,112,101,-34,2.27,0.16,18.3,,,,Paige Vukadinovich
 "Oct 07, 2024 12:12:36 pm",CRBN1,Left,Pitching Machine,69,48,54,61.9,9.3,83,6,107,98,-40,2.57,0.15,19.0,,,,Paige Vukadinovich
 "Oct 07, 2024 12:12:21 pm",CRBN1,Left,Pitching Machine,68,40,52,62.1,8.7,81,12,116,102,-45,2.52,0.16,20.1,,,,Paige Vukadinovich
 "Oct 07, 2024 12:12:14 pm",CRBN1,Left,Pitching Machine,69,43,55,61.9,9.6,83,8,110,101,-43,2.54,0.15,19.5,,,,Paige Vukadinovich
@@ -3836,6 +4224,41 @@ Date,Equipment,Handedness,Swing Details,Plane Score,Connection Score,Rotation Sc
 "Aug 26, 2024 03:59:47 pm",CRBN1,Left,Front Toss Underhand,69,44,73,60.3,15.8,82,6,110,100,-41,2.64,0.14,20.8,,,,Paige Vukadinovich
 "Aug 26, 2024 03:59:43 pm",CRBN1,Left,Front Toss Underhand,70,48,71,59.8,15.0,83,10,105,99,-42,2.61,0.14,20.8,,,,Paige Vukadinovich
 "Aug 26, 2024 03:59:38 pm",CRBN1,Left,Front Toss Underhand,71,63,66,58.4,13.2,85,5,98,93,-46,2.56,0.14,19.7,,,,Paige Vukadinovich
+"Oct 20, 2024 04:31:50 pm",CRBN1,Right,Live Pitch,49,63,70,60.5,14.5,62,9,99,87,-20,2.66,0.14,18.3,,,,Emma Simon
+"Oct 20, 2024 03:38:55 pm",CRBN1,Right,Live Pitch,63,38,79,61.9,17.5,77,19,68,71,-18,2.38,0.16,18.7,,,,Emma Simon
+"Oct 18, 2024 07:43:38 pm",CRBN1,Right,Live Pitch,62,67,64,62.7,12.6,75,4,96,87,-23,2.71,0.15,19.8,,,,Emma Simon
+"Oct 16, 2024 04:36:46 pm",CRBN1,Right,Live Pitch,48,80,75,67.1,16.3,61,7,92,87,-27,3.1,0.15,21.1,,,,Emma Simon
+"Oct 16, 2024 04:36:37 pm",CRBN1,Right,Live Pitch,34,72,80,68.5,20.8,46,15,93,85,-26,3.15,0.15,21.4,,,,Emma Simon
+"Oct 16, 2024 04:36:28 pm",CRBN1,Right,Live Pitch,40,60,80,68.1,20.8,53,15,101,88,-23,3.24,0.15,21.1,,,,Emma Simon
+"Oct 16, 2024 04:36:18 pm",CRBN1,Right,Live Pitch,36,63,80,67.8,22.0,48,11,99,90,-28,3.17,0.15,21.7,,,,Emma Simon
+"Oct 16, 2024 04:36:10 pm",CRBN1,Right,Live Pitch,48,68,80,64.2,19.9,61,8,84,88,-31,2.96,0.14,21.4,,,,Emma Simon
+"Oct 16, 2024 04:32:12 pm",CRBN1,Right,Live Pitch,36,62,80,67.7,21.4,49,19,93,82,-14,2.99,0.16,20.4,,,,Emma Simon
+"Oct 16, 2024 04:32:05 pm",CRBN1,Right,Live Pitch,42,68,80,66.4,21.7,54,13,87,84,-28,3.26,0.14,21.1,,,,Emma Simon
+"Oct 16, 2024 04:31:51 pm",CRBN1,Right,Live Pitch,35,72,80,65.1,20.2,48,13,95,87,-23,3.05,0.14,21.1,,,,Emma Simon
+"Oct 16, 2024 04:31:42 pm",CRBN1,Right,Live Pitch,34,60,80,67.7,19.7,47,16,88,80,-17,3.16,0.15,20.6,,,,Emma Simon
+"Oct 16, 2024 04:31:32 pm",CRBN1,Right,Live Pitch,37,68,80,64.5,20.8,49,10,96,89,-26,3.07,0.14,21.5,,,,Emma Simon
+"Oct 16, 2024 04:27:53 pm",CRBN1,Right,Live Pitch,35,58,80,69.3,21.0,47,19,93,78,-11,3.18,0.15,20.9,,,,Emma Simon
+"Oct 16, 2024 04:27:44 pm",CRBN1,Right,Live Pitch,33,62,80,68.2,19.9,45,16,97,85,-23,3.2,0.15,21.7,,,,Emma Simon
+"Oct 16, 2024 04:27:34 pm",CRBN1,Right,Live Pitch,52,74,71,67.4,15.1,65,12,90,86,-27,3.22,0.14,20.5,,,,Emma Simon
+"Oct 16, 2024 04:27:25 pm",CRBN1,Right,Live Pitch,38,68,80,67.2,20.2,51,14,89,84,-18,3.11,0.15,20.8,,,,Emma Simon
+"Oct 16, 2024 04:27:14 pm",CRBN1,Right,Live Pitch,47,63,80,65.5,18.8,60,12,86,83,-24,3.0,0.15,20.5,,,,Emma Simon
+"Oct 16, 2024 04:23:18 pm",CRBN1,Right,Live Pitch,34,56,78,65.8,17.2,46,17,103,87,-14,2.94,0.15,20.6,,,,Emma Simon
+"Oct 16, 2024 04:23:12 pm",CRBN1,Right,Live Pitch,36,71,80,66.0,19.8,48,15,90,85,-20,3.04,0.15,20.9,,,,Emma Simon
+"Oct 16, 2024 04:23:07 pm",CRBN1,Right,Live Pitch,34,61,80,65.4,19.5,46,16,86,82,-25,2.79,0.16,20.8,,,,Emma Simon
+"Oct 16, 2024 04:22:56 pm",CRBN1,Right,Live Pitch,56,58,76,61.6,16.7,69,13,86,80,-20,2.58,0.15,18.2,,,,Emma Simon
+"Oct 16, 2024 04:22:51 pm",CRBN1,Right,Live Pitch,44,58,80,63.9,18.4,57,19,84,81,-26,2.67,0.16,20.9,,,,Emma Simon
+"Oct 16, 2024 04:18:43 pm",CRBN1,Right,Live Pitch,37,64,80,67.7,20.6,50,11,98,91,-27,3.34,0.14,21.5,,,,Emma Simon
+"Oct 16, 2024 04:18:33 pm",CRBN1,Right,Live Pitch,40,63,80,69.1,20.3,52,16,90,81,-19,3.29,0.15,20.9,,,,Emma Simon
+"Oct 16, 2024 04:18:17 pm",CRBN1,Right,Live Pitch,46,54,79,64.3,17.5,59,16,83,79,-21,2.7,0.16,19.9,,,,Emma Simon
+"Oct 16, 2024 04:18:02 pm",CRBN1,Right,Live Pitch,34,64,80,68.5,19.4,46,11,98,92,-35,3.33,0.14,22.1,,,,Emma Simon
+"Oct 16, 2024 04:17:49 pm",CRBN1,Right,Live Pitch,35,49,80,66.2,19.6,48,13,80,77,-25,2.94,0.15,20.0,,,,Emma Simon
+"Oct 16, 2024 04:14:20 pm",CRBN1,Right,Live Pitch,36,60,80,66.4,20.0,48,17,96,84,-16,3.03,0.15,21.3,,,,Emma Simon
+"Oct 16, 2024 04:14:05 pm",CRBN1,Right,Live Pitch,33,77,78,66.9,17.4,46,11,94,89,-30,3.12,0.15,21.2,,,,Emma Simon
+"Oct 16, 2024 04:13:53 pm",CRBN1,Right,Live Pitch,53,47,80,64.0,19.4,66,17,77,76,-21,2.74,0.15,19.8,,,,Emma Simon
+"Oct 16, 2024 04:13:38 pm",CRBN1,Right,Live Pitch,36,65,80,68.4,20.0,48,18,94,84,-19,3.14,0.15,20.6,,,,Emma Simon
+"Oct 16, 2024 04:13:30 pm",CRBN1,Right,Live Pitch,42,80,80,66.0,19.8,55,6,92,88,-30,3.27,0.14,21.6,,,,Emma Simon
+"Oct 15, 2024 02:51:15 pm",CRBN1,Right,Live Pitch,51,62,78,67.9,17.4,64,3,99,89,-27,3.27,0.14,21.0,,,,Emma Simon
+"Oct 15, 2024 01:29:07 pm",CRBN1,Right,Live Pitch,59,56,80,66.7,19.2,72,2,102,85,-13,3.44,0.13,19.5,,,,Emma Simon
 "Oct 11, 2024 02:17:56 pm",CRBN1,Right,Live Pitch,51,62,52,65.8,8.5,64,6,91,81,-32,2.66,0.17,19.5,,,,Emma Simon
 "Oct 11, 2024 01:15:37 pm",CRBN1,Right,Live Pitch,55,49,69,56.6,14.3,68,12,75,82,-17,1.97,0.17,17.2,,,,Emma Simon
 "Oct 09, 2024 04:24:06 pm",Ghost,Right,General Practice,57,75,76,57.3,16.5,70,6,91,86,-24,2.19,0.14,19.9,,,,Emma Simon
@@ -4259,6 +4682,39 @@ Date,Equipment,Handedness,Swing Details,Plane Score,Connection Score,Rotation Sc
 "Aug 26, 2024 03:59:51 pm",Ghost,Right,Front Toss Underhand,38,61,80,52.5,21.0,50,15,100,93,-58,1.74,0.15,19.0,,,,Emma Simon
 "Aug 26, 2024 03:59:48 pm",Ghost,Right,Front Toss Underhand,49,66,80,57.1,19.7,62,12,85,86,-28,2.12,0.14,20.7,,,,Emma Simon
 "Aug 26, 2024 03:59:41 pm",Ghost,Right,Front Toss Underhand,44,79,80,55.4,22.2,56,13,89,87,-31,2.05,0.14,21.2,,,,Emma Simon
+"Oct 20, 2024 03:24:21 pm",CRBN1,Left,Live Pitch,60,54,43,62.2,7.0,75,-3,83,79,-28,3.04,0.13,17.9,,,,Kaya Booker
+"Oct 20, 2024 02:37:09 pm",CRBN1,Left,Live Pitch,58,51,68,60.4,15.3,73,6,79,80,-31,2.73,0.14,18.1,,,,Kaya Booker
+"Oct 18, 2024 07:33:24 pm",CRBN1,Left,Live Pitch,65,32,74,58.0,17.1,79,14,61,65,-15,2.35,0.15,16.9,,,,Kaya Booker
+"Oct 18, 2024 06:57:38 pm",CRBN1,Left,Live Pitch,76,42,56,60.6,11.2,90,-17,77,71,-29,3.13,0.12,19.2,,,,Kaya Booker
+"Oct 16, 2024 04:22:38 pm",CRBN1,Left,Live Pitch,57,43,72,63.2,16.5,72,7,74,75,-25,2.64,0.15,17.3,,,,Kaya Booker
+"Oct 16, 2024 04:22:30 pm",CRBN1,Left,Live Pitch,48,43,68,62.9,15.1,63,14,76,73,-21,2.46,0.16,17.5,,,,Kaya Booker
+"Oct 16, 2024 04:22:22 pm",CRBN1,Left,Live Pitch,59,40,69,60.5,15.4,74,4,71,72,-25,2.39,0.16,17.0,,,,Kaya Booker
+"Oct 16, 2024 04:22:03 pm",CRBN1,Left,Live Pitch,51,39,61,60.7,12.9,66,9,72,70,-17,2.41,0.16,16.7,,,,Kaya Booker
+"Oct 16, 2024 04:21:48 pm",CRBN1,Left,Live Pitch,52,42,71,61.9,16.3,67,11,74,72,-17,2.54,0.15,17.4,,,,Kaya Booker
+"Oct 16, 2024 04:21:41 pm",CRBN1,Left,Live Pitch,40,49,70,64.5,16.0,55,14,81,76,-22,2.65,0.16,18.3,,,,Kaya Booker
+"Oct 16, 2024 04:17:36 pm",CRBN1,Left,Live Pitch,42,47,58,61.5,11.9,57,11,81,73,-14,2.32,0.17,16.2,,,,Kaya Booker
+"Oct 16, 2024 04:17:29 pm",CRBN1,Left,Live Pitch,56,47,60,61.5,12.6,71,8,79,75,-14,2.47,0.16,16.7,,,,Kaya Booker
+"Oct 16, 2024 04:17:16 pm",CRBN1,Left,Live Pitch,56,38,79,61.9,19.0,71,9,68,71,-23,2.54,0.15,18.0,,,,Kaya Booker
+"Oct 16, 2024 04:17:02 pm",CRBN1,Left,Live Pitch,51,40,66,62.5,14.7,66,11,72,72,-18,2.55,0.16,17.7,,,,Kaya Booker
+"Oct 16, 2024 04:16:55 pm",CRBN1,Left,Live Pitch,39,42,74,64.1,17.4,55,18,77,70,-21,2.62,0.16,17.9,,,,Kaya Booker
+"Oct 16, 2024 04:13:19 pm",CRBN1,Left,Live Pitch,49,46,63,66.1,13.5,64,11,79,74,-25,2.75,0.16,17.8,,,,Kaya Booker
+"Oct 16, 2024 04:13:06 pm",CRBN1,Left,Live Pitch,56,41,62,61.1,13.2,71,8,76,70,-17,2.44,0.16,16.6,,,,Kaya Booker
+"Oct 16, 2024 04:12:49 pm",CRBN1,Left,Live Pitch,62,44,67,65.2,15.0,77,6,77,73,-30,2.89,0.15,18.2,,,,Kaya Booker
+"Oct 16, 2024 04:12:40 pm",CRBN1,Left,Live Pitch,46,50,68,64.2,15.4,62,12,84,74,-19,2.69,0.16,18.1,,,,Kaya Booker
+"Oct 15, 2024 02:39:24 pm",CRBN1,Left,Live Pitch,67,46,49,58.9,8.7,81,-3,76,77,-35,2.49,0.14,17.6,,,,Kaya Booker
+"Oct 15, 2024 01:08:14 pm",CRBN1,Left,Live Pitch,52,34,43,56.1,6.7,67,13,67,63,-18,1.91,0.17,15.3,,,,Kaya Booker
+"Oct 15, 2024 01:07:42 pm",CRBN1,Left,Live Pitch,69,43,54,59.3,10.6,83,0,73,74,-22,2.49,0.14,17.2,,,,Kaya Booker
+"Oct 15, 2024 12:42:15 pm",CRBN1,Left,Live Pitch,67,46,60,56.3,12.7,82,-7,77,77,-20,2.6,0.12,17.6,,,,Kaya Booker
+"Oct 11, 2024 03:16:44 pm",CRBN1,Left,Live Pitch,64,45,51,59.8,9.5,79,1,76,76,-22,2.64,0.14,17.3,,,,Kaya Booker
+"Oct 11, 2024 03:16:20 pm",CRBN1,Left,Live Pitch,54,45,48,60.5,8.4,69,4,75,77,-30,2.28,0.16,17.7,,,,Kaya Booker
+"Oct 11, 2024 03:15:55 pm",CRBN1,Left,Live Pitch,52,58,58,64.2,11.9,67,9,85,81,-25,2.69,0.16,18.4,,,,Kaya Booker
+"Oct 11, 2024 02:59:19 pm",CRBN1,Left,Live Pitch,69,45,48,57.3,8.5,83,3,77,74,-19,2.06,0.16,14.7,,,,Kaya Booker
+"Oct 11, 2024 02:58:53 pm",CRBN1,Left,Live Pitch,68,43,73,62.2,17.0,83,-3,72,76,-30,2.82,0.14,18.8,,,,Kaya Booker
+"Oct 11, 2024 02:37:05 pm",CRBN1,Left,Live Pitch,56,41,62,60.6,13.1,71,6,72,73,-30,2.57,0.15,18.0,,,,Kaya Booker
+"Oct 11, 2024 02:21:02 pm",CRBN1,Left,Live Pitch,65,41,77,57.5,18.2,79,-6,74,72,-29,2.68,0.13,17.9,,,,Kaya Booker
+"Oct 11, 2024 02:20:38 pm",CRBN1,Left,Live Pitch,48,41,70,62.6,15.8,64,16,76,68,-29,2.53,0.16,17.1,,,,Kaya Booker
+"Oct 11, 2024 01:48:10 pm",CRBN1,Left,Live Pitch,66,43,56,61.4,11.3,80,6,72,76,-26,2.59,0.15,17.6,,,,Kaya Booker
+"Oct 11, 2024 01:47:45 pm",CRBN1,Left,Live Pitch,58,42,45,58.4,7.7,73,2,71,76,-28,2.2,0.16,17.6,,,,Kaya Booker
 "Oct 09, 2024 04:14:32 pm",CRBN1,Left,General Practice,54,46,55,59.6,11.0,69,1,79,74,-24,2.32,0.16,16.6,,,,Kaya Booker
 "Oct 09, 2024 04:14:14 pm",CRBN1,Left,General Practice,36,45,51,66.5,9.6,51,12,78,73,-25,2.82,0.16,17.5,,,,Kaya Booker
 "Oct 09, 2024 04:13:55 pm",CRBN1,Left,General Practice,49,49,50,60.9,9.2,64,2,82,75,-26,2.31,0.16,17.0,,,,Kaya Booker
@@ -4280,6 +4736,45 @@ Date,Equipment,Handedness,Swing Details,Plane Score,Connection Score,Rotation Sc
 "Oct 09, 2024 04:07:41 pm",CRBN1,Left,General Practice,43,65,58,62.7,12.0,58,7,88,83,-29,2.48,0.16,18.3,,,,Kaya Booker
 "Oct 09, 2024 04:07:25 pm",CRBN1,Left,General Practice,48,47,47,65.4,8.1,63,6,82,73,-18,2.6,0.17,16.8,,,,Kaya Booker
 "Oct 09, 2024 04:07:01 pm",CRBN1,Left,General Practice,49,43,41,62.5,6.0,64,3,78,71,-23,2.34,0.17,15.7,,,,Kaya Booker
+"Oct 07, 2024 03:38:31 pm",CRBN1,Left,Pitching Machine,54,64,51,63.8,9.5,69,2,88,82,-30,2.57,0.16,16.5,,,,Kaya Booker
+"Oct 07, 2024 03:38:26 pm",CRBN1,Left,Pitching Machine,64,61,49,60.5,8.9,78,-6,88,80,-31,2.45,0.15,16.4,,,,Kaya Booker
+"Oct 07, 2024 03:38:20 pm",CRBN1,Left,Pitching Machine,66,50,43,59.9,6.8,81,-12,80,77,-30,2.51,0.15,17.5,,,,Kaya Booker
+"Oct 07, 2024 03:38:15 pm",CRBN1,Left,Pitching Machine,65,56,51,60.0,9.7,80,-7,84,80,-31,2.38,0.15,17.2,,,,Kaya Booker
+"Oct 07, 2024 03:33:08 pm",CRBN1,Left,Pitching Machine,66,41,42,57.9,6.4,80,-9,73,71,-27,2.28,0.15,16.7,,,,Kaya Booker
+"Oct 07, 2024 03:33:02 pm",CRBN1,Left,Pitching Machine,55,51,61,61.2,12.9,69,0,80,79,-24,2.51,0.15,17.2,,,,Kaya Booker
+"Oct 07, 2024 03:32:51 pm",CRBN1,Left,Pitching Machine,61,52,41,58.7,6.4,76,-10,83,78,-27,2.31,0.15,16.5,,,,Kaya Booker
+"Oct 07, 2024 03:32:45 pm",CRBN1,Left,Pitching Machine,63,47,44,58.1,7.4,77,-7,80,75,-29,2.36,0.15,16.8,,,,Kaya Booker
+"Oct 07, 2024 03:32:39 pm",CRBN1,Left,Pitching Machine,69,45,41,58.8,6.2,84,-12,78,72,-23,2.45,0.14,17.1,,,,Kaya Booker
+"Oct 07, 2024 03:32:34 pm",CRBN1,Left,Pitching Machine,55,53,48,60.7,8.6,70,2,83,78,-27,2.32,0.16,16.6,,,,Kaya Booker
+"Oct 07, 2024 03:29:11 pm",CRBN1,Left,Pitching Machine,58,43,37,60.5,5.0,73,-6,75,73,-31,2.36,0.16,16.4,,,,Kaya Booker
+"Oct 07, 2024 03:29:06 pm",CRBN1,Left,Pitching Machine,72,48,37,62.8,4.9,86,-20,81,74,-28,2.75,0.15,16.9,,,,Kaya Booker
+"Oct 07, 2024 03:29:00 pm",CRBN1,Left,Pitching Machine,54,56,48,60.6,8.7,69,4,84,80,-29,2.28,0.16,16.5,,,,Kaya Booker
+"Oct 07, 2024 03:28:47 pm",CRBN1,Left,Pitching Machine,61,73,43,59.2,7.0,75,-2,92,86,-29,2.15,0.17,16.5,,,,Kaya Booker
+"Oct 07, 2024 03:24:07 pm",CRBN1,Left,Pitching Machine,54,68,53,59.3,10.1,69,2,88,84,-25,2.21,0.16,16.9,,,,Kaya Booker
+"Oct 07, 2024 03:24:01 pm",CRBN1,Left,Pitching Machine,62,64,49,59.0,8.8,77,-5,85,84,-35,2.24,0.16,17.1,,,,Kaya Booker
+"Oct 07, 2024 03:23:54 pm",CRBN1,Left,Pitching Machine,46,53,53,58.4,10.1,61,7,81,80,-27,2.07,0.17,16.6,,,,Kaya Booker
+"Oct 07, 2024 03:22:31 pm",CRBN1,Left,Pitching Machine,55,51,44,60.8,7.3,70,4,84,74,-25,2.25,0.17,15.8,,,,Kaya Booker
+"Oct 07, 2024 03:22:31 pm",CRBN1,Left,Pitching Machine,55,51,44,60.8,7.3,70,4,84,74,-25,2.25,0.17,15.8,,,,Kaya Booker
+"Oct 07, 2024 03:22:18 pm",CRBN1,Left,Pitching Machine,76,44,45,56.8,7.6,89,-22,83,66,-21,2.46,0.13,16.4,,,,Kaya Booker
+"Oct 07, 2024 03:22:11 pm",CRBN1,Left,Pitching Machine,48,50,57,58.1,11.6,63,12,78,80,-33,2.05,0.17,16.6,,,,Kaya Booker
+"Oct 07, 2024 03:21:59 pm",CRBN1,Left,Pitching Machine,60,49,44,61.7,7.4,74,-1,79,78,-32,2.48,0.16,16.4,,,,Kaya Booker
+"Oct 07, 2024 03:20:41 pm",CRBN1,Left,Pitching Machine,61,47,50,57.4,9.2,76,-11,81,73,-22,2.36,0.14,16.0,,,,Kaya Booker
+"Oct 07, 2024 03:20:35 pm",CRBN1,Left,Pitching Machine,44,54,45,59.9,7.7,59,7,87,75,-18,2.06,0.18,14.8,,,,Kaya Booker
+"Oct 07, 2024 03:20:29 pm",CRBN1,Left,Pitching Machine,50,61,50,59.0,9.1,65,7,93,81,-22,2.06,0.17,15.4,,,,Kaya Booker
+"Oct 07, 2024 03:20:17 pm",CRBN1,Left,Pitching Machine,41,70,47,56.7,8.3,57,11,94,86,-30,1.86,0.18,16.1,,,,Kaya Booker
+"Oct 07, 2024 03:18:13 pm",CRBN1,Left,Pitching Machine,63,63,49,56.3,8.8,78,-7,84,85,-31,2.05,0.16,16.2,,,,Kaya Booker
+"Oct 07, 2024 03:17:51 pm",CRBN1,Left,Pitching Machine,62,55,57,57.3,11.5,77,-7,81,82,-31,2.2,0.15,17.1,,,,Kaya Booker
+"Oct 07, 2024 03:17:46 pm",CRBN1,Left,Pitching Machine,52,42,57,59.9,11.6,67,3,73,74,-31,2.28,0.16,16.6,,,,Kaya Booker
+"Oct 07, 2024 03:16:45 pm",CRBN1,Left,Pitching Machine,64,44,43,57.7,6.8,78,-12,77,73,-25,2.23,0.15,15.6,,,,Kaya Booker
+"Oct 07, 2024 03:16:39 pm",CRBN1,Left,Pitching Machine,61,53,50,63.5,9.2,75,2,86,76,-28,2.67,0.15,16.8,,,,Kaya Booker
+"Oct 07, 2024 03:16:21 pm",CRBN1,Left,Pitching Machine,52,48,41,58.2,6.1,67,3,76,79,-30,2.1,0.16,16.7,,,,Kaya Booker
+"Oct 07, 2024 03:16:08 pm",CRBN1,Left,Pitching Machine,63,45,37,61.9,4.8,77,-2,77,74,-29,2.27,0.17,16.2,,,,Kaya Booker
+"Oct 07, 2024 03:14:53 pm",CRBN1,Left,Pitching Machine,64,51,45,57.1,7.5,79,-9,78,80,-31,2.18,0.15,16.2,,,,Kaya Booker
+"Oct 07, 2024 03:14:46 pm",CRBN1,Left,Pitching Machine,48,45,53,61.0,10.2,63,11,75,77,-26,2.32,0.16,16.9,,,,Kaya Booker
+"Oct 07, 2024 03:14:39 pm",CRBN1,Left,Pitching Machine,67,40,46,58.5,8.0,81,-14,77,67,-21,2.45,0.14,15.9,,,,Kaya Booker
+"Oct 07, 2024 03:14:32 pm",CRBN1,Left,Pitching Machine,58,42,37,62.0,4.8,73,9,78,69,-28,2.25,0.17,16.3,,,,Kaya Booker
+"Oct 07, 2024 03:14:25 pm",CRBN1,Left,Pitching Machine,74,48,40,58.7,5.7,88,-14,83,72,-27,2.38,0.15,16.3,,,,Kaya Booker
+"Oct 07, 2024 03:14:19 pm",CRBN1,Left,Pitching Machine,72,62,41,59.1,6.2,86,-11,90,81,-31,2.28,0.16,16.4,,,,Kaya Booker
 "Oct 04, 2024 09:33:15 pm",CRBN1,Left,Live Pitch,66,29,70,61.0,16.0,80,7,55,64,-17,2.6,0.15,18.4,,,,Kaya Booker
 "Oct 04, 2024 09:32:40 pm",CRBN1,Left,Live Pitch,51,32,57,60.7,11.7,66,11,64,61,-17,2.32,0.16,17.6,,,,Kaya Booker
 "Oct 04, 2024 09:06:15 pm",CRBN1,Left,Live Pitch,55,42,51,63.1,9.6,70,6,75,71,-15,2.57,0.16,17.5,,,,Kaya Booker
@@ -4537,6 +5032,48 @@ Date,Equipment,Handedness,Swing Details,Plane Score,Connection Score,Rotation Sc
 "Aug 26, 2024 03:03:36 pm",CRBN1,Left,Front Toss Underhand,66,42,41,63.3,6.2,81,5,66,80,-25,2.62,0.16,18.6,,,,Kaya Booker
 "Aug 26, 2024 03:03:25 pm",CRBN1,Left,Front Toss Underhand,62,34,40,62.7,5.9,77,-2,57,75,-32,2.53,0.16,19.0,,,,Kaya Booker
 "Aug 26, 2024 03:03:20 pm",CRBN1,Left,Front Toss Underhand,55,42,49,66.3,9.0,70,13,72,74,-22,2.95,0.15,18.8,,,,Kaya Booker
+"Oct 20, 2024 04:36:04 pm",CRBN1,Right,Live Pitch,66,39,77,60.7,18.2,80,21,67,74,-18,2.65,0.14,18.7,,,,Caroline Patterson
+"Oct 18, 2024 07:38:36 pm",CRBN1,Right,Live Pitch,73,41,80,63.8,19.2,87,21,72,73,-11,2.8,0.15,20.4,,,,Caroline Patterson
+"Oct 18, 2024 07:38:10 pm",CRBN1,Right,Live Pitch,71,36,70,62.2,16.1,85,20,65,71,-20,2.78,0.14,19.4,,,,Caroline Patterson
+"Oct 18, 2024 07:14:41 pm",CRBN1,Right,Live Pitch,69,47,80,63.3,19.2,83,20,78,76,-11,2.76,0.15,18.5,,,,Caroline Patterson
+"Oct 18, 2024 06:26:22 pm",CRBN1,Right,Live Pitch,66,35,80,62.6,19.1,80,20,65,68,-11,2.86,0.14,19.7,,,,Caroline Patterson
+"Oct 18, 2024 05:53:06 pm",CRBN1,Right,Live Pitch,68,39,74,64.3,17.1,82,20,70,72,-19,2.81,0.15,19.6,,,,Caroline Patterson
+"Oct 18, 2024 05:20:07 pm",CRBN1,Right,Live Pitch,59,46,59,63.1,12.1,73,17,73,80,-33,2.6,0.16,19.1,,,,Caroline Patterson
+"Oct 16, 2024 04:45:55 pm",CRBN1,Right,Live Pitch,61,36,72,65.6,16.6,75,21,63,73,-26,3.18,0.14,19.7,,,,Caroline Patterson
+"Oct 16, 2024 04:45:45 pm",CRBN1,Right,Live Pitch,61,34,80,65.2,19.1,75,26,63,68,-25,3.01,0.14,19.6,,,,Caroline Patterson
+"Oct 16, 2024 04:44:54 pm",CRBN1,Right,Live Pitch,61,54,80,64.3,20.9,75,29,82,80,-21,2.93,0.14,19.5,,,,Caroline Patterson
+"Oct 16, 2024 04:44:42 pm",CRBN1,Right,Live Pitch,65,49,80,64.7,19.6,79,26,78,79,-21,3.01,0.14,19.3,,,,Caroline Patterson
+"Oct 16, 2024 04:44:32 pm",CRBN1,Right,Live Pitch,63,36,75,66.6,17.7,78,21,65,71,-15,3.28,0.14,20.0,,,,Caroline Patterson
+"Oct 16, 2024 04:42:43 pm",CRBN1,Right,Live Pitch,61,47,76,65.4,18.0,76,25,76,78,-20,3.03,0.14,19.2,,,,Caroline Patterson
+"Oct 16, 2024 04:42:32 pm",CRBN1,Right,Live Pitch,69,40,72,63.8,16.5,83,21,67,77,-15,2.96,0.14,19.5,,,,Caroline Patterson
+"Oct 16, 2024 04:42:22 pm",CRBN1,Right,Live Pitch,64,45,80,66.0,20.3,78,24,76,76,-23,3.17,0.14,20.0,,,,Caroline Patterson
+"Oct 16, 2024 04:42:01 pm",CRBN1,Right,Live Pitch,63,37,76,66.9,18.1,78,23,67,70,-24,3.31,0.14,20.3,,,,Caroline Patterson
+"Oct 16, 2024 04:41:51 pm",CRBN1,Right,Live Pitch,66,39,61,69.4,12.9,81,22,69,72,-20,3.36,0.15,19.1,,,,Caroline Patterson
+"Oct 16, 2024 04:40:20 pm",CRBN1,Right,Live Pitch,69,51,75,64.9,17.5,83,23,79,80,-17,2.95,0.15,19.4,,,,Caroline Patterson
+"Oct 16, 2024 04:40:10 pm",CRBN1,Right,Live Pitch,65,37,73,65.4,17.0,80,25,67,72,-13,3.07,0.14,19.7,,,,Caroline Patterson
+"Oct 16, 2024 04:40:03 pm",CRBN1,Right,Live Pitch,64,63,80,64.1,19.6,78,17,83,86,-15,3.18,0.13,19.1,,,,Caroline Patterson
+"Oct 16, 2024 04:39:46 pm",CRBN1,Right,Live Pitch,74,36,64,62.8,13.9,88,16,62,74,-26,2.88,0.14,19.2,,,,Caroline Patterson
+"Oct 16, 2024 04:39:33 pm",CRBN1,Right,Live Pitch,58,39,68,64.9,15.1,72,21,70,73,-14,2.94,0.15,19.2,,,,Caroline Patterson
+"Oct 16, 2024 04:37:46 pm",CRBN1,Right,Live Pitch,64,49,78,65.2,18.6,79,19,75,81,-27,3.18,0.14,20.0,,,,Caroline Patterson
+"Oct 16, 2024 04:37:38 pm",CRBN1,Right,Live Pitch,64,44,75,65.4,17.7,79,27,76,74,-30,2.79,0.16,19.7,,,,Caroline Patterson
+"Oct 16, 2024 04:37:27 pm",CRBN1,Right,Live Pitch,62,53,75,65.9,17.7,76,24,83,78,-11,2.95,0.15,19.0,,,,Caroline Patterson
+"Oct 16, 2024 04:37:16 pm",CRBN1,Right,Live Pitch,59,69,78,64.8,18.6,74,20,88,84,-17,3.06,0.14,18.3,,,,Caroline Patterson
+"Oct 16, 2024 04:37:05 pm",CRBN1,Right,Live Pitch,65,37,72,63.9,16.5,80,21,68,69,-17,2.89,0.14,19.1,,,,Caroline Patterson
+"Oct 16, 2024 04:32:56 pm",CRBN1,Right,Live Pitch,64,56,76,65.0,18.0,78,21,84,80,-14,2.95,0.15,19.2,,,,Caroline Patterson
+"Oct 16, 2024 04:32:49 pm",CRBN1,Right,Live Pitch,58,46,80,64.0,19.2,72,28,79,73,-23,2.75,0.15,19.2,,,,Caroline Patterson
+"Oct 16, 2024 04:32:42 pm",CRBN1,Right,Live Pitch,64,45,80,65.7,22.3,78,27,78,73,-18,2.93,0.15,19.6,,,,Caroline Patterson
+"Oct 16, 2024 04:32:34 pm",CRBN1,Right,Live Pitch,70,43,77,62.6,18.4,85,28,78,70,-17,2.47,0.16,19.1,,,,Caroline Patterson
+"Oct 16, 2024 04:32:25 pm",CRBN1,Right,Live Pitch,66,37,80,65.8,20.7,80,23,68,71,-23,3.15,0.14,19.8,,,,Caroline Patterson
+"Oct 16, 2024 04:28:42 pm",CRBN1,Right,Live Pitch,64,42,80,65.0,19.4,78,23,73,74,-27,2.95,0.15,19.7,,,,Caroline Patterson
+"Oct 16, 2024 04:28:33 pm",CRBN1,Right,Live Pitch,67,42,61,62.7,13.0,81,20,70,76,-17,2.61,0.15,18.7,,,,Caroline Patterson
+"Oct 16, 2024 04:28:23 pm",CRBN1,Right,Live Pitch,62,41,75,65.5,17.6,77,24,71,73,-15,3.08,0.14,19.3,,,,Caroline Patterson
+"Oct 16, 2024 04:28:14 pm",CRBN1,Right,Live Pitch,69,37,67,61.4,15.1,83,18,63,74,-26,2.75,0.14,18.6,,,,Caroline Patterson
+"Oct 16, 2024 04:28:09 pm",CRBN1,Right,Live Pitch,65,32,74,62.5,17.3,80,27,62,64,-12,2.66,0.15,18.5,,,,Caroline Patterson
+"Oct 15, 2024 02:50:29 pm",CRBN1,Right,Live Pitch,66,44,56,57.9,11.2,80,15,69,81,-28,2.19,0.16,18.3,,,,Caroline Patterson
+"Oct 15, 2024 01:26:40 pm",CRBN1,Right,Live Pitch,64,65,80,58.8,19.7,79,9,90,97,-43,2.55,0.14,19.0,,,,Caroline Patterson
+"Oct 15, 2024 01:10:50 pm",CRBN1,Right,Live Pitch,66,80,80,63.6,20.7,80,10,89,90,-36,3.08,0.13,19.9,,,,Caroline Patterson
+"Oct 15, 2024 12:54:21 pm",CRBN1,Right,Live Pitch,71,47,72,58.5,16.4,85,21,77,77,-32,2.18,0.16,17.2,,,,Caroline Patterson
+"Oct 15, 2024 12:50:05 pm",CRBN1,Right,Live Pitch,60,66,72,61.0,16.5,75,7,96,86,-21,2.5,0.15,19.6,,,,Caroline Patterson
 "Oct 11, 2024 03:02:53 pm",CRBN1,Right,Live Pitch,66,80,66,62.7,14.4,80,10,89,89,-41,2.82,0.14,18.7,,,,Caroline Patterson
 "Oct 11, 2024 02:41:37 pm",CRBN1,Right,Live Pitch,67,39,78,62.4,18.6,82,20,68,73,-23,2.8,0.14,19.6,,,,Caroline Patterson
 "Oct 11, 2024 01:58:52 pm",CRBN1,Right,Live Pitch,69,65,65,62.7,14.3,83,16,84,86,-16,2.67,0.15,19.4,,,,Caroline Patterson
@@ -5082,6 +5619,38 @@ Date,Equipment,Handedness,Swing Details,Plane Score,Connection Score,Rotation Sc
 "Aug 26, 2024 03:59:12 pm",CRBN1,Right,Front Toss Underhand,60,80,72,61.1,16.6,74,18,88,88,-27,2.65,0.14,17.6,,,,Caroline Patterson
 "Aug 26, 2024 03:59:01 pm",CRBN1,Right,Front Toss Underhand,55,80,80,61.8,19.3,70,20,90,88,-22,2.74,0.14,18.2,,,,Caroline Patterson
 "Aug 26, 2024 03:58:58 pm",CRBN1,Right,Front Toss Underhand,76,29,69,31.2,15.7,90,24,51,67,-21,0.6,0.17,15.6,,,,Caroline Patterson
+"Oct 20, 2024 02:22:51 pm",CRBN1,Left,Live Pitch,59,20,80,65.2,30.1,72,42,32,49,-45,3.74,0.12,23.4,,,,Lillian Martineau
+"Oct 16, 2024 04:43:09 pm",CRBN1,Left,Live Pitch,59,35,80,69.8,33.3,72,8,61,73,-61,4.35,0.11,25.2,,,,Lillian Martineau
+"Oct 16, 2024 04:41:26 pm",CRBN1,Left,Live Pitch,58,29,80,64.6,18.6,71,19,54,64,20,3.27,0.13,19.9,,,,Lillian Martineau
+"Oct 16, 2024 04:41:11 pm",CRBN1,Left,Live Pitch,56,20,80,69.5,40.5,69,5,40,46,21,4.4,0.11,27.1,,,,Lillian Martineau
+"Oct 16, 2024 04:40:58 pm",CRBN1,Left,Live Pitch,48,24,80,73.0,35.8,61,1,51,52,20,4.61,0.12,27.7,,,,Lillian Martineau
+"Oct 16, 2024 04:40:46 pm",CRBN1,Left,Live Pitch,49,24,80,68.3,23.6,62,5,49,54,21,3.84,0.12,22.5,,,,Lillian Martineau
+"Oct 16, 2024 04:40:37 pm",CRBN1,Left,Live Pitch,55,29,80,67.5,20.5,68,3,58,61,21,3.69,0.13,21.1,,,,Lillian Martineau
+"Oct 16, 2024 04:39:15 pm",CRBN1,Left,Live Pitch,49,20,80,67.0,34.7,62,6,40,43,18,3.82,0.12,26.9,,,,Lillian Martineau
+"Oct 16, 2024 04:38:51 pm",CRBN1,Left,Live Pitch,53,53,80,73.5,36.9,66,2,79,82,-40,4.75,0.12,27.2,,,,Lillian Martineau
+"Oct 16, 2024 04:38:40 pm",CRBN1,Left,Live Pitch,53,26,80,67.8,23.8,66,10,52,60,21,3.91,0.12,22.5,,,,Lillian Martineau
+"Oct 16, 2024 04:38:30 pm",CRBN1,Left,Live Pitch,56,22,80,72.7,35.4,69,2,48,51,24,4.56,0.12,26.5,,,,Lillian Martineau
+"Oct 16, 2024 04:35:59 pm",CRBN1,Left,Live Pitch,50,49,80,69.7,35.8,63,14,74,82,-53,4.2,0.12,25.4,,,,Lillian Martineau
+"Oct 16, 2024 04:35:46 pm",CRBN1,Left,Live Pitch,50,36,80,71.2,31.0,63,1,66,69,7,4.53,0.11,24.4,,,,Lillian Martineau
+"Oct 16, 2024 04:35:35 pm",CRBN1,Left,Live Pitch,61,31,80,73.2,34.8,75,-3,59,65,1,4.87,0.11,25.1,,,,Lillian Martineau
+"Oct 16, 2024 04:35:24 pm",CRBN1,Left,Live Pitch,45,37,80,66.8,34.6,58,36,66,71,-54,3.73,0.12,23.9,,,,Lillian Martineau
+"Oct 16, 2024 04:35:14 pm",CRBN1,Left,Live Pitch,58,28,80,69.4,37.9,71,29,53,63,-63,4.17,0.12,24.6,,,,Lillian Martineau
+"Oct 16, 2024 04:31:13 pm",CRBN1,Left,Live Pitch,49,40,80,70.4,37.9,61,23,72,71,-58,4.01,0.13,26.9,,,,Lillian Martineau
+"Oct 16, 2024 04:30:59 pm",CRBN1,Left,Live Pitch,51,20,80,69.4,26.9,64,14,42,49,24,4.09,0.12,22.4,,,,Lillian Martineau
+"Oct 16, 2024 04:30:48 pm",CRBN1,Left,Live Pitch,42,22,80,71.6,39.4,55,2,48,51,18,4.36,0.12,26.7,,,,Lillian Martineau
+"Oct 16, 2024 04:30:36 pm",CRBN1,Left,Live Pitch,52,21,80,71.4,25.3,65,1,45,50,24,4.27,0.12,23.8,,,,Lillian Martineau
+"Oct 16, 2024 04:30:25 pm",CRBN1,Left,Live Pitch,44,29,80,71.2,20.0,57,-4,59,61,13,3.91,0.13,22.8,,,,Lillian Martineau
+"Oct 16, 2024 04:27:00 pm",CRBN1,Left,Live Pitch,47,20,80,63.9,32.5,60,37,48,45,17,3.3,0.13,19.8,,,,Lillian Martineau
+"Oct 16, 2024 04:26:52 pm",CRBN1,Left,Live Pitch,40,50,80,63.8,24.6,52,23,80,77,9,3.09,0.13,20.1,,,,Lillian Martineau
+"Oct 16, 2024 04:26:41 pm",CRBN1,Left,Live Pitch,54,37,80,64.3,18.8,67,22,63,75,11,3.35,0.13,19.8,,,,Lillian Martineau
+"Oct 16, 2024 04:26:35 pm",CRBN1,Left,Live Pitch,51,20,80,65.4,26.2,64,9,31,36,31,3.16,0.14,22.1,,,,Lillian Martineau
+"Oct 16, 2024 04:26:25 pm",CRBN1,Left,Live Pitch,60,22,80,65.1,21.5,74,7,46,51,23,3.6,0.12,22.3,,,,Lillian Martineau
+"Oct 15, 2024 02:49:08 pm",CRBN1,Left,Live Pitch,65,47,80,69.3,21.6,79,-8,76,79,-46,4.45,0.11,23.0,,,,Lillian Martineau
+"Oct 15, 2024 02:48:42 pm",CRBN1,Left,Live Pitch,69,39,80,68.1,18.9,83,-21,77,64,-19,4.47,0.11,22.4,,,,Lillian Martineau
+"Oct 15, 2024 02:16:26 pm",CRBN1,Left,Live Pitch,64,37,80,71.8,21.0,78,-13,72,66,-38,4.53,0.12,23.0,,,,Lillian Martineau
+"Oct 15, 2024 02:04:36 pm",CRBN1,Left,Live Pitch,66,41,80,69.1,19.8,80,-10,73,72,-27,4.06,0.12,22.5,,,,Lillian Martineau
+"Oct 15, 2024 02:04:15 pm",CRBN1,Left,Live Pitch,71,35,74,54.8,15.9,84,24,48,85,-28,2.69,0.11,16.8,,,,Lillian Martineau
+"Oct 15, 2024 12:49:12 pm",CRBN1,Left,Live Pitch,66,45,80,61.8,23.9,79,19,70,82,4,3.35,0.12,20.6,,,,Lillian Martineau
 "Oct 11, 2024 02:12:44 pm",CRBN1,Left,Live Pitch,65,37,80,56.3,18.0,78,20,57,99,-58,2.57,0.13,19.8,,,,Lillian Martineau
 "Oct 09, 2024 04:05:16 pm",CRBN1,Left,General Practice,52,32,80,61.8,31.9,65,44,56,70,-2,3.14,0.12,19.7,,,,Lillian Martineau
 "Oct 09, 2024 04:04:56 pm",CRBN1,Left,General Practice,59,33,80,69.8,33.8,72,-8,66,63,3,4.44,0.11,26.3,,,,Lillian Martineau
@@ -5489,6 +6058,47 @@ Date,Equipment,Handedness,Swing Details,Plane Score,Connection Score,Rotation Sc
 "Aug 26, 2024 04:00:46 pm",CRBN1,Left,Front Toss Underhand,59,63,80,59.5,23.5,72,7,88,98,-31,2.91,0.12,20.7,,,,Lillian Martineau
 "Aug 26, 2024 04:00:41 pm",CRBN1,Left,Front Toss Underhand,62,71,79,56.9,17.5,75,-1,94,93,-26,2.58,0.13,18.6,,,,Lillian Martineau
 "Aug 26, 2024 04:00:37 pm",CRBN1,Left,Front Toss Underhand,66,43,62,47.2,11.9,80,4,70,103,-31,1.67,0.14,19.2,,,,Lillian Martineau
+"Oct 20, 2024 03:34:35 pm",33 inch,Right,Live Pitch,76,34,53,52.4,10.4,90,16,64,68,-12,1.69,0.15,14.9,,,,Alyssa Willer
+"Oct 20, 2024 03:08:19 pm",33 inch,Right,Live Pitch,62,67,67,62.9,15.0,76,9,86,85,-29,2.53,0.15,20.4,,,,Alyssa Willer
+"Oct 20, 2024 02:21:21 pm",33 inch,Right,Live Pitch,66,54,64,58.1,14.0,80,3,86,77,-22,2.32,0.14,19.1,,,,Alyssa Willer
+"Oct 18, 2024 07:41:12 pm",33 inch,Right,Live Pitch,65,60,63,61.7,13.5,80,14,87,80,-25,2.34,0.15,20.2,,,,Alyssa Willer
+"Oct 18, 2024 07:40:39 pm",33 inch,Right,Live Pitch,67,69,51,61.0,9.7,81,5,91,84,-26,2.26,0.15,19.6,,,,Alyssa Willer
+"Oct 18, 2024 07:16:21 pm",33 inch,Right,Live Pitch,67,59,47,54.8,8.3,81,1,88,79,-19,1.98,0.14,18.8,,,,Alyssa Willer
+"Oct 16, 2024 04:34:55 pm",33 inch,Right,Live Pitch,61,67,65,59.8,14.2,75,12,86,85,-25,2.2,0.15,19.8,,,,Alyssa Willer
+"Oct 16, 2024 04:34:45 pm",33 inch,Right,Live Pitch,52,58,60,62.7,12.7,67,19,97,82,-22,2.3,0.16,19.5,,,,Alyssa Willer
+"Oct 16, 2024 04:34:29 pm",33 inch,Right,Live Pitch,64,47,69,62.3,15.5,78,15,78,76,-15,2.42,0.15,20.8,,,,Alyssa Willer
+"Oct 16, 2024 04:34:15 pm",33 inch,Right,Live Pitch,66,57,65,61.2,14.2,80,15,83,82,-22,2.27,0.15,20.5,,,,Alyssa Willer
+"Oct 16, 2024 04:33:57 pm",33 inch,Right,Live Pitch,63,50,69,60.4,15.5,78,16,79,79,-24,2.21,0.15,19.4,,,,Alyssa Willer
+"Oct 16, 2024 04:30:13 pm",33 inch,Right,Live Pitch,64,63,66,62.5,14.5,78,15,89,81,-18,2.31,0.16,21.2,,,,Alyssa Willer
+"Oct 16, 2024 04:30:02 pm",33 inch,Right,Live Pitch,59,52,53,61.8,10.2,74,12,84,76,-11,2.23,0.16,19.8,,,,Alyssa Willer
+"Oct 16, 2024 04:29:33 pm",33 inch,Right,Live Pitch,61,57,65,61.1,14.4,75,16,84,80,-24,2.26,0.15,20.5,,,,Alyssa Willer
+"Oct 16, 2024 04:29:20 pm",33 inch,Right,Live Pitch,63,50,67,62.3,14.9,77,16,81,77,-21,2.42,0.15,19.8,,,,Alyssa Willer
+"Oct 16, 2024 04:29:11 pm",33 inch,Right,Live Pitch,59,70,66,61.3,14.6,73,17,89,85,-22,2.19,0.16,20.8,,,,Alyssa Willer
+"Oct 16, 2024 04:25:31 pm",33 inch,Right,Live Pitch,55,58,63,63.4,13.7,69,16,86,79,-23,2.41,0.16,20.8,,,,Alyssa Willer
+"Oct 16, 2024 04:25:23 pm",33 inch,Right,Live Pitch,56,56,66,61.1,14.6,71,16,85,79,-16,2.13,0.16,20.6,,,,Alyssa Willer
+"Oct 16, 2024 04:25:11 pm",33 inch,Right,Live Pitch,63,58,70,62.1,15.8,78,13,84,81,-26,2.4,0.15,21.1,,,,Alyssa Willer
+"Oct 16, 2024 04:24:55 pm",33 inch,Right,Live Pitch,61,52,65,61.9,14.1,76,16,81,79,-17,2.27,0.16,20.1,,,,Alyssa Willer
+"Oct 16, 2024 04:19:51 pm",33 inch,Right,Live Pitch,54,64,66,60.1,14.6,69,14,88,82,-24,2.22,0.15,20.2,,,,Alyssa Willer
+"Oct 16, 2024 04:19:39 pm",33 inch,Right,Live Pitch,58,51,67,61.4,14.8,73,17,80,79,-17,2.32,0.15,20.6,,,,Alyssa Willer
+"Oct 16, 2024 04:19:29 pm",33 inch,Right,Live Pitch,60,51,56,61.3,11.2,75,14,82,77,-18,2.2,0.16,20.2,,,,Alyssa Willer
+"Oct 16, 2024 04:19:17 pm",33 inch,Right,Live Pitch,58,61,71,61.1,16.4,72,16,86,82,-23,2.27,0.15,20.2,,,,Alyssa Willer
+"Oct 16, 2024 04:19:04 pm",33 inch,Right,Live Pitch,64,59,70,61.4,15.8,79,14,85,81,-21,2.23,0.16,20.4,,,,Alyssa Willer
+"Oct 16, 2024 04:15:33 pm",33 inch,Right,Live Pitch,58,65,72,62.3,16.7,72,16,94,84,-19,2.3,0.16,21.3,,,,Alyssa Willer
+"Oct 16, 2024 04:15:15 pm",33 inch,Right,Live Pitch,58,58,67,62.6,15.0,73,11,86,80,-19,2.44,0.15,21.0,,,,Alyssa Willer
+"Oct 16, 2024 04:15:03 pm",33 inch,Right,Live Pitch,56,54,67,60.8,14.9,71,19,85,77,-11,2.3,0.15,20.3,,,,Alyssa Willer
+"Oct 16, 2024 04:14:47 pm",33 inch,Right,Live Pitch,56,47,66,62.6,14.7,70,20,81,73,-24,2.2,0.17,20.2,,,,Alyssa Willer
+"Oct 16, 2024 04:14:34 pm",33 inch,Right,Live Pitch,54,54,55,59.4,10.8,69,11,83,79,-21,2.03,0.16,19.2,,,,Alyssa Willer
+"Oct 16, 2024 04:11:21 pm",33 inch,Right,Live Pitch,55,58,62,63.0,13.2,70,14,85,80,-24,2.35,0.16,20.8,,,,Alyssa Willer
+"Oct 16, 2024 04:11:11 pm",33 inch,Right,Live Pitch,57,55,63,61.7,13.7,72,12,86,77,-18,2.28,0.16,19.4,,,,Alyssa Willer
+"Oct 16, 2024 04:10:51 pm",33 inch,Right,Live Pitch,54,49,55,58.1,11.0,69,16,83,73,-22,1.78,0.18,18.8,,,,Alyssa Willer
+"Oct 16, 2024 04:10:44 pm",33 inch,Right,Live Pitch,62,47,62,59.0,13.4,76,15,78,76,-25,2.01,0.16,19.1,,,,Alyssa Willer
+"Oct 16, 2024 04:10:35 pm",33 inch,Right,Live Pitch,57,52,51,59.3,9.4,72,18,88,73,-9,1.84,0.18,17.8,,,,Alyssa Willer
+"Oct 15, 2024 02:56:10 pm",33 inch,Right,Live Pitch,61,59,61,58.1,13.0,76,11,87,79,-25,2.05,0.15,18.8,,,,Alyssa Willer
+"Oct 15, 2024 02:45:04 pm",33 inch,Right,Live Pitch,67,80,59,58.7,12.3,81,4,91,89,-29,2.09,0.15,19.9,,,,Alyssa Willer
+"Oct 15, 2024 02:00:42 pm",33 inch,Right,Live Pitch,65,46,66,60.5,14.6,79,8,75,77,-28,2.25,0.15,19.5,,,,Alyssa Willer
+"Oct 15, 2024 01:37:39 pm",33 inch,Right,Live Pitch,63,54,54,56.7,10.5,78,8,86,76,-22,1.91,0.16,17.8,,,,Alyssa Willer
+"Oct 15, 2024 01:05:13 pm",33 inch,Right,Live Pitch,63,41,57,58.8,11.5,78,12,76,68,-29,1.95,0.17,19.1,,,,Alyssa Willer
+"Oct 15, 2024 12:34:06 pm",33 inch,Right,Live Pitch,59,51,56,57.1,11.4,74,16,82,77,-34,1.81,0.17,18.5,,,,Alyssa Willer
 "Oct 11, 2024 03:10:47 pm",33 inch,Right,Live Pitch,70,63,56,56.6,11.2,84,0,85,84,-38,2.0,0.15,19.0,,,,Alyssa Willer
 "Oct 11, 2024 02:16:51 pm",33 inch,Right,Live Pitch,60,53,45,54.1,7.7,75,14,89,73,-18,1.63,0.17,17.1,,,,Alyssa Willer
 "Oct 11, 2024 02:16:31 pm",33 inch,Right,Live Pitch,38,34,51,62.0,9.5,53,20,73,58,-19,2.02,0.18,17.5,,,,Alyssa Willer
@@ -5821,6 +6431,42 @@ Date,Equipment,Handedness,Swing Details,Plane Score,Connection Score,Rotation Sc
 "Aug 26, 2024 03:04:34 pm",33 inch,Right,Front Toss Underhand,64,74,55,52.8,10.9,78,3,90,86,-33,1.69,0.15,17.2,,,,Alyssa Willer
 "Aug 26, 2024 03:04:26 pm",33 inch,Right,Front Toss Underhand,63,77,61,54.1,12.7,77,10,89,86,-29,1.67,0.16,17.6,,,,Alyssa Willer
 "Aug 26, 2024 03:04:20 pm",33 inch,Right,Front Toss Underhand,50,62,48,53.7,8.6,65,13,99,88,-26,1.68,0.16,16.9,,,,Alyssa Willer
+"Oct 18, 2024 07:42:05 pm",CRBN1,Left,Live Pitch,56,65,60,60.7,11.4,69,16,97,88,-25,2.29,0.16,19.1,,,,Emma Minghini
+"Oct 18, 2024 07:17:38 pm",CRBN1,Left,Live Pitch,52,49,80,61.7,18.3,65,8,104,99,-27,2.73,0.14,20.0,,,,Emma Minghini
+"Oct 18, 2024 06:41:35 pm",CRBN1,Left,Live Pitch,55,57,67,57.8,13.5,68,14,102,94,-20,2.3,0.15,19.6,,,,Emma Minghini
+"Oct 18, 2024 06:41:13 pm",CRBN1,Left,Live Pitch,61,80,51,57.9,8.2,74,13,89,89,-29,2.03,0.17,18.2,,,,Emma Minghini
+"Oct 16, 2024 12:09:28 pm",CRBN1,Left,Live Pitch,44,31,65,60.0,12.9,57,12,126,110,-22,2.48,0.15,18.0,,,,Emma Minghini
+"Oct 16, 2024 12:09:19 pm",CRBN1,Left,Live Pitch,40,38,65,64.6,13.0,53,15,118,102,-21,2.84,0.15,18.5,,,,Emma Minghini
+"Oct 16, 2024 12:09:09 pm",CRBN1,Left,Live Pitch,36,40,69,63.6,14.3,49,20,116,101,-17,2.68,0.15,18.9,,,,Emma Minghini
+"Oct 16, 2024 12:08:58 pm",CRBN1,Left,Live Pitch,43,45,56,64.1,10.1,56,21,114,95,-17,2.52,0.17,17.9,,,,Emma Minghini
+"Oct 16, 2024 12:08:47 pm",CRBN1,Left,Live Pitch,55,55,46,61.0,6.5,68,15,100,97,-27,2.31,0.16,18.2,,,,Emma Minghini
+"Oct 16, 2024 12:08:37 pm",CRBN1,Left,Live Pitch,40,45,65,64.5,13.0,53,16,112,98,-22,2.75,0.15,19.1,,,,Emma Minghini
+"Oct 16, 2024 12:06:49 pm",CRBN1,Left,Live Pitch,40,51,69,62.7,14.3,52,21,106,96,-21,2.57,0.16,19.4,,,,Emma Minghini
+"Oct 16, 2024 12:06:37 pm",CRBN1,Left,Live Pitch,34,43,63,61.9,12.4,46,17,111,101,-24,2.5,0.16,20.0,,,,Emma Minghini
+"Oct 16, 2024 12:06:29 pm",CRBN1,Left,Live Pitch,38,41,66,62.1,13.2,50,17,113,102,-18,2.49,0.16,19.5,,,,Emma Minghini
+"Oct 16, 2024 12:06:05 pm",CRBN1,Left,Live Pitch,41,55,62,62.9,12.0,54,19,103,94,-25,2.59,0.16,19.6,,,,Emma Minghini
+"Oct 16, 2024 12:05:55 pm",CRBN1,Left,Live Pitch,51,66,49,62.6,7.8,63,13,97,93,-31,2.56,0.16,18.3,,,,Emma Minghini
+"Oct 16, 2024 12:04:47 pm",CRBN1,Left,Live Pitch,41,41,70,63.1,14.7,54,20,117,99,-22,2.57,0.16,19.0,,,,Emma Minghini
+"Oct 16, 2024 12:04:40 pm",CRBN1,Left,Live Pitch,34,50,66,64.6,13.3,46,24,110,90,-14,2.63,0.16,18.2,,,,Emma Minghini
+"Oct 16, 2024 12:04:22 pm",CRBN1,Left,Live Pitch,52,54,50,61.3,8.1,65,20,105,91,-20,2.28,0.17,17.1,,,,Emma Minghini
+"Oct 16, 2024 12:04:11 pm",CRBN1,Left,Live Pitch,50,52,61,63.8,11.6,63,18,105,95,-23,2.66,0.16,18.4,,,,Emma Minghini
+"Oct 16, 2024 12:03:54 pm",CRBN1,Left,Live Pitch,43,41,69,63.7,14.2,55,9,112,102,-28,2.83,0.15,19.6,,,,Emma Minghini
+"Oct 16, 2024 12:00:37 pm",CRBN1,Left,Live Pitch,48,48,46,65.9,6.6,60,16,109,96,-29,2.66,0.17,17.7,,,,Emma Minghini
+"Oct 16, 2024 12:00:26 pm",CRBN1,Left,Live Pitch,31,40,61,63.3,11.8,43,18,120,96,-12,2.43,0.17,19.0,,,,Emma Minghini
+"Oct 16, 2024 12:00:15 pm",CRBN1,Left,Live Pitch,53,54,54,63.5,9.3,66,17,105,93,-24,2.57,0.16,18.2,,,,Emma Minghini
+"Oct 16, 2024 12:00:06 pm",CRBN1,Left,Live Pitch,50,48,57,62.8,10.4,62,17,107,97,-25,2.57,0.16,18.0,,,,Emma Minghini
+"Oct 16, 2024 11:56:48 am",CRBN1,Left,Live Pitch,41,46,80,60.9,17.9,53,15,107,99,-22,2.46,0.15,19.3,,,,Emma Minghini
+"Oct 16, 2024 11:56:43 am",CRBN1,Left,Live Pitch,32,46,57,60.1,10.3,44,20,114,94,-15,2.14,0.17,17.6,,,,Emma Minghini
+"Oct 16, 2024 11:56:34 am",CRBN1,Left,Live Pitch,46,51,66,62.9,13.4,58,19,108,93,-18,2.49,0.16,18.7,,,,Emma Minghini
+"Oct 16, 2024 11:56:24 am",CRBN1,Left,Live Pitch,53,50,73,63.1,15.6,66,13,106,97,-23,2.74,0.15,18.8,,,,Emma Minghini
+"Oct 16, 2024 11:56:15 am",CRBN1,Left,Live Pitch,46,55,72,62.7,15.4,58,17,102,95,-17,2.67,0.15,18.9,,,,Emma Minghini
+"Oct 16, 2024 11:52:30 am",CRBN1,Left,Live Pitch,40,52,67,62.3,13.7,52,19,105,95,-23,2.54,0.16,18.6,,,,Emma Minghini
+"Oct 16, 2024 11:52:23 am",CRBN1,Left,Live Pitch,36,63,47,59.2,7.1,48,19,99,90,-28,2.03,0.18,17.6,,,,Emma Minghini
+"Oct 16, 2024 11:52:15 am",CRBN1,Left,Live Pitch,42,53,60,60.0,11.2,55,21,106,91,-18,2.16,0.17,17.8,,,,Emma Minghini
+"Oct 16, 2024 11:52:06 am",CRBN1,Left,Live Pitch,52,52,62,63.3,12.0,65,19,106,94,-24,2.55,0.16,18.8,,,,Emma Minghini
+"Oct 16, 2024 11:51:51 am",CRBN1,Left,Live Pitch,46,58,66,62.6,13.3,58,21,98,84,-16,2.56,0.16,17.7,,,,Emma Minghini
+"Oct 11, 2024 02:44:39 pm",CRBN1,Left,Live Pitch,56,46,61,55.0,11.6,69,-2,105,102,-29,2.24,0.14,19.3,,,,Emma Minghini
+"Oct 11, 2024 02:18:44 pm",CRBN1,Left,Live Pitch,63,50,59,60.0,11.1,76,4,106,97,-27,2.41,0.15,18.9,,,,Emma Minghini
 "Oct 09, 2024 11:59:28 am",CRBN1,Left,General Practice,53,43,66,59.5,13.2,66,13,110,101,-24,2.38,0.15,17.5,,,,Emma Minghini
 "Oct 09, 2024 11:59:05 am",CRBN1,Left,General Practice,51,49,60,57.5,11.3,63,13,106,98,-16,2.34,0.14,16.9,,,,Emma Minghini
 "Oct 09, 2024 11:58:50 am",CRBN1,Left,General Practice,53,47,62,53.7,12.1,66,7,101,104,-29,2.07,0.14,17.9,,,,Emma Minghini
@@ -6203,6 +6849,25 @@ Date,Equipment,Handedness,Swing Details,Plane Score,Connection Score,Rotation Sc
 "Aug 27, 2024 11:20:16 am",Softball Bat - Ghost,Left,Front Toss Underhand,47,55,64,56.9,12.6,59,16,105,92,-32,1.96,0.15,19.3,,,,Emma Minghini
 "Aug 27, 2024 11:20:11 am",Softball Bat - Ghost,Left,Front Toss Underhand,33,55,62,57.6,12.0,46,17,104,87,-18,1.92,0.16,19.4,,,,Emma Minghini
 "Aug 27, 2024 11:19:06 am",Softball Bat - Ghost,Left,Front Toss Underhand,45,37,58,56.3,10.7,58,5,119,104,-43,1.88,0.16,18.1,,,,Emma Minghini
+"Oct 20, 2024 04:46:55 pm",CRBN1,Left,Live Pitch,47,52,50,62.0,9.3,62,16,104,84,-24,2.25,0.17,16.5,,,,Makayla Coffield
+"Oct 20, 2024 04:14:18 pm",CRBN1,Left,Live Pitch,58,59,49,65.4,8.8,73,8,87,79,-32,2.62,0.17,17.5,,,,Makayla Coffield
+"Oct 20, 2024 04:13:30 pm",CRBN1,Left,Live Pitch,30,48,58,66.5,11.9,46,15,111,87,-24,2.65,0.17,17.4,,,,Makayla Coffield
+"Oct 20, 2024 04:11:31 pm",CRBN1,Left,Live Pitch,31,37,49,61.8,9.0,47,28,125,81,-19,2.03,0.19,17.9,,,,Makayla Coffield
+"Oct 18, 2024 07:36:14 pm",CRBN1,Left,Live Pitch,60,58,59,62.6,12.1,75,17,95,81,-36,2.43,0.16,18.4,,,,Makayla Coffield
+"Oct 15, 2024 02:52:45 pm",CRBN1,Left,Live Pitch,62,69,39,59.3,5.4,77,-1,96,88,-46,2.11,0.17,16.3,,,,Makayla Coffield
+"Oct 15, 2024 02:52:23 pm",CRBN1,Left,Live Pitch,69,60,53,60.2,10.3,83,4,96,83,-35,2.37,0.16,16.9,,,,Makayla Coffield
+"Oct 15, 2024 02:01:47 pm",CRBN1,Left,Live Pitch,52,49,61,58.7,13.0,67,9,111,92,-35,2.12,0.17,15.3,,,,Makayla Coffield
+"Oct 15, 2024 01:39:52 pm",CRBN1,Left,Live Pitch,80,50,55,56.3,10.8,95,-15,87,71,-29,2.42,0.13,17.1,,,,Makayla Coffield
+"Oct 15, 2024 12:58:07 pm",CRBN1,Left,Live Pitch,64,56,58,59.2,11.9,78,-4,100,84,-34,2.38,0.15,16.3,,,,Makayla Coffield
+"Oct 15, 2024 12:54:56 pm",CRBN1,Left,Live Pitch,20,35,49,61.4,8.9,36,34,129,83,-16,2.04,0.19,16.9,,,,Makayla Coffield
+"Oct 11, 2024 03:14:34 pm",CRBN1,Left,Live Pitch,53,60,50,62.1,9.2,68,2,100,89,-40,2.46,0.16,17.5,,,,Makayla Coffield
+"Oct 11, 2024 02:47:43 pm",CRBN1,Left,Live Pitch,60,53,42,52.2,6.6,75,-2,105,94,-31,1.56,0.18,14.9,,,,Makayla Coffield
+"Oct 11, 2024 02:47:20 pm",CRBN1,Left,Live Pitch,45,47,57,62.4,11.7,60,8,112,94,-36,2.36,0.17,17.1,,,,Makayla Coffield
+"Oct 11, 2024 02:45:43 pm",CRBN1,Left,Live Pitch,20,34,50,55.4,9.1,34,19,126,103,-41,1.8,0.17,17.6,,,,Makayla Coffield
+"Oct 11, 2024 02:13:37 pm",CRBN1,Left,Live Pitch,54,52,57,59.1,11.5,69,1,107,91,-41,2.28,0.16,16.3,,,,Makayla Coffield
+"Oct 11, 2024 02:13:17 pm",CRBN1,Left,Live Pitch,63,49,50,61.4,9.1,78,8,102,79,-32,2.44,0.16,16.4,,,,Makayla Coffield
+"Oct 11, 2024 01:43:15 pm",CRBN1,Left,Live Pitch,77,55,57,56.0,11.4,91,-14,91,75,-34,2.28,0.14,16.4,,,,Makayla Coffield
+"Oct 11, 2024 01:41:59 pm",CRBN1,Left,Live Pitch,20,39,48,59.6,8.7,36,30,126,89,-22,1.95,0.19,16.8,,,,Makayla Coffield
 "Oct 09, 2024 03:06:30 pm",CRBN1,Left,General Practice,57,52,63,54.8,13.7,72,17,108,91,-33,1.92,0.16,17.4,,,,Makayla Coffield
 "Oct 09, 2024 03:05:51 pm",CRBN1,Left,General Practice,55,51,53,61.8,10.2,69,13,104,83,-31,2.53,0.15,16.8,,,,Makayla Coffield
 "Oct 09, 2024 03:05:29 pm",CRBN1,Left,General Practice,71,50,57,58.8,11.5,85,7,105,83,-29,2.35,0.15,16.7,,,,Makayla Coffield
@@ -6224,6 +6889,7 @@ Date,Equipment,Handedness,Swing Details,Plane Score,Connection Score,Rotation Sc
 "Oct 09, 2024 02:57:54 pm",CRBN1,Left,General Practice,58,61,59,60.3,12.3,73,15,95,83,-39,2.35,0.16,17.9,,,,Makayla Coffield
 "Oct 09, 2024 02:57:29 pm",CRBN1,Left,General Practice,54,52,51,57.1,9.5,68,18,103,84,-32,1.93,0.17,15.8,,,,Makayla Coffield
 "Oct 09, 2024 02:56:55 pm",CRBN1,Left,General Practice,58,52,45,54.6,7.4,72,11,101,81,-34,1.77,0.17,15.0,,,,Makayla Coffield
+"Oct 09, 2024 02:56:06 pm",CRBN1,Left,Live Pitch,53,41,46,59.4,7.8,67,15,117,98,-34,2.27,0.16,16.3,,,,Makayla Coffield
 "Oct 07, 2024 03:41:08 pm",CRBN1,Left,Pitching Machine,64,56,53,59.5,10.4,79,9,103,90,-46,2.35,0.15,16.8,,,,Makayla Coffield
 "Oct 07, 2024 03:41:01 pm",CRBN1,Left,Pitching Machine,72,58,56,57.6,11.2,86,-12,102,87,-44,2.48,0.14,17.3,,,,Makayla Coffield
 "Oct 07, 2024 03:40:54 pm",CRBN1,Left,Pitching Machine,67,60,57,59.4,11.7,81,8,101,88,-43,2.34,0.15,17.6,,,,Makayla Coffield
