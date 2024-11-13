@@ -2,15 +2,21 @@ import pandas as pd
 from dotenv import load_dotenv
 import matplotlib.pyplot as plt
 import openpyxl
-from tkinter import Tk
-from tkinter.filedialog import askopenfilename
+# from tkinter import Tk
+# from tkinter.filedialog import askopenfilename
 import seaborn as sns
 load_dotenv()
 
 # ask for file input
-filename = askopenfilename()
+filename1 = "data/scrimmage_yakker/11_12_2.csv"
+filename2 = "data/scrimmage_yakker/11_12_3.csv"
+filename3 = "data/scrimmage_yakker/11_12_4.csv"
 
-yakker = pd.read_csv(filename)
+yakker1 = pd.read_csv(filename1)
+yakker2 = pd.read_csv(filename2)
+yakker3 = pd.read_csv(filename3)
+
+yakker = pd.concat([yakker1, yakker2, yakker3])
 
 date = yakker['Date'].unique()[0]
 date = date.replace('/', '_')
@@ -27,8 +33,6 @@ yakker = yakker[(yakker['PitchCall'].isin(['BallCalled', 'StrikeCalled']))].rese
 
 yakker['actual_strike'] = (yakker['PlateLocSide'] - 1/6 < 17/24) & (yakker['PlateLocSide'] + 1/6 > -17/24) & (yakker['PlateLocHeight'] - 1/6 < 3) & (yakker['PlateLocHeight'] + 1/6 > 5/4)
 yakker['called_strike'] = yakker['PitchCall'] == 'StrikeCalled'
-
-yakker = yakker[yakker['Inning'] >= 5]
 
 yakker.to_csv('ump_scorecards/yakker.csv')
 
@@ -126,40 +130,41 @@ img = openpyxl.drawing.image.Image('ump_scorecards/density_plot.png')
 worksheet.add_image(img, 'G6')
 
 def classify_pitch(pitch):
-    if pd.isna(pitch['SpinAxis']):
-        return None
-    if pitch['PitcherThrows'] == 'Right':
-        if 45 <= pitch['SpinAxis'] <= 135:
-            return 'Curve'
-        elif 135 <= pitch['SpinAxis'] <= 225:
-            return 'Rise'
-        elif 225 <= pitch['SpinAxis'] <= 315:
-            return 'Screw'
-        else:
-            return 'Drop'
-    else:
-        if 45 <= pitch['SpinAxis'] <= 135:
-            return 'Screw'
-        elif 135 <= pitch['SpinAxis'] <= 225:
-            return 'Rise'
-        elif 225 <= pitch['SpinAxis'] <= 315:
-            return 'Curve'
-        else:
-            return 'Drop'
+    # if pd.isna(pitch['SpinAxis']):
+    #     return None
+    # if pitch['PitcherThrows'] == 'Right':
+    #     if 45 <= pitch['SpinAxis'] <= 135:
+    #         return 'Curve'
+    #     elif 135 <= pitch['SpinAxis'] <= 225:
+    #         return 'Rise'
+    #     elif 225 <= pitch['SpinAxis'] <= 315:
+    #         return 'Screw'
+    #     else:
+    #         return 'Drop'
+    # else:
+    #     if 45 <= pitch['SpinAxis'] <= 135:
+    #         return 'Screw'
+    #     elif 135 <= pitch['SpinAxis'] <= 225:
+    #         return 'Rise'
+    #     elif 225 <= pitch['SpinAxis'] <= 315:
+    #         return 'Curve'
+    #     else:
+    #         return 'Drop'
+    return "Fast"
 
-yakker['TaggedPitchType'] = yakker.apply(lambda row: classify_pitch(row) if row['BatterTeam'] == 'Georgia tech' else row['TaggedPitchType'], axis=1)
-yakker = yakker.dropna(subset=['TaggedPitchType'])
+# yakker['TaggedPitchType'] = yakker.apply(lambda row: classify_pitch(row) if row['BatterTeam'] == 'Georgia tech' else row['TaggedPitchType'], axis=1)
+# yakker = yakker.dropna(subset=['TaggedPitchType'])
 
 
-yakker['TaggedPitchType'] = yakker['TaggedPitchType'].str.replace('ball', '')
-yakker['TaggedPitchType'] = yakker['TaggedPitchType'].str.replace('up', '')
+# yakker['TaggedPitchType'] = yakker['TaggedPitchType'].str.replace('ball', '')
+# yakker['TaggedPitchType'] = yakker['TaggedPitchType'].str.replace('up', '')
 
 max_speeds = yakker.groupby('Pitcher')['RelSpeed'].max()
 
-for i, row in yakker.iterrows():
-    cur_max = max_speeds[row['Pitcher']]
-    if row['RelSpeed'] < cur_max - 10:
-        yakker.at[i, 'TaggedPitchType'] = 'Change'
+# for i, row in yakker.iterrows():
+#     cur_max = max_speeds[row['Pitcher']]
+#     if row['RelSpeed'] < cur_max - 10:
+#         yakker.at[i, 'TaggedPitchType'] = 'Change'
 
 
 # get total pitches and number of missed calls by pitch type

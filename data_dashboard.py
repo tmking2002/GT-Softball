@@ -38,6 +38,8 @@ game['category'] = 'Game'
 hitting_yakker = pd.concat([hitting, pitching, scrimmage, game], axis=0).drop_duplicates()
 hitting_yakker = pd.merge(hitting_yakker, pd.DataFrame(player), left_on='Batter', right_on='yakker_name', how='left').drop_duplicates(subset=['Time', 'Batter', 'Pitcher'])
 
+hitting_yakker = hitting_yakker[(hitting_yakker['Batter'].isin(player['yakker_name']))]
+
 pitching_yakker = pd.concat([pitching, scrimmage, game], axis=0).drop_duplicates()
 pitching_yakker = pitching_yakker[pitching_yakker['PitcherTeam'] == 'Georgia tech']
 
@@ -48,7 +50,7 @@ blast = pd.merge(blast, pd.DataFrame(player), left_on='Player', right_on='blast_
 date_format = "%b %d, %Y %I:%M:%S %p"
 blast['Date'] = pd.to_datetime(blast['Date'], format=date_format).dt.date
 
-bases_dict = {"Single": 1, "Double": 2, "Triple": 3, "HomeRun": 4, "Out": 0}
+bases_dict = {"Single": 1, "Double": 2, "Triple": 3, "HomeRun": 4, "Out": 0, "FieldersChoice": 0}
 
 def find_hitting_stats(player, hitting_yakker=hitting_yakker):
 
@@ -83,6 +85,9 @@ def find_hitting_stats(player, hitting_yakker=hitting_yakker):
     bip = bip[['Batter', 'Pitcher', 'ExitSpeed', 'Angle', 'Direction', 'Distance', 'PlateLocSide', 'PlateLocHeight', 'PlayResult', 'Date']]
 
     bip = bip.dropna(subset=['ExitSpeed', 'Angle', 'Direction', 'Distance'])
+    
+    if bip.shape[0] == 0:
+        return
 
     bip = bip.reset_index(drop=True)
 
@@ -131,7 +136,7 @@ def find_pitching_stats(player, pitching_yakker=pitching_yakker):
     cur_yakkertech['PlayResult'] = cur_yakkertech['PlayResult'].replace('Error', 'Out')
 
     cur_yakkertech.drop_duplicates(subset=['Date', 'Time', 'ExitSpeed', 'Angle', 'Direction', 'Distance'], keep='first', inplace=True)
-    
+
     bip = cur_yakkertech[(cur_yakkertech['PlayResult'] != 'Sacrifice') & (cur_yakkertech['PitchCall'] != 'Foul')]
     
     if(bip.shape[0] == 0):
@@ -144,7 +149,7 @@ def find_pitching_stats(player, pitching_yakker=pitching_yakker):
     
     bip = bip[['Date', 'ExitSpeed', 'Angle', 'Direction', 'Distance', 'PlateLocSide', 'PlateLocHeight', 'PlayResult']]
     
-    bip = bip.dropna()
+    bip = bip.dropna(subset=['ExitSpeed', 'Angle', 'Direction', 'Distance'])
     
     bip = bip.reset_index(drop=True)
     
@@ -152,7 +157,6 @@ def find_pitching_stats(player, pitching_yakker=pitching_yakker):
 
     for i in range(bip.shape[0]):
         if pd.isna(bip.loc[i, 'PlayResult']):
-            st.write(bip.loc[i])
             bip.loc[i, 'Bases'] = y_pred[i]
         else:
             bip.loc[i, 'Bases'] = bases_dict[bip.loc[i, 'PlayResult']]
@@ -188,13 +192,6 @@ hitting_stats_df = pd.DataFrame(columns=['player', 'AB', 'H', 'K', 'BB', '2B', '
 pitching_stats_df = pd.DataFrame(columns=['player', 'BF', 'H', 'K', 'BB', 'HR', 'K/7', 'BB/7', 'OPP wOBA'])
 bip = pd.DataFrame()
 
-unique_hitters = player['yakker_name']
-unique_hitters = sorted(unique_hitters)
-
-unique_pitchers = pitching_yakker['Pitcher'].unique()
-unique_pitchers = unique_pitchers[~pd.isna(unique_pitchers)]
-unique_pitchers = sorted(unique_pitchers)
-
 hitting_tab, pitching_tab = st.tabs(['Hitting', 'Pitching'])
 
 pitching_tab.title("2024-25 Georgia Tech Data Dashboard")
@@ -207,6 +204,29 @@ categories = hitting_tab.multiselect(
 )
 
 hitting_yakker = hitting_yakker[hitting_yakker['category'].isin(categories)]
+
+hitting_yakker = hitting_yakker[(hitting_yakker['Date'] != '12/31/69') & (hitting_yakker['Date'] != '12/31/1969')]
+
+hitting_yakker['Date'] = pd.to_datetime(hitting_yakker['Date'], format='mixed', dayfirst=False)
+
+hitting_yakker['date_display'] = hitting_yakker.apply(
+    lambda row: f"{row['Date'].strftime('%m/%d')}{' - ' + row['BatterTeam'] if row['category'] == 'Game' and pd.notnull(row['BatterTeam']) else ''}",
+    axis=1
+)
+
+hitting_stats_dates = hitting_yakker['date_display'].unique()
+hitting_stats_dates = sorted(hitting_stats_dates)
+
+selected_hitting_stats_dates = hitting_tab.multiselect('Select dates:', hitting_stats_dates)
+select_all_dates_button = hitting_tab.checkbox("Select All", key='hitting_select_all_dates', value=True)
+if select_all_dates_button:
+    selected_hitting_stats_dates = hitting_stats_dates
+
+hitting_yakker = hitting_yakker[hitting_yakker['date_display'].isin(selected_hitting_stats_dates)]
+
+unique_hitters = hitting_yakker['Batter'].unique()
+unique_hitters = unique_hitters[~pd.isna(unique_hitters)]
+unique_hitters = sorted(unique_hitters)
 
 for i in range(len(unique_hitters)):
 
@@ -222,6 +242,29 @@ for i in range(len(unique_hitters)):
 
     hitting_stats_df = pd.concat([hitting_stats_df, pd.DataFrame(cur_stats)], axis=0)
     bip = pd.concat([bip, cur_bip], axis=0)
+
+pitching_yakker = pitching_yakker[pitching_yakker['Date'] != '12/31/69']
+
+pitching_yakker['Date'] = pd.to_datetime(pitching_yakker['Date'], format='mixed', dayfirst=False)
+
+pitching_yakker['date_display'] = pitching_yakker.apply(
+    lambda row: f"{row['Date'].strftime('%m/%d')}{' - ' + row['BatterTeam'] if row['category'] == 'Game' and pd.notnull(row['BatterTeam']) else ''}",
+    axis=1
+)
+
+pitching_stats_dates = pitching_yakker['date_display'].unique()
+pitching_stats_dates = sorted(pitching_stats_dates)
+
+selected_pitching_stats_dates = pitching_tab.multiselect('Select dates:', pitching_stats_dates)
+select_all_dates_button = pitching_tab.checkbox("Select All", key='pitching_select_all_dates', value=True)
+if select_all_dates_button:
+    selected_pitching_stats_dates = pitching_stats_dates
+
+pitching_yakker = pitching_yakker[pitching_yakker['date_display'].isin(selected_pitching_stats_dates)]
+
+unique_pitchers = pitching_yakker['Pitcher'].unique()
+unique_pitchers = unique_pitchers[~pd.isna(unique_pitchers)]
+unique_pitchers = sorted(unique_pitchers)
 
 for i in range(len(unique_pitchers)):
         
@@ -255,11 +298,15 @@ pitching_tab.write('')
 pitching_tab.write('')
 pitching_tab.write('')
 
-selected_hitter = hitting_tab.selectbox('Select a player:', [""] + list(unique_hitters), index=0)
+hitting_tab.markdown(f"<h3 style='text-align: center;'>Individual Metrics</h3>", unsafe_allow_html=True)
 
-selected_pitcher = pitching_tab.selectbox('Select a player:', [""] + list(unique_pitchers), index=0)
+selected_hitter = hitting_tab.selectbox('Select a player:', [""] + list(unique_hitters), index=0, key='hitter_select')
 
-hitting_tab.markdown(f"<h3 style='text-align: center;'>{selected_hitter} Batted Ball Data</h3>", unsafe_allow_html=True)
+pitching_tab.markdown(f"<h3 style='text-align: center;'>Individual Metrics</h3>", unsafe_allow_html=True)
+
+selected_pitcher = pitching_tab.selectbox('Select a player:', [""] + list(unique_pitchers), index=0, key='pitcher_select')
+
+hitting_tab.markdown(f"<h4 style='text-align: center;'>{selected_hitter} Batted Ball Data</h4>", unsafe_allow_html=True)
 
 bip = bip[bip['Batter'] == selected_hitter]
 bip['PlayResult'] = bip['PlayResult'].fillna(bip['Bases'].map({v: k for k, v in bases_dict.items()}))
@@ -270,9 +317,9 @@ hitting_tab.write('')
 hitting_tab.write('')
 hitting_tab.write('')
 
-hitting_tab.markdown(f"<h3 style='text-align: center;'>{selected_hitter} Blast Data</h3>", unsafe_allow_html=True)
+hitting_tab.markdown(f"<h4 style='text-align: center;'>{selected_hitter} Blast Data</h4>", unsafe_allow_html=True)
 
-pitching_tab.markdown(f"<h3 style='text-align: center;'>{selected_pitcher} Pitch Profiles</h3>", unsafe_allow_html=True)
+pitching_tab.markdown(f"<h4 style='text-align: center;'>{selected_pitcher} Pitch Profiles</h4>", unsafe_allow_html=True)
 
 blast_player = blast[blast['yakker_name'] == selected_hitter]
 blast_player['week'] = pd.to_datetime(blast_player['Date']).dt.to_period('W').dt.to_timestamp()
